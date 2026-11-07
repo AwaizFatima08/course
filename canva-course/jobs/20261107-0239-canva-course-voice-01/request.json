@@ -1,0 +1,14 @@
+{
+  "job_id": "20261107-0239-canva-course-voice-01",
+  "project": "canva-course",
+  "commercial": "yes",
+  "requested_by": "claude-code",
+  "asset_type": "voice",
+  "recipe": "voice-en-standard",
+  "inputs": {
+    "script": "Advanced features save time. Brand Kit stores a client's logo, colours and fonts in one place, so every new design uses them with one click. Keep a separate kit for each client. Magic Studio uses AI for design ideas, copy, images and background removal. Always check AI output yourself: facts, prices, licences and client rules. Bulk Create turns one design into many from a spreadsheet, which is useful for name badges or product cards.",
+    "glossary": "Brand Kit, Magic Studio",
+    "voice": "af_heart"
+  },
+  "notes": ""
+}

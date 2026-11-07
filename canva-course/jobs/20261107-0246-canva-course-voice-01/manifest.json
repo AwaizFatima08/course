@@ -1,0 +1,108 @@
+{
+  "job_id": "20261107-0246-canva-course-voice-01",
+  "project": "canva-course",
+  "commercial_project": "yes",
+  "requested_by": "claude-code",
+  "asset_type": "voice",
+  "recipe": "voice-en-standard",
+  "recipe_version": "0.3",
+  "tool": "Kokoro 0.9.4 (CPU) + ffmpeg + faster-whisper small.en",
+  "model": [
+    "kokoro-82m",
+    "kokoro-voice-af_heart",
+    "whisper-small-en",
+    "kokoro-voice-af_bella",
+    "kokoro-voice-am_michael",
+    "kokoro-voice-bm_george",
+    "kokoro-voice-bf_emma"
+  ],
+  "model_licence": {
+    "kokoro-82m": "Apache-2.0",
+    "kokoro-voice-af_heart": "Apache-2.0",
+    "whisper-small-en": "MIT",
+    "kokoro-voice-af_bella": "Apache-2.0",
+    "kokoro-voice-am_michael": "Apache-2.0",
+    "kokoro-voice-bm_george": "Apache-2.0",
+    "kokoro-voice-bf_emma": "Apache-2.0"
+  },
+  "model_sha256": {
+    "kokoro-82m": "496dba118d1a58f5f3db2efc88dbdc216e0483fc89fe6e47ee1f2c53f18ad1e4",
+    "kokoro-voice-af_heart": "0ab5709b8ffab19bfd849cd11d98f75b60af7733253ad0d67b12382a102cb4ff",
+    "whisper-small-en": "folder",
+    "kokoro-voice-af_bella": "8cb64e02fcc8de0327a8e13817e49c76c945ecf0052ceac97d3081480e8e48d6",
+    "kokoro-voice-am_michael": "9a443b79a4b22489a5b0ab7c651a0bcd1a30bef675c28333f06971abbd47bd37",
+    "kokoro-voice-bm_george": "f1bc812213dc59774769e5c80004b13eeb79bd78130b11b2d7f934542dab811b",
+    "kokoro-voice-bf_emma": "d0a423deabf4a52b4f49318c51742c54e21bb89bbbe9a12141e7758ddb5da701"
+  },
+  "commercial_ok": "yes",
+  "prompt": null,
+  "negative_prompt": null,
+  "seed": null,
+  "script": "Running a freelance business needs basic structure. Check your local registration rules and open a separate bank account. Every paid job needs an invoice with a sequential number. Use a simple written agreement that covers scope, revisions, timeline, payment, ownership and cancellation. Know the licence for every template, photo and font you use. Set aside a share of every payment for tax, and confirm the amount with a local accountant. This video is general guidance, not legal or tax advice.",
+  "glossary": "Canva",
+  "voice": "af_heart",
+  "script_check": {
+    "expected": "Running a freelance business needs basic structure. Check your local registration rules and open a separate bank account. Every paid job needs an invoice with a sequential number. Use a simple written agreement that covers scope, revisions, timeline, payment, ownership and cancellation. Know the licence for every template, photo and font you use. Set aside a share of every payment for tax, and confirm the amount with a local accountant. This video is general guidance, not legal or tax advice.",
+    "heard": "Running a freelance business needs basic structure. Check your local registration rules and open a separate bank account. Every paid job needs an invoice with a sequential number. Use a simple written agreement that covers scope, revisions, timeline, payment, ownership, and cancellation. Know the license for every template, photo, and font you use. Set aside a share of every payment for tax and confirm the amount with a local accountant. This video is general guidance, not legal or tax advice.",
+    "glossary": "Canva",
+    "match": 0.988,
+    "result": "PASS"
+  },
+  "postprocess": {
+    "type": "voice-limiter",
+    "input_lufs": -25.7,
+    "gain_db": 9.7,
+    "rounds": 1,
+    "loudness_lufs": -16.4,
+    "true_peak_db": -2.0,
+    "limiter_db": -2.0
+  },
+  "input_files": null,
+  "vram_peak_mib": null,
+  "ai_label": null,
+  "settings": {
+    "script": "Running a freelance business needs basic structure. Check your local registration rules and open a separate bank account. Every paid job needs an invoice with a sequential number. Use a simple written agreement that covers scope, revisions, timeline, payment, ownership and cancellation. Know the licence for every template, photo and font you use. Set aside a share of every payment for tax, and confirm the amount with a local accountant. This video is general guidance, not legal or tax advice.",
+    "glossary": "Canva",
+    "voice": "af_heart",
+    "trim_silence_keep_s": 0.1,
+    "loudness_lufs": -16,
+    "true_peak_db": -1.5,
+    "leveller": "limiter",
+    "limiter_db": -2.0,
+    "max_rounds": 4,
+    "tolerance_lu": 0.5,
+    "max_gain_db": 20,
+    "formats": [
+      "wav (master, 24 kHz mono 16-bit)",
+      "ogg (Opus 64 kbps, for apps)"
+    ],
+    "script_check": "faster-whisper small.en, PASS at >= 90% word match; FLAG does not fail the job"
+  },
+  "notes": "",
+  "created_at": "2026-11-07T02:46:37+05:00",
+  "receiver_version": "0.13",
+  "files": [
+    {
+      "name": "20261107-0246-canva-course-voice-01_voice.wav",
+      "sha256": "63b32accc004942882580ff8771c812339c39a0bebe348c62f6013fd67b12e88",
+      "format": "wav",
+      "size": 1384322,
+      "duration_sec": 28.84,
+      "sample_rate": 24000,
+      "channels": 1,
+      "loudness_lufs": -16.4,
+      "true_peak_db": -2.0
+    },
+    {
+      "name": "20261107-0246-canva-course-voice-01_voice.ogg",
+      "sha256": "9e8c216a5525a49ba872f855ed49d532e011ba57d874726b9c8b63599dd705fa",
+      "format": "ogg",
+      "size": 262840,
+      "duration_sec": 28.84,
+      "sample_rate": 48000,
+      "channels": 1,
+      "loudness_lufs": -16.4,
+      "true_peak_db": -1.7
+    }
+  ]
+}

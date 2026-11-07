@@ -1,0 +1,14 @@
+{
+  "job_id": "20261107-0242-canva-course-voice-01",
+  "project": "canva-course",
+  "commercial": "yes",
+  "requested_by": "claude-code",
+  "asset_type": "voice",
+  "recipe": "voice-en-standard",
+  "inputs": {
+    "script": "Start your price from the income you need. Add your business costs, then divide by the hours you can actually bill. Not every working hour is paid, because selling and admin take time too. Here, 1,100 divided by 50 billable hours gives 22 per hour. That is a starting point. Then price by value. Offer three packages, and make the middle one the best value. For a new client, ask for a deposit before you start.",
+    "glossary": "Canva",
+    "voice": "af_heart"
+  },
+  "notes": ""
+}

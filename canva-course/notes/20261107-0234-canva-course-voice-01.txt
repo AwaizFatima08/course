@@ -1,0 +1,4 @@
+Job: 20261107-0234-canva-course-voice-01 (voice-en-standard, Chapter 3)
+Stage 1: PASS. See stage1 lines in the job folder for length and loudness.
+Homi must listen: I cannot listen to audio. Check pronunciation, clarity and pacing.
+Process note: Chapter 4 was submitted before this result was checked; it is queued behind this job, not run in parallel.

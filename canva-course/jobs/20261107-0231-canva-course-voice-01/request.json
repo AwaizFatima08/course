@@ -1,0 +1,14 @@
+{
+  "job_id": "20261107-0231-canva-course-voice-01",
+  "project": "canva-course",
+  "commercial": "yes",
+  "requested_by": "claude-code",
+  "asset_type": "voice",
+  "recipe": "voice-en-standard",
+  "inputs": {
+    "script": "Almost every business needs visual content: social posts, flyers, menus, and slides. Most small businesses cannot hire a designer, so there is real demand for people who can design well. You do not need to be a trained artist. Clients pay for clear, attractive, on-time results. In this course you will learn Canva, build a portfolio, and find your first clients. Expect your income to grow over several months, not overnight.",
+    "glossary": "Canva",
+    "voice": "af_heart"
+  },
+  "notes": ""
+}

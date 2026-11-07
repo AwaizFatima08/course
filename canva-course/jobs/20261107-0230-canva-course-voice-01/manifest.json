@@ -1,0 +1,108 @@
+{
+  "job_id": "20261107-0230-canva-course-voice-01",
+  "project": "canva-course",
+  "commercial_project": "yes",
+  "requested_by": "claude-code",
+  "asset_type": "voice",
+  "recipe": "voice-en-standard",
+  "recipe_version": "0.3",
+  "tool": "Kokoro 0.9.4 (CPU) + ffmpeg + faster-whisper small.en",
+  "model": [
+    "kokoro-82m",
+    "kokoro-voice-af_heart",
+    "whisper-small-en",
+    "kokoro-voice-af_bella",
+    "kokoro-voice-am_michael",
+    "kokoro-voice-bm_george",
+    "kokoro-voice-bf_emma"
+  ],
+  "model_licence": {
+    "kokoro-82m": "Apache-2.0",
+    "kokoro-voice-af_heart": "Apache-2.0",
+    "whisper-small-en": "MIT",
+    "kokoro-voice-af_bella": "Apache-2.0",
+    "kokoro-voice-am_michael": "Apache-2.0",
+    "kokoro-voice-bm_george": "Apache-2.0",
+    "kokoro-voice-bf_emma": "Apache-2.0"
+  },
+  "model_sha256": {
+    "kokoro-82m": "496dba118d1a58f5f3db2efc88dbdc216e0483fc89fe6e47ee1f2c53f18ad1e4",
+    "kokoro-voice-af_heart": "0ab5709b8ffab19bfd849cd11d98f75b60af7733253ad0d67b12382a102cb4ff",
+    "whisper-small-en": "folder",
+    "kokoro-voice-af_bella": "8cb64e02fcc8de0327a8e13817e49c76c945ecf0052ceac97d3081480e8e48d6",
+    "kokoro-voice-am_michael": "9a443b79a4b22489a5b0ab7c651a0bcd1a30bef675c28333f06971abbd47bd37",
+    "kokoro-voice-bm_george": "f1bc812213dc59774769e5c80004b13eeb79bd78130b11b2d7f934542dab811b",
+    "kokoro-voice-bf_emma": "d0a423deabf4a52b4f49318c51742c54e21bb89bbbe9a12141e7758ddb5da701"
+  },
+  "commercial_ok": "yes",
+  "prompt": null,
+  "negative_prompt": null,
+  "seed": null,
+  "script": "Welcome. This course takes you from opening Canva for the first time to earning money from design online. Each video covers one chapter. Watch in order the first time, and do the exercise at the end of each chapter.",
+  "glossary": "Canva",
+  "voice": "af_heart",
+  "script_check": {
+    "expected": "Welcome. This course takes you from opening Canva for the first time to earning money from design online. Each video covers one chapter. Watch in order the first time, and do the exercise at the end of each chapter.",
+    "heard": "Welcome! This course takes you from opening Canva for the first time to earning money from design online. Each video covers one chapter. Watch and order the first time, and do the exercise at the end of each chapter.",
+    "glossary": "Canva",
+    "match": 0.974,
+    "result": "PASS"
+  },
+  "postprocess": {
+    "type": "voice-limiter",
+    "input_lufs": -25.3,
+    "gain_db": 9.3,
+    "rounds": 1,
+    "loudness_lufs": -16.2,
+    "true_peak_db": -2.0,
+    "limiter_db": -2.0
+  },
+  "input_files": null,
+  "vram_peak_mib": null,
+  "ai_label": null,
+  "settings": {
+    "script": "Welcome. This course takes you from opening Canva for the first time to earning money from design online. Each video covers one chapter. Watch in order the first time, and do the exercise at the end of each chapter.",
+    "glossary": "Canva",
+    "voice": "af_heart",
+    "trim_silence_keep_s": 0.1,
+    "loudness_lufs": -16,
+    "true_peak_db": -1.5,
+    "leveller": "limiter",
+    "limiter_db": -2.0,
+    "max_rounds": 4,
+    "tolerance_lu": 0.5,
+    "max_gain_db": 20,
+    "formats": [
+      "wav (master, 24 kHz mono 16-bit)",
+      "ogg (Opus 64 kbps, for apps)"
+    ],
+    "script_check": "faster-whisper small.en, PASS at >= 90% word match; FLAG does not fail the job"
+  },
+  "notes": "",
+  "created_at": "2026-11-07T02:31:38+05:00",
+  "receiver_version": "0.13",
+  "files": [
+    {
+      "name": "20261107-0230-canva-course-voice-01_voice.wav",
+      "sha256": "3d5a417218a44141d7d87a8e067abcdd1c1a63f3465af29d36841f37785b4a8c",
+      "format": "wav",
+      "size": 625926,
+      "duration_sec": 13.04,
+      "sample_rate": 24000,
+      "channels": 1,
+      "loudness_lufs": -16.2,
+      "true_peak_db": -2.0
+    },
+    {
+      "name": "20261107-0230-canva-course-voice-01_voice.ogg",
+      "sha256": "b470dd333f1944fb963b5a903b336cf986a38d50660ce94e6012a70a24cf5599",
+      "format": "ogg",
+      "size": 118218,
+      "duration_sec": 13.04,
+      "sample_rate": 48000,
+      "channels": 1,
+      "loudness_lufs": -16.2,
+      "true_peak_db": -1.5
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "job_id": "20261107-0245-canva-course-voice-01",
+  "project": "canva-course",
+  "commercial": "yes",
+  "requested_by": "claude-code",
+  "asset_type": "voice",
+  "recipe": "voice-en-standard",
+  "inputs": {
+    "script": "Canva is one tool in a larger ecosystem. The skills you learned, such as layout, hierarchy, colour and brand consistency, work in every design tool. Learning a second tool is easier than the first. Adobe Express and Google Slides are simple next steps. Figma is popular for app and website design. Illustrator suits logos and icons. CapCut helps with short videos. Confirm current prices and availability on each tool's website before you recommend it to a client.",
+    "glossary": "Canva, Figma, Adobe Express, Google Slides, Illustrator, CapCut",
+    "voice": "af_heart"
+  },
+  "notes": ""
+}

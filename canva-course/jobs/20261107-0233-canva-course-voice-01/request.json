@@ -1,0 +1,14 @@
+{
+  "job_id": "20261107-0233-canva-course-voice-01",
+  "project": "canva-course",
+  "commercial": "yes",
+  "requested_by": "claude-code",
+  "asset_type": "voice",
+  "recipe": "voice-en-standard",
+  "inputs": {
+    "script": "Canva is a browser-based design tool. You drag text, photos, shapes and templates onto a page, then download or share the result. Let's look at the home screen. Create a design starts a new project. Templates shows ready-made designs. Brand appears on paid plans and stores your logos and colours. Start on the free plan. Check the pricing page for current plan details before you decide to upgrade.",
+    "glossary": "Canva",
+    "voice": "af_heart"
+  },
+  "notes": ""
+}

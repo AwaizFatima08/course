@@ -1,0 +1,14 @@
+{
+  "job_id": "20261107-0237-canva-course-voice-01",
+  "project": "canva-course",
+  "commercial": "yes",
+  "requested_by": "claude-code",
+  "asset_type": "voice",
+  "recipe": "voice-en-standard",
+  "inputs": {
+    "script": "Good design is about why things sit where they are. Use the rule of thirds to place your focal point. Four principles hold every layout together: alignment, proximity, repetition and contrast. Limit yourself to two fonts and one clear size for each level. Start your palette with one main colour, one support colour and a neutral. For body text, aim for at least 4.5 to 1 contrast, so people can read it easily.",
+    "glossary": "Canva",
+    "voice": "af_heart"
+  },
+  "notes": ""
+}

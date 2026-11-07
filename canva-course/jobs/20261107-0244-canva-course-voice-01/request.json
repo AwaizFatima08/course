@@ -1,0 +1,14 @@
+{
+  "job_id": "20261107-0244-canva-course-voice-01",
+  "project": "canva-course",
+  "commercial": "yes",
+  "requested_by": "claude-code",
+  "asset_type": "voice",
+  "recipe": "voice-en-standard",
+  "inputs": {
+    "script": "Templates and digital products can earn while you sleep, because one design can be sold many times. Build them from your own designs. Read the licence of every element, photo and font before you sell. Canva's own elements cannot be sold on their own. Choose a marketplace that suits your product: Etsy, Creative Market, Gumroad, or your own website. For print-on-demand, check each product's print area and order a sample before you trust the quality.",
+    "glossary": "Canva, Etsy, Creative Market, Gumroad",
+    "voice": "af_heart"
+  },
+  "notes": ""
+}

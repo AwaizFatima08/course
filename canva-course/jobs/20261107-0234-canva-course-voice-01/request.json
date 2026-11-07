@@ -1,0 +1,14 @@
+{
+  "job_id": "20261107-0234-canva-course-voice-01",
+  "project": "canva-course",
+  "commercial": "yes",
+  "requested_by": "claude-code",
+  "asset_type": "voice",
+  "recipe": "voice-en-standard",
+  "inputs": {
+    "script": "Let's create a secure account. Use a work email, and a password manager for a long, unique password. Go to canva.com, click Sign up, and choose Google, Apple or email. Confirm your email. You do not need a card to use the free plan. Then open Settings and turn on two-step verification. Remember: never enter card details from a link someone else sent you.",
+    "glossary": "Canva",
+    "voice": "af_heart"
+  },
+  "notes": ""
+}

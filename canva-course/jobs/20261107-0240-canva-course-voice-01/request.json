@@ -1,0 +1,14 @@
+{
+  "job_id": "20261107-0240-canva-course-voice-01",
+  "project": "canva-course",
+  "commercial": "yes",
+  "requested_by": "claude-code",
+  "asset_type": "voice",
+  "recipe": "voice-en-standard",
+  "inputs": {
+    "script": "Clients hire on proof, not on software lists. Choose six to eight strong pieces. For each one, write a short case study: the problem, your approach, the output, and the result. If a piece was practice work, say so. Never claim a result you cannot support. Your portfolio should fit on one page, with your promise, your selected work, your services, proof, and an easy way to contact you. Keep a PDF version ready.",
+    "glossary": "Canva",
+    "voice": "af_heart"
+  },
+  "notes": ""
+}

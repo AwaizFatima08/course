@@ -1,0 +1,14 @@
+{
+  "job_id": "20261107-0243-canva-course-voice-01",
+  "project": "canva-course",
+  "commercial": "yes",
+  "requested_by": "claude-code",
+  "asset_type": "voice",
+  "recipe": "voice-en-standard",
+  "inputs": {
+    "script": "Marketplaces bring clients, payments and reviews, but they also charge fees and have strong competition. Build a clear profile, with a headline that says what you do and for whom. Write proposals that show you read the brief. Early reviews matter a lot. Now the warnings: never move a conversation off the platform before hiring. Never pay a fee to receive work. Never share your password or verification codes. Only trust payment once the money has cleared.",
+    "glossary": "Canva",
+    "voice": "af_heart"
+  },
+  "notes": ""
+}

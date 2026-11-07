@@ -1,0 +1,4 @@
+Job: 20261107-0230-canva-course-voice-01 (voice-en-standard, channel intro, ch00)
+Stage 1: PASS. Length 13.04 s. Loudness -16.2 LUFS. True peak -2.0 dBFS. No long silences.
+Whisper check: script heard, match 0.974.
+Homi must listen: I cannot listen to audio. Check pronunciation of "Canva", clarity, and pacing.

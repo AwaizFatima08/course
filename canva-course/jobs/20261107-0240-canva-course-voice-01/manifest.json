@@ -1,0 +1,108 @@
+{
+  "job_id": "20261107-0240-canva-course-voice-01",
+  "project": "canva-course",
+  "commercial_project": "yes",
+  "requested_by": "claude-code",
+  "asset_type": "voice",
+  "recipe": "voice-en-standard",
+  "recipe_version": "0.3",
+  "tool": "Kokoro 0.9.4 (CPU) + ffmpeg + faster-whisper small.en",
+  "model": [
+    "kokoro-82m",
+    "kokoro-voice-af_heart",
+    "whisper-small-en",
+    "kokoro-voice-af_bella",
+    "kokoro-voice-am_michael",
+    "kokoro-voice-bm_george",
+    "kokoro-voice-bf_emma"
+  ],
+  "model_licence": {
+    "kokoro-82m": "Apache-2.0",
+    "kokoro-voice-af_heart": "Apache-2.0",
+    "whisper-small-en": "MIT",
+    "kokoro-voice-af_bella": "Apache-2.0",
+    "kokoro-voice-am_michael": "Apache-2.0",
+    "kokoro-voice-bm_george": "Apache-2.0",
+    "kokoro-voice-bf_emma": "Apache-2.0"
+  },
+  "model_sha256": {
+    "kokoro-82m": "496dba118d1a58f5f3db2efc88dbdc216e0483fc89fe6e47ee1f2c53f18ad1e4",
+    "kokoro-voice-af_heart": "0ab5709b8ffab19bfd849cd11d98f75b60af7733253ad0d67b12382a102cb4ff",
+    "whisper-small-en": "folder",
+    "kokoro-voice-af_bella": "8cb64e02fcc8de0327a8e13817e49c76c945ecf0052ceac97d3081480e8e48d6",
+    "kokoro-voice-am_michael": "9a443b79a4b22489a5b0ab7c651a0bcd1a30bef675c28333f06971abbd47bd37",
+    "kokoro-voice-bm_george": "f1bc812213dc59774769e5c80004b13eeb79bd78130b11b2d7f934542dab811b",
+    "kokoro-voice-bf_emma": "d0a423deabf4a52b4f49318c51742c54e21bb89bbbe9a12141e7758ddb5da701"
+  },
+  "commercial_ok": "yes",
+  "prompt": null,
+  "negative_prompt": null,
+  "seed": null,
+  "script": "Clients hire on proof, not on software lists. Choose six to eight strong pieces. For each one, write a short case study: the problem, your approach, the output, and the result. If a piece was practice work, say so. Never claim a result you cannot support. Your portfolio should fit on one page, with your promise, your selected work, your services, proof, and an easy way to contact you. Keep a PDF version ready.",
+  "glossary": "Canva",
+  "voice": "af_heart",
+  "script_check": {
+    "expected": "Clients hire on proof, not on software lists. Choose six to eight strong pieces. For each one, write a short case study: the problem, your approach, the output, and the result. If a piece was practice work, say so. Never claim a result you cannot support. Your portfolio should fit on one page, with your promise, your selected work, your services, proof, and an easy way to contact you. Keep a PDF version ready.",
+    "heard": "Clients hire on proof, not on software lists. Choose six to eight strong pieces. For each one, write a short case study. The problem, your approach, the output, and the result. If a piece was practice work, say so. Never claim a result you cannot support. Your portfolio should fit on one page with your promise, your selected work, your services, proof, and an easy way to contact you. Keep a PDF version ready.",
+    "glossary": "Canva",
+    "match": 1.0,
+    "result": "PASS"
+  },
+  "postprocess": {
+    "type": "voice-limiter",
+    "input_lufs": -25.4,
+    "gain_db": 9.4,
+    "rounds": 1,
+    "loudness_lufs": -16.3,
+    "true_peak_db": -2.0,
+    "limiter_db": -2.0
+  },
+  "input_files": null,
+  "vram_peak_mib": null,
+  "ai_label": null,
+  "settings": {
+    "script": "Clients hire on proof, not on software lists. Choose six to eight strong pieces. For each one, write a short case study: the problem, your approach, the output, and the result. If a piece was practice work, say so. Never claim a result you cannot support. Your portfolio should fit on one page, with your promise, your selected work, your services, proof, and an easy way to contact you. Keep a PDF version ready.",
+    "glossary": "Canva",
+    "voice": "af_heart",
+    "trim_silence_keep_s": 0.1,
+    "loudness_lufs": -16,
+    "true_peak_db": -1.5,
+    "leveller": "limiter",
+    "limiter_db": -2.0,
+    "max_rounds": 4,
+    "tolerance_lu": 0.5,
+    "max_gain_db": 20,
+    "formats": [
+      "wav (master, 24 kHz mono 16-bit)",
+      "ogg (Opus 64 kbps, for apps)"
+    ],
+    "script_check": "faster-whisper small.en, PASS at >= 90% word match; FLAG does not fail the job"
+  },
+  "notes": "",
+  "created_at": "2026-11-07T02:41:43+05:00",
+  "receiver_version": "0.13",
+  "files": [
+    {
+      "name": "20261107-0240-canva-course-voice-01_voice.wav",
+      "sha256": "ea0da986eb3cc8fd6ff45ece64780f9ecc98e0d12fdf92e6884406dbc5b02d6c",
+      "format": "wav",
+      "size": 1161362,
+      "duration_sec": 24.19,
+      "sample_rate": 24000,
+      "channels": 1,
+      "loudness_lufs": -16.3,
+      "true_peak_db": -2.0
+    },
+    {
+      "name": "20261107-0240-canva-course-voice-01_voice.ogg",
+      "sha256": "8a25f97e53fa933c3fa94d83e99e24eb9d8cb77bcae0e9eecf6588ec1406cd0f",
+      "format": "ogg",
+      "size": 219844,
+      "duration_sec": 24.2,
+      "sample_rate": 48000,
+      "channels": 1,
+      "loudness_lufs": -16.4,
+      "true_peak_db": -1.6
+    }
+  ]
+}

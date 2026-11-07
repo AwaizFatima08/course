@@ -1,0 +1,14 @@
+{
+  "job_id": "20261107-0246-canva-course-voice-02",
+  "project": "canva-course",
+  "commercial": "yes",
+  "requested_by": "claude-code",
+  "asset_type": "voice",
+  "recipe": "voice-en-standard",
+  "inputs": {
+    "script": "This is your 90-day plan. Weeks one and two set up your account and the editor. Weeks three to six build your practice projects and portfolio. Weeks seven to ten bring profiles, outreach and your first paid job. Weeks eleven and twelve review what worked and plan the next quarter. Consistency matters more than speed. Check off the final list before you apply for work. Every professional designer started with a first poster they would redo today. Make your next one this week.",
+    "glossary": "Canva",
+    "voice": "af_heart"
+  },
+  "notes": ""
+}
