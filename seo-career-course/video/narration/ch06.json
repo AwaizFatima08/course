@@ -1,0 +1,5 @@
+{
+  "script": "Chapter 6. Technical SEO and Site Audits. Technical SEO makes sure search engines can reach, read, and store the right pages. Important pages should be three clicks or fewer from the homepage. Review Search Console. Crawl the site with Screaming Frog. Test speed with PageSpeed Insights. Then write a priority list: critical, high, and low. Core Web Vitals measure loading, responsiveness, and visual stability. Recap: a good audit lists the problem, the evidence, the fix, and the owner.",
+  "glossary": "technical SEO, site audit, Core Web Vitals, Screaming Frog, robots.txt",
+  "voice": "af_heart"
+}

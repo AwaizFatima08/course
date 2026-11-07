@@ -1,0 +1,184 @@
+{
+ "1": {
+  "en": [
+   "Chapter 1. Introduction to SEO and the Career Path.",
+   "SEO helps people find a website and understand it. Every project follows one cycle: audit, research, plan, implement, measure, and report. Then the cycle repeats.",
+   "You can start as a freelancer, join an agency, work in-house, write SEO content, or move into technical analysis. Most people start as freelancers.",
+   "Practice: pick three websites and note what each does well for search. Recap: SEO is a repeated cycle, and there are several career paths."
+  ],
+  "ur": [
+   "باب 1۔ SEO کا تعارف اور کیریئر کا راستہ۔",
+   "SEO ویب سائٹ کو تلاش میں آنے اور سمجھے جانے میں مدد دیتا ہے۔ ہر پروجیکٹ ایک چکر پر چلتا ہے: آڈٹ، تحقیق، منصوبہ، عمل، پیمائش اور رپورٹ۔ پھر چکر دوبارہ شروع ہوتا ہے۔",
+   "آپ فری لانسر کے طور پر شروع کر سکتے ہیں، ایجنسی جوائن کر سکتے ہیں، کمپنی کے اندر کام کر سکتے ہیں، SEO کانٹینٹ لکھ سکتے ہیں، یا ٹیکنیکل تجزیہ کی طرف جا سکتے ہیں۔ زیادہ تر لوگ فری لانسر کے طور پر شروع کرتے ہیں۔",
+   "مشق: تین ویب سائٹس منتخب کریں اور نوٹ کریں کہ ہر ایک سرچ کے لیے کیا اچھا کرتی ہے۔ خلاصہ: SEO ایک دہرایا جانے والا چکر ہے، اور کیریئر کے کئی راستے ہیں۔"
+  ]
+ },
+ "2": {
+  "en": [
+   "Chapter 2. How Search Engines Work.",
+   "Search engines do three things. They crawl pages by following links. They index the content they read. Then they rank the pages when someone searches.",
+   "The title, the URL, and the meta description are the parts you control in a search result. Keep the title about 50 to 60 characters.",
+   "Practice: find the title tag of a page using View Page Source. Recap: crawl, index, rank. Follow Google's published rules and never promise guaranteed rankings."
+  ],
+  "ur": [
+   "باب 2۔ سرچ انجن کیسے کام کرتے ہیں۔",
+   "سرچ انجن تین کام کرتے ہیں۔ وہ لنکس کو فالو کرتے ہوئے صفحات کرول کرتے ہیں۔ وہ جو مواد پڑھتے ہیں اسے انڈیکس کرتے ہیں۔ پھر جب کوئی سرچ کرتا ہے تو صفحات کو رینک کرتے ہیں۔",
+   "ٹائٹل، URL اور میٹا ڈسکرپشن سرچ نتیجے کے وہ حصے ہیں جو آپ کنٹرول کرتے ہیں۔ ٹائٹل تقریباً 50 تا 60 حروف رکھیں۔",
+   "مشق: View Page Source سے کسی صفحے کا ٹائٹل ٹیگ تلاش کریں۔ خلاصہ: کرول، انڈیکس، رینک۔ گوگل کے شائع شدہ اصولوں پر عمل کریں اور یقینی رینکنگ کا وعدہ نہ کریں۔"
+  ]
+ },
+ "3": {
+  "en": [
+   "Chapter 3. Hardware: Building Your Workstation.",
+   "Your workstation has layers. At the bottom is the hardware. Above it are the operating system, the browser and office tools, the SEO tools, and finally your client work.",
+   "Start with a starter setup: 8 to 16 GB of RAM, an SSD, and a headset. Upgrade screens and storage as your income grows.",
+   "Practice: check your RAM and storage in Task Manager or Activity Monitor. Recap: reliability first, then upgrades."
+  ],
+  "ur": [
+   "باب 3۔ ہارڈ ویئر: اپنا ورک اسٹیشن بنانا۔",
+   "آپ کے ورک اسٹیشن کی کئی تہیں ہیں۔ سب سے نیچے ہارڈ ویئر ہے۔ اس کے اوپر آپریٹنگ سسٹم، براؤزر اور دفتری ٹولز، پھر SEO ٹولز، اور سب سے اوپر آپ کا کلائنٹ کا کام۔",
+   "ابتدائی سیٹ اپ سے شروع کریں: 8 تا 16 GB RAM، SSD اور ہیڈسیٹ۔ آمدنی بڑھنے کے ساتھ اسکرینز اور اسٹوریج اپ گریڈ کریں۔",
+   "مشق: Task Manager یا Activity Monitor میں اپنی RAM اور اسٹوریج چیک کریں۔ خلاصہ: پہلے بھروسہ، پھر اپ گریڈ۔"
+  ]
+ },
+ "4": {
+  "en": [
+   "Chapter 4. Software: Your SEO Toolset.",
+   "Start with the free tools: Google Search Console, Google Analytics 4, Screaming Frog, PageSpeed Insights, Keyword Planner, and Google Trends. Add a paid suite only when a client needs it.",
+   "Use a separate work account and a separate Chrome profile for each client. Never share a client's password. Ask for platform access instead.",
+   "Practice: verify a test site in Search Console and run a Screaming Frog crawl. Recap: free tools first, paid tools when justified."
+  ],
+  "ur": [
+   "باب 4۔ سافٹ ویئر: آپ کا SEO ٹولز سیٹ۔",
+   "مفت ٹولز سے شروع کریں: Google Search Console، Google Analytics 4، Screaming Frog، PageSpeed Insights، Keyword Planner اور Google Trends۔ ادائیگی والا سوئیٹ صرف اس وقت شامل کریں جب کسی کلائنٹ کو اس کی ضرورت ہو۔",
+   "کام کے لیے الگ اکاؤنٹ اور ہر کلائنٹ کے لیے الگ Chrome پروفائل استعمال کریں۔ کلائنٹ کا پاس ورڈ کبھی شیئر نہ کریں۔ اس کے بجائے پلیٹ فارم کی رسائی مانگیں۔",
+   "مشق: ایک ٹیسٹ سائٹ کو Search Console میں تصدیق کریں اور Screaming Frog کرول چلائیں۔ خلاصہ: پہلے مفت ٹولز، ادائیگی والے صرف ضرورت پر۔"
+  ]
+ },
+ "5": {
+  "en": [
+   "Chapter 5. Keyword Research.",
+   "Every search has an intent: learn, go somewhere, compare, or buy. A page ranks only when it matches the intent. Check the current results before you write.",
+   "Brainstorm seed keywords. Expand them with autocomplete and People also ask. Check the results. Group keywords into clusters, then map each cluster to one page.",
+   "Practice: build a list of 60 keywords for a local business and map them to four pages. Recap: intent first, then clusters."
+  ],
+  "ur": [
+   "باب 5۔ کیورڈ ریسرچ۔",
+   "ہر سرچ کا ایک ارادہ ہوتا ہے: سیکھنا، کہیں جانا، موازنہ، یا خریدنا۔ کوئی صفحہ تبھی رینک کرتا ہے جب وہ ارادے سے میل کھائے۔ لکھنے سے پہلے موجودہ نتائج دیکھیں۔",
+   "بنیادی کیورڈز سوچیں۔ آٹو کمپلیٹ اور People also ask سے انہیں بڑھائیں۔ نتائج چیک کریں۔ کیورڈز کو کلسٹرز میں گروپ کریں، پھر ہر کلسٹر کو ایک صفحے سے جوڑیں۔",
+   "مشق: ایک مقامی کاروبار کے لیے 60 کیورڈز کی فہرست بنائیں اور انہیں چار صفحات سے جوڑیں۔ خلاصہ: پہلے ارادہ، پھر کلسٹرز۔"
+  ]
+ },
+ "6": {
+  "en": [
+   "Chapter 6. Technical SEO and Site Audits.",
+   "Technical SEO makes sure search engines can reach, read, and store the right pages. Important pages should be three clicks or fewer from the homepage.",
+   "Review Search Console. Crawl the site with Screaming Frog. Test speed with PageSpeed Insights. Then write a priority list: critical, high, and low.",
+   "Core Web Vitals measure loading, responsiveness, and visual stability. Recap: a good audit lists the problem, the evidence, the fix, and the owner."
+  ],
+  "ur": [
+   "باب 6۔ ٹیکنیکل SEO اور سائٹ آڈٹ۔",
+   "ٹیکنیکل SEO یقینی بناتا ہے کہ سرچ انجن درست صفحات تک پہنچ سکیں، انہیں پڑھ سکیں اور محفوظ کر سکیں۔ اہم صفحات ہوم پیج سے تین کلک یا اس سے کم پر ہونے چاہئیں۔",
+   "Search Console کا جائزہ لیں۔ Screaming Frog سے سائٹ کرول کریں۔ PageSpeed Insights سے رفتار جانچیں۔ پھر ترجیحی فہرست بنائیں: نازک، زیادہ، اور کم۔",
+   "Core Web Vitals لوڈنگ، ردعمل اور بصری استحکام کو ناپتے ہیں۔ خلاصہ: اچھے آڈٹ میں مسئلہ، ثبوت، حل اور ذمہ دار شخص شامل ہوتا ہے۔"
+  ]
+ },
+ "7": {
+  "en": [
+   "Chapter 7. On-Page SEO and Content Optimisation.",
+   "A well-optimised page has one H1, clear H2 sections, images with alt text, and a clear call to action. The answer comes early.",
+   "Write titles in the pattern: topic, benefit, then brand. Use a content brief to tell the writer the keyword, the intent, the outline, and the links.",
+   "Practice: rewrite the title and H1 of one page, then add three internal links. Recap: clear titles, helpful content, and a next step."
+  ],
+  "ur": [
+   "باب 7۔ آن پیج SEO اور مواد کی بہتری۔",
+   "ایک اچھے آپٹیمائزڈ صفحے میں ایک H1، واضح H2 حصے، alt ٹیکسٹ والی تصاویر اور ایکشن کی واضح دعوت ہوتی ہے۔ جواب جلد آتا ہے۔",
+   "ٹائٹل اس انداز میں لکھیں: موضوع، فائدہ، پھر برانڈ۔ کانٹینٹ بریف سے لکھاری کو کیورڈ، ارادہ، آؤٹ لائن اور لنکس بتائیں۔",
+   "مشق: ایک صفحے کا ٹائٹل اور H1 دوبارہ لکھیں، پھر تین اندرونی لنکس شامل کریں۔ خلاصہ: واضح ٹائٹل، مفید مواد اور اگلا قدم۔"
+  ]
+ },
+ "8": {
+  "en": [
+   "Chapter 8. Off-Page SEO, Link Building and Local SEO.",
+   "Local ranking depends on relevance, distance, and prominence. Prominence comes from reviews, links, and consistent citations.",
+   "Use your real business name, the correct category, photos, hours, and services. Ask happy customers for reviews, and reply to every review.",
+   "Earn links with useful resources, PR, and partnerships. Never buy links. Recap: earned links and accurate local data."
+  ],
+  "ur": [
+   "باب 8۔ آف پیج SEO، لنک بلڈنگ اور لوکل SEO۔",
+   "مقامی رینکنگ مطابقت، فاصلے اور نمایاں ہونے پر منحصر ہے۔ نمایاں ہونا جائزوں، لنکس اور یکساں سائٹیشنز سے آتا ہے۔",
+   "کاروبار کا اصل نام، درست کیٹیگری، تصاویر، اوقات اور خدمات شامل کریں۔ خوش گاہکوں سے جائزے مانگیں، اور ہر جائزے کا جواب دیں۔",
+   "مفید وسائل، PR اور شراکت داری سے لنکس حاصل کریں۔ لنکس کبھی نہ خریدیں۔ خلاصہ: کمائے ہوئے لنکس اور درست مقامی ڈیٹا۔"
+  ]
+ },
+ "9": {
+  "en": [
+   "Chapter 9. Analytics, Reporting and Dashboards.",
+   "Use Search Console to see impressions, clicks, and click-through rate. Use GA4 to see visits and enquiries. Track what matters to the business.",
+   "Build a monthly report in Looker Studio. Start with three wins, two concerns, and next month's plan.",
+   "Practice: find three queries with high impressions and low clicks, then rewrite one title. Recap: honest reports build trust."
+  ],
+  "ur": [
+   "باب 9۔ اینالیٹکس، رپورٹنگ اور ڈیش بورڈز۔",
+   "Search Console سے امپریشنز، کلکس اور کلک تناسب دیکھیں۔ GA4 سے وزٹس اور انکوائریاں دیکھیں۔ وہ چیز ٹریک کریں جو کاروبار کے لیے اہم ہو۔",
+   "Looker Studio میں ماہانہ رپورٹ بنائیں۔ تین کامیابیوں، دو خدشات اور اگلے مہینے کے منصوبے سے شروع کریں۔",
+   "مشق: تین کیورڈز تلاش کریں جن کے امپریشنز زیادہ اور کلکس کم ہوں، پھر ایک ٹائٹل دوبارہ لکھیں۔ خلاصہ: ایماندار رپورٹیں اعتماد بناتی ہیں۔"
+  ]
+ },
+ "10": {
+  "en": [
+   "Chapter 10. Productivity System.",
+   "Protect deep work by blocking time in your calendar. Keep tasks on a board and clients in a sheet. Review your week every Friday.",
+   "Use Google Calendar, Trello or Notion, a Google Sheets client list, and Looker Studio for reports.",
+   "Use AI to save time, but check every fact, and never paste client passwords or private data into a public tool."
+  ],
+  "ur": [
+   "باب 10۔ پیداواریت کا نظام۔",
+   "کیلنڈر میں وقت بلاک کر کے گہرے کام کی حفاظت کریں۔ ٹاسکس بورڈ پر اور کلائنٹس شیٹ میں رکھیں۔ ہر جمعہ اپنے ہفتے کا جائزہ لیں۔",
+   "Google Calendar، Trello یا Notion، Google Sheets کی کلائنٹ فہرست اور رپورٹس کے لیے Looker Studio استعمال کریں۔",
+   "AI سے وقت بچائیں، لیکن ہر حقیقت کی تصدیق کریں، اور کلائنٹ کے پاس ورڈ یا نجی ڈیٹا کبھی عوامی ٹول میں نہ ڈالیں۔"
+  ]
+ },
+ "11": {
+  "en": [
+   "Chapter 11. Finding Clients.",
+   "Choose a niche and an ideal client. Build a prospect list with real observations. Then reach out politely.",
+   "Your first email should mention one specific problem you found. Offer a free mini-audit as a helpful first step.",
+   "Follow spam laws, respect opt-outs, and never promise guaranteed rankings. Recap: a niche, a list, a polite message, and a free audit."
+  ],
+  "ur": [
+   "باب 11۔ کلائنٹ تلاش کرنا۔",
+   "ایک نیچ اور مثالی کلائنٹ منتخب کریں۔ حقیقی مشاہدات کے ساتھ پراسپیکٹ لسٹ بنائیں۔ پھر شائستگی سے رابطہ کریں۔",
+   "آپ کی پہلی ای میل میں ایک مخصوص مسئلے کا ذکر ہونا چاہیے جو آپ نے دیکھا۔ مدد کے پہلے قدم کے طور پر مفت مِنی آڈٹ پیش کریں۔",
+   "سپیم قوانین پر عمل کریں، انکار کا احترام کریں، اور یقینی رینکنگ کا وعدہ نہ کریں۔ خلاصہ: نیچ، فہرست، شائستہ پیغام اور مفت آڈٹ۔"
+  ]
+ },
+ "12": {
+  "en": [
+   "Chapter 12. Pricing, Proposals, Contracts and Delivery.",
+   "Work out your minimum hourly rate: your monthly income plus costs, divided by the hours you can bill.",
+   "A proposal states the client's situation, goals, scope, exclusions, price, and next steps. Always use a written agreement.",
+   "Recap: price for value, write everything down, and get a local professional to review the contract. This video is general information, not legal advice."
+  ],
+  "ur": [
+   "باب 12۔ قیمت، تجاویز، معاہدے اور ڈیلیوری۔",
+   "اپنا کم از کم فی گھنٹہ ریٹ نکالیں: ماہانہ آمدنی اور اخراجات کا مجموعہ، ان گھنٹوں سے تقسیم کریں جو آپ بل کر سکتے ہیں۔",
+   "تجویز میں کلائنٹ کی صورتحال، اہداف، دائرہ کار، خارج کام، قیمت اور اگلے قدم ہوتے ہیں۔ ہمیشہ تحریری معاہدہ رکھیں۔",
+   "خلاصہ: قدر کے مطابق قیمت، سب کچھ تحریر میں، اور معاہدے کا جائزہ کسی مقامی پیشہ ور سے۔ یہ ویڈیو عمومی معلومات ہے، قانونی مشورہ نہیں۔"
+  ]
+ },
+ "13": {
+  "en": [
+   "Chapter 13. Your First 90 Days: Roadmap and Career Growth.",
+   "Days 1 to 30: learn the basics and set up tools. Days 31 to 60: practise, build a prospect list, and deliver free audits. Days 61 to 90: publish case studies and win your first clients.",
+   "Build a portfolio with case studies, sample audits, and sample reports. Use real numbers only with permission.",
+   "Keep learning from official sources, keep honest records, and grow step by step. Thank you for completing the course."
+  ],
+  "ur": [
+   "باب 13۔ پہلے 90 دن: روڈ میپ اور کیریئر کی ترقی۔",
+   "دن 1 تا 30: بنیادی باتیں سیکھیں اور ٹولز سیٹ کریں۔ دن 31 تا 60: مشق کریں، پراسپیکٹ لسٹ بنائیں اور مفت آڈٹ دیں۔ دن 61 تا 90: کیس اسٹڈیز شائع کریں اور پہلے کلائنٹس حاصل کریں۔",
+   "کیس اسٹڈیز، نمونہ آڈٹس اور نمونہ رپورٹس سے پورٹ فولیو بنائیں۔ اعداد صرف اجازت سے استعمال کریں۔",
+   "سرکاری ذرائع سے سیکھتے رہیں، ایماندار ریکارڈ رکھیں، اور قدم بہ قدم آگے بڑھیں۔ کورس مکمل کرنے کا شکریہ۔"
+  ]
+ }
+}

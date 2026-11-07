@@ -1,0 +1,5 @@
+{
+  "script": "Chapter 2. How Search Engines Work. Search engines do three things. They crawl pages by following links. They index the content they read. Then they rank the pages when someone searches. The title, the URL, and the meta description are the parts you control in a search result. Keep the title about 50 to 60 characters. Practice: find the title tag of a page using View Page Source. Recap: crawl, index, rank. Follow Google's published rules and never promise guaranteed rankings.",
+  "glossary": "Googlebot, crawling, indexing, ranking, meta description, title tag",
+  "voice": "af_heart"
+}
