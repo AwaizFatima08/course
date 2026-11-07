@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Building a Digital Career Online</title>
+<style>
+  @page { size: A4; margin: 18mm 16mm 20mm 16mm;
+    @bottom-center { content: "Building a Digital Career Online  |  Page " counter(page); font-size: 8pt; color: #64748b; font-family: "DejaVu Sans", Arial, sans-serif; } }
+  :root { --teal:#0F766E; --teal-l:#CCFBF1; --amber:#B45309; --amber-l:#FEF3C7; --navy:#1E293B; --grey:#475569; --line:#E2E8F0; --red:#B91C1C; --red-l:#FEE2E2; --green:#166534; --green-l:#DCFCE7; }
+  * { box-sizing: border-box; }
+  body { font-family: "DejaVu Serif", Georgia, serif; color: var(--navy); font-size: 10.5pt; line-height: 1.55; margin:0; background:#fff; }
+  h1,h2,h3,h4 { font-family: "DejaVu Sans", Arial, sans-serif; color: var(--navy); line-height:1.25; }
+  h1 { font-size: 24pt; color: var(--teal); margin: 0 0 6pt; }
+  h2 { font-size: 15pt; color: var(--teal); border-bottom: 2px solid var(--teal-l); padding-bottom: 4pt; margin: 16pt 0 8pt; page-break-after: avoid; }
+  h3 { font-size: 11.5pt; margin: 12pt 0 4pt; page-break-after: avoid; }
+  h4 { font-size: 10pt; margin: 8pt 0 3pt; color: var(--amber); page-break-after: avoid; }
+  p { margin: 0 0 7pt; text-align: left; }
+  ul, ol { margin: 0 0 8pt 16pt; padding: 0; } li { margin-bottom: 3pt; }
+  .chapter { page-break-before: always; }
+  .chapter-head { background: var(--teal); color:#fff; padding: 14pt 16pt; border-radius: 6pt; margin-bottom: 10pt; }
+  .chapter-head .num { font-family: "DejaVu Sans", Arial, sans-serif; font-size: 9pt; letter-spacing: 2pt; text-transform: uppercase; opacity:.85; }
+  .chapter-head h1 { color:#fff; font-size: 20pt; margin:2pt 0 4pt; }
+  .chapter-head p { margin:0; font-size: 9.5pt; opacity:.95; }
+  .goals { background: #F0FDFA; border-left: 4px solid var(--teal); padding: 8pt 12pt; margin: 8pt 0 12pt; font-size: 9.5pt; }
+  .goals b { font-family: "DejaVu Sans", Arial, sans-serif; color: var(--teal); }
+  .box { border-radius: 5pt; padding: 8pt 11pt; margin: 9pt 0; page-break-inside: avoid; font-size: 9.8pt; }
+  .tip { background: var(--green-l); border-left: 4px solid var(--green); }
+  .warn { background: var(--red-l); border-left: 4px solid var(--red); }
+  .idea { background: var(--amber-l); border-left: 4px solid var(--amber); }
+  .box .lbl { font-family: "DejaVu Sans", Arial, sans-serif; font-weight: bold; display:block; margin-bottom:2pt; }
+  .tip .lbl { color: var(--green);} .warn .lbl { color: var(--red);} .idea .lbl { color: var(--amber);}
+  table { width:100%; border-collapse: collapse; margin: 8pt 0 12pt; font-size: 9pt; page-break-inside: auto; }
+  th { background: var(--navy); color:#fff; font-family: "DejaVu Sans", Arial, sans-serif; text-align:left; padding:5pt 6pt; font-weight:bold; }
+  td { border-bottom: 1px solid var(--line); padding: 5pt 6pt; vertical-align: top; }
+  tr:nth-child(even) td { background: #F8FAFC; }
+  .fig { margin: 10pt 0 12pt; page-break-inside: avoid; text-align:center; }
+  .fig svg { width: 100%; max-width: 620px; height: auto; border:1px solid var(--line); border-radius:6px; background:#FCFDFE; }
+  .fig .cap { font-family: "DejaVu Sans", Arial, sans-serif; font-size: 8.5pt; color: var(--grey); margin-top:4pt; font-style: italic; }
+  .steps { counter-reset: st; list-style:none; margin-left:0; }
+  .steps li { counter-increment: st; position:relative; padding-left: 28pt; margin-bottom:6pt; }
+  .steps li::before { content: counter(st); position:absolute; left:0; top:0; width:20pt; height:20pt; line-height:20pt; text-align:center; border-radius:10pt; background: var(--amber); color:#fff; font-family:"DejaVu Sans", Arial, sans-serif; font-size:9pt; font-weight:bold; }
+  .tmpl { font-family: "DejaVu Sans Mono", monospace; font-size: 8.6pt; background:#F1F5F9; border:1px solid var(--line); border-radius:4pt; padding:7pt 9pt; white-space: pre-wrap; page-break-inside: avoid; }
+  .qa { margin: 6pt 0; } .qa b { color: var(--teal); }
+  .cover { height: 250mm; display:flex; flex-direction:column; justify-content:center; page-break-after: always; }
+  .cover .band { background: var(--teal); color:#fff; padding: 30pt 28pt; border-radius: 10pt; }
+  .cover h1 { color:#fff; font-size: 30pt; line-height:1.15; margin:0 0 10pt; }
+  .cover .sub { font-family:"DejaVu Sans", Arial, sans-serif; font-size: 12pt; color: var(--teal-l); }
+  .cover .meta { margin-top: 26pt; font-family:"DejaVu Sans", Arial, sans-serif; font-size: 9.5pt; color: var(--grey); }
+  .toc { page-break-after: always; }
+  .toc table td { border:none; padding: 3pt 6pt; font-size: 10pt; }
+  .toc tr:nth-child(even) td { background:none; }
+  .part-title { font-family:"DejaVu Sans", Arial, sans-serif; color: var(--amber); font-size: 9pt; letter-spacing:2pt; text-transform:uppercase; }
+  .small { font-size: 8.8pt; color: var(--grey); }
+  .pagebreak { page-break-after: always; }
+</style>
+</head>
+<body>
+
+<div class="cover">
+  <div class="band">
+    <div class="sub">A COMPLETE BEGINNER-TO-PROFESSIONAL COURSE</div>
+    <h1>Building a Digital Career Online</h1>
+    <div class="sub">How to use freelancing and remote-work platforms such as Upwork, Fiverr, Freelancer, Toptal and more &mdash; create accounts, hunt for jobs, attract clients and grow a career from home.</div>
+  </div>
+  <div class="meta">
+    <p><b>Who this course is for:</b> anyone with basic computer and internet skills who wants to earn online.<br>
+    <b>Language:</b> English &nbsp;&nbsp; <b>Edition:</b> November 2026 &nbsp;&nbsp; <b>Chapters:</b> 18 in 4 parts</p>
+    <p class="small">Platform fees, features and rules change often. Figures in this course were checked against public sources in November 2026 but are marked as approximate. Always confirm on the platform's own help or pricing page before you act on them.</p>
+  </div>
+</div>
+
+<div class="toc">
+  <h2>Contents</h2>
+  <table>
+    <tr><td colspan="2"><span class="part-title">Part 1 &middot; Foundations</span></td></tr>
+    <tr><td>Chapter 1</td><td>The Online Work Economy</td></tr>
+    <tr><td>Chapter 2</td><td>Choosing Your Digital Career Path</td></tr>
+    <tr><td>Chapter 3</td><td>Skills, Tools and a 90-Day Learning Plan</td></tr>
+    <tr><td colspan="2"><span class="part-title">Part 2 &middot; The Platforms</span></td></tr>
+    <tr><td>Chapter 4</td><td>The Platform Landscape: Marketplaces, Networks, Portfolios and Job Boards</td></tr>
+    <tr><td>Chapter 5</td><td>Upwork: Account Creation, Profile and Bidding</td></tr>
+    <tr><td>Chapter 6</td><td>Fiverr: Gigs, Packages and Levels</td></tr>
+    <tr><td>Chapter 7</td><td>Other Platforms You Should Know</td></tr>
+    <tr><td>Chapter 8</td><td>Skills Required on Each Platform</td></tr>
+    <tr><td colspan="2"><span class="part-title">Part 3 &middot; Building Your Career</span></td></tr>
+    <tr><td>Chapter 9</td><td>Your Professional Profile and Portfolio</td></tr>
+    <tr><td>Chapter 10</td><td>Building Proof: Projects, Tests, Certificates and Reviews</td></tr>
+    <tr><td>Chapter 11</td><td>Hunting for Jobs Effectively</td></tr>
+    <tr><td>Chapter 12</td><td>Writing Proposals That Win</td></tr>
+    <tr><td>Chapter 13</td><td>Attracting Clients Beyond the Platforms</td></tr>
+    <tr><td>Chapter 14</td><td>Pricing, Contracts, Payments and Taxes</td></tr>
+    <tr><td>Chapter 15</td><td>Delivering Great Work and Earning Five-Star Reviews</td></tr>
+    <tr><td colspan="2"><span class="part-title">Part 4 &middot; Growth and Sustainability</span></td></tr>
+    <tr><td>Chapter 16</td><td>Scaling: From Solo Freelancer to Business</td></tr>
+    <tr><td>Chapter 17</td><td>Scams, Safety and Staying Healthy</td></tr>
+    <tr><td>Chapter 18</td><td>Your 90-Day Action Plan</td></tr>
+    <tr><td colspan="2"><span class="part-title">Appendices</span></td></tr>
+    <tr><td>A</td><td>Glossary of Online Work Terms</td></tr>
+    <tr><td>B</td><td>Ready-to-Use Templates and Checklists</td></tr>
+  </table>
+</div>

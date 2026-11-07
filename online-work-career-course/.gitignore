@@ -1,0 +1,12 @@
+# Audio masters and voice tests: keep out of the repo (homidev rule)
+*.wav
+*.flac
+*.mp3
+*.ogg
+*.m4a
+
+# Video renders
+*.mp4
+
+# Scratch
+.DS_Store

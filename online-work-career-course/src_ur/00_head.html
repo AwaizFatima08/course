@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="ur" dir="rtl">
+<head>
+<meta charset="utf-8">
+<title>ڈیجیٹل کیریئر آن لائن بنانا</title>
+<style>
+  @page { size: A4; margin: 18mm 16mm 20mm 16mm;
+    @bottom-center { content: "ڈیجیٹل کیریئر آن لائن بنانا  |  صفحہ " counter(page); font-size: 8pt; color: #64748b; font-family: "Noto Naskh Arabic", "DejaVu Sans", sans-serif; } }
+  :root { --teal:#0F766E; --teal-l:#CCFBF1; --amber:#B45309; --amber-l:#FEF3C7; --navy:#1E293B; --grey:#475569; --line:#E2E8F0; --red:#B91C1C; --red-l:#FEE2E2; --green:#166534; --green-l:#DCFCE7; }
+  * { box-sizing: border-box; }
+  body { font-family: "Noto Naskh Arabic", "DejaVu Sans", serif; color: var(--navy); font-size: 11.5pt; line-height: 1.9; margin:0; background:#fff; direction: rtl; text-align: right; }
+  h1,h2,h3,h4 { font-family: "Noto Nastaliq Urdu", "Noto Naskh Arabic", serif; color: var(--navy); line-height:1.8; }
+  h1 { font-size: 24pt; color: var(--teal); margin: 0 0 6pt; }
+  h2 { font-size: 16pt; color: var(--teal); border-bottom: 2px solid var(--teal-l); padding-bottom: 4pt; margin: 16pt 0 8pt; page-break-after: avoid; }
+  h3 { font-size: 13pt; margin: 12pt 0 4pt; page-break-after: avoid; }
+  h4 { font-size: 11pt; margin: 8pt 0 3pt; color: var(--amber); page-break-after: avoid; }
+  p { margin: 0 0 7pt; text-align: right; }
+  ul, ol { margin: 0 0 8pt 0; padding: 0 18pt 0 0; } li { margin-bottom: 3pt; }
+  .en { direction: ltr; unicode-bidi: isolate; font-family: "DejaVu Sans", Arial, sans-serif; }
+  .chapter { page-break-before: always; }
+  .chapter-head { background: var(--teal); color:#fff; padding: 14pt 16pt; border-radius: 6pt; margin-bottom: 10pt; }
+  .chapter-head .num { font-family: "Noto Naskh Arabic", sans-serif; font-size: 10pt; opacity:.85; }
+  .chapter-head h1 { color:#fff; font-size: 22pt; margin:2pt 0 4pt; }
+  .chapter-head p { margin:0; font-size: 10.5pt; opacity:.95; }
+  .goals { background: #F0FDFA; border-right: 4px solid var(--teal); padding: 8pt 12pt; margin: 8pt 0 12pt; font-size: 10.5pt; }
+  .goals b { font-family: "Noto Nastaliq Urdu", serif; color: var(--teal); }
+  .box { border-radius: 5pt; padding: 8pt 11pt; margin: 9pt 0; page-break-inside: avoid; font-size: 10.5pt; }
+  .tip { background: var(--green-l); border-right: 4px solid var(--green); }
+  .warn { background: var(--red-l); border-right: 4px solid var(--red); }
+  .idea { background: var(--amber-l); border-right: 4px solid var(--amber); }
+  .box .lbl { font-family: "Noto Nastaliq Urdu", serif; font-weight: bold; display:block; margin-bottom:2pt; font-size: 11.5pt; }
+  .tip .lbl { color: var(--green);} .warn .lbl { color: var(--red);} .idea .lbl { color: var(--amber);}
+  table { width:100%; border-collapse: collapse; margin: 8pt 0 12pt; font-size: 10pt; direction: rtl; }
+  th { background: var(--navy); color:#fff; font-family: "Noto Naskh Arabic", sans-serif; text-align:right; padding:5pt 6pt; font-weight:bold; }
+  td { border-bottom: 1px solid var(--line); padding: 5pt 6pt; vertical-align: top; text-align: right; }
+  tr:nth-child(even) td { background: #F8FAFC; }
+  .fig { margin: 10pt 0 12pt; page-break-inside: avoid; text-align:center; direction: ltr; }
+  .fig svg { width: 100%; max-width: 620px; height: auto; border:1px solid var(--line); border-radius:6px; background:#FCFDFE; }
+  .fig .cap { font-family: "Noto Naskh Arabic", sans-serif; font-size: 9.5pt; color: var(--grey); margin-top:4pt; direction: rtl; }
+  .steps { list-style:none; margin-right:0; }
+  .steps li { counter-increment: st; position:relative; padding-right: 30pt; margin-bottom:6pt; }
+  .steps li::before { content: counter(st); position:absolute; right:0; top:0; width:20pt; height:20pt; line-height:20pt; text-align:center; border-radius:10pt; background: var(--amber); color:#fff; font-family:"DejaVu Sans", sans-serif; font-size:9pt; font-weight:bold; }
+  ol.steps { counter-reset: st; }
+  .tmpl { font-family: "DejaVu Sans Mono", monospace; font-size: 8.6pt; background:#F1F5F9; border:1px solid var(--line); border-radius:4pt; padding:7pt 9pt; white-space: pre-wrap; direction: ltr; text-align:left; page-break-inside: avoid; line-height:1.45; }
+  .cover { height: 250mm; display:flex; flex-direction:column; justify-content:center; page-break-after: always; }
+  .cover .band { background: var(--teal); color:#fff; padding: 30pt 28pt; border-radius: 10pt; }
+  .cover h1 { color:#fff; font-size: 32pt; line-height:1.5; margin:0 0 10pt; }
+  .cover .sub { font-size: 13pt; color: var(--teal-l); }
+  .cover .meta { margin-top: 26pt; font-size: 10.5pt; color: var(--grey); }
+  .toc { page-break-after: always; }
+  .toc table td { border:none; padding: 1.5pt 6pt; font-size: 9.8pt; line-height:1.5; }
+  .toc tr:nth-child(even) td { background:none; }
+  .part-title { font-family: "Noto Nastaliq Urdu", serif; color: var(--amber); font-size: 11pt; }
+  .small { font-size: 9.5pt; color: var(--grey); }
+</style>
+</head>
+<body>
+
+<div class="cover">
+  <div class="band">
+    <div class="sub">مکمل ابتدا سے ماہر تک کا کورس</div>
+    <h1>ڈیجیٹل کیریئر آن لائن بنانا</h1>
+    <div class="sub">فری لانسنگ اور ریموٹ کام کے پلیٹ فارمز جیسے <span class="en">Upwork</span>، <span class="en">Fiverr</span>، <span class="en">Freelancer</span>، <span class="en">Toptal</span> اور دیگر کو استعمال کرنے کا طریقہ &mdash; اکاؤنٹ بنانا، کام تلاش کرنا، کلائنٹ حاصل کرنا اور گھر بیٹھے کیریئر بنانا۔</div>
+  </div>
+  <div class="meta">
+    <p><b>یہ کورس کن کے لیے ہے:</b> ہر وہ شخص جسے کمپیوٹر اور انٹرنیٹ کی بنیادی سمجھ ہو اور وہ آن لائن کمانا چاہتا ہو۔<br>
+    <b>زبان:</b> اردو &nbsp;&nbsp; <b>ایڈیشن:</b> نومبر 2026 &nbsp;&nbsp; <b>ابواب:</b> 4 حصوں میں 18 ابواب</p>
+    <p class="small">پلیٹ فارمز کی فیسیں اور قواعد اکثر بدلتے رہتے ہیں۔ اس کورس میں دیے گئے اعداد نومبر 2026 میں عوامی ذرائع سے جانچے گئے ہیں، لیکن انہیں تقریبی سمجھیں۔ کوئی بھی قدم اٹھانے سے پہلے ہمیشہ پلیٹ فارم کے اپنے مددگار صفحے یا قیمتوں کا صفحہ دیکھیں۔</p>
+  </div>
+</div>
+
+<div class="toc">
+  <h2>فہرست</h2>
+  <table>
+    <tr><td colspan="2"><span class="part-title">حصہ 1 &middot; بنیادیں</span></td></tr>
+    <tr><td>باب 1</td><td>آن لائن کام کی معیشت</td></tr>
+    <tr><td>باب 2</td><td>اپنا ڈیجیٹل کیریئر کا راستہ چننا</td></tr>
+    <tr><td>باب 3</td><td>مہارتیں، ٹولز اور 90 دن کا سیکھنے کا منصوبہ</td></tr>
+    <tr><td colspan="2"><span class="part-title">حصہ 2 &middot; پلیٹ فارمز</span></td></tr>
+    <tr><td>باب 4</td><td>پلیٹ فارمز کا منظرنامہ: مارکیٹ پلیسز، نیٹ ورکس، پورٹ فولیو اور جاب بورڈز</td></tr>
+    <tr><td>باب 5</td><td><span class="en">Upwork</span>: اکاؤنٹ، پروفائل اور بولی</td></tr>
+    <tr><td>باب 6</td><td><span class="en">Fiverr</span>: گِگز، پیکیجز اور درجات</td></tr>
+    <tr><td>باب 7</td><td>دیگر اہم پلیٹ فارمز</td></tr>
+    <tr><td>باب 8</td><td>ہر پلیٹ فارم پر درکار مہارتیں</td></tr>
+    <tr><td colspan="2"><span class="part-title">حصہ 3 &middot; اپنا کیریئر بنانا</span></td></tr>
+    <tr><td>باب 9</td><td>آپ کا پیشہ ورانہ پروفائل اور پورٹ فولیو</td></tr>
+    <tr><td>باب 10</td><td>ثبوت بنانا: پروجیکٹس، ٹیسٹ، سرٹیفکیٹ اور ریویوز</td></tr>
+    <tr><td>باب 11</td><td>مؤثر طریقے سے نوکری تلاش کرنا</td></tr>
+    <tr><td>باب 12</td><td>کامیاب پروپوزل لکھنا</td></tr>
+    <tr><td>باب 13</td><td>پلیٹ فارمز سے باہر کلائنٹ حاصل کرنا</td></tr>
+    <tr><td>باب 14</td><td>قیمت، معاہدے، ادائیگی اور ٹیکس</td></tr>
+    <tr><td>باب 15</td><td>اچھا کام دینا اور پانچ ستارہ ریویوز حاصل کرنا</td></tr>
+    <tr><td colspan="2"><span class="part-title">حصہ 4 &middot; ترقی اور پائیداری</span></td></tr>
+    <tr><td>باب 16</td><td>وسعت: اکیلے فری لانسر سے کاروبار تک</td></tr>
+    <tr><td>باب 17</td><td>دھوکہ دہی، تحفظ اور صحت مند رہنا</td></tr>
+    <tr><td>باب 18</td><td>آپ کا 90 دن کا عملی منصوبہ</td></tr>
+    <tr><td colspan="2"><span class="part-title">ضمیمے</span></td></tr>
+    <tr><td>الف</td><td>آن لائن کام کی اصطلاحات کی فہرست</td></tr>
+    <tr><td>ب</td><td>تیار استعمال کے لیے ٹیمپلیٹس اور چیک لسٹس</td></tr>
+  </table>
+</div>

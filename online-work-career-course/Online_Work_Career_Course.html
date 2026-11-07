@@ -1,0 +1,1535 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Building a Digital Career Online</title>
+<style>
+  @page { size: A4; margin: 18mm 16mm 20mm 16mm;
+    @bottom-center { content: "Building a Digital Career Online  |  Page " counter(page); font-size: 8pt; color: #64748b; font-family: "DejaVu Sans", Arial, sans-serif; } }
+  :root { --teal:#0F766E; --teal-l:#CCFBF1; --amber:#B45309; --amber-l:#FEF3C7; --navy:#1E293B; --grey:#475569; --line:#E2E8F0; --red:#B91C1C; --red-l:#FEE2E2; --green:#166534; --green-l:#DCFCE7; }
+  * { box-sizing: border-box; }
+  body { font-family: "DejaVu Serif", Georgia, serif; color: var(--navy); font-size: 10.5pt; line-height: 1.55; margin:0; background:#fff; }
+  h1,h2,h3,h4 { font-family: "DejaVu Sans", Arial, sans-serif; color: var(--navy); line-height:1.25; }
+  h1 { font-size: 24pt; color: var(--teal); margin: 0 0 6pt; }
+  h2 { font-size: 15pt; color: var(--teal); border-bottom: 2px solid var(--teal-l); padding-bottom: 4pt; margin: 16pt 0 8pt; page-break-after: avoid; }
+  h3 { font-size: 11.5pt; margin: 12pt 0 4pt; page-break-after: avoid; }
+  h4 { font-size: 10pt; margin: 8pt 0 3pt; color: var(--amber); page-break-after: avoid; }
+  p { margin: 0 0 7pt; text-align: left; }
+  ul, ol { margin: 0 0 8pt 16pt; padding: 0; } li { margin-bottom: 3pt; }
+  .chapter { page-break-before: always; }
+  .chapter-head { background: var(--teal); color:#fff; padding: 14pt 16pt; border-radius: 6pt; margin-bottom: 10pt; }
+  .chapter-head .num { font-family: "DejaVu Sans", Arial, sans-serif; font-size: 9pt; letter-spacing: 2pt; text-transform: uppercase; opacity:.85; }
+  .chapter-head h1 { color:#fff; font-size: 20pt; margin:2pt 0 4pt; }
+  .chapter-head p { margin:0; font-size: 9.5pt; opacity:.95; }
+  .goals { background: #F0FDFA; border-left: 4px solid var(--teal); padding: 8pt 12pt; margin: 8pt 0 12pt; font-size: 9.5pt; }
+  .goals b { font-family: "DejaVu Sans", Arial, sans-serif; color: var(--teal); }
+  .box { border-radius: 5pt; padding: 8pt 11pt; margin: 9pt 0; page-break-inside: avoid; font-size: 9.8pt; }
+  .tip { background: var(--green-l); border-left: 4px solid var(--green); }
+  .warn { background: var(--red-l); border-left: 4px solid var(--red); }
+  .idea { background: var(--amber-l); border-left: 4px solid var(--amber); }
+  .box .lbl { font-family: "DejaVu Sans", Arial, sans-serif; font-weight: bold; display:block; margin-bottom:2pt; }
+  .tip .lbl { color: var(--green);} .warn .lbl { color: var(--red);} .idea .lbl { color: var(--amber);}
+  table { width:100%; border-collapse: collapse; margin: 8pt 0 12pt; font-size: 9pt; page-break-inside: auto; }
+  th { background: var(--navy); color:#fff; font-family: "DejaVu Sans", Arial, sans-serif; text-align:left; padding:5pt 6pt; font-weight:bold; }
+  td { border-bottom: 1px solid var(--line); padding: 5pt 6pt; vertical-align: top; }
+  tr:nth-child(even) td { background: #F8FAFC; }
+  .fig { margin: 10pt 0 12pt; page-break-inside: avoid; text-align:center; }
+  .fig svg { width: 100%; max-width: 620px; height: auto; border:1px solid var(--line); border-radius:6px; background:#FCFDFE; }
+  .fig .cap { font-family: "DejaVu Sans", Arial, sans-serif; font-size: 8.5pt; color: var(--grey); margin-top:4pt; font-style: italic; }
+  .steps { counter-reset: st; list-style:none; margin-left:0; }
+  .steps li { counter-increment: st; position:relative; padding-left: 28pt; margin-bottom:6pt; }
+  .steps li::before { content: counter(st); position:absolute; left:0; top:0; width:20pt; height:20pt; line-height:20pt; text-align:center; border-radius:10pt; background: var(--amber); color:#fff; font-family:"DejaVu Sans", Arial, sans-serif; font-size:9pt; font-weight:bold; }
+  .tmpl { font-family: "DejaVu Sans Mono", monospace; font-size: 8.6pt; background:#F1F5F9; border:1px solid var(--line); border-radius:4pt; padding:7pt 9pt; white-space: pre-wrap; page-break-inside: avoid; }
+  .qa { margin: 6pt 0; } .qa b { color: var(--teal); }
+  .cover { height: 250mm; display:flex; flex-direction:column; justify-content:center; page-break-after: always; }
+  .cover .band { background: var(--teal); color:#fff; padding: 30pt 28pt; border-radius: 10pt; }
+  .cover h1 { color:#fff; font-size: 30pt; line-height:1.15; margin:0 0 10pt; }
+  .cover .sub { font-family:"DejaVu Sans", Arial, sans-serif; font-size: 12pt; color: var(--teal-l); }
+  .cover .meta { margin-top: 26pt; font-family:"DejaVu Sans", Arial, sans-serif; font-size: 9.5pt; color: var(--grey); }
+  .toc { page-break-after: always; }
+  .toc table td { border:none; padding: 3pt 6pt; font-size: 10pt; }
+  .toc tr:nth-child(even) td { background:none; }
+  .part-title { font-family:"DejaVu Sans", Arial, sans-serif; color: var(--amber); font-size: 9pt; letter-spacing:2pt; text-transform:uppercase; }
+  .small { font-size: 8.8pt; color: var(--grey); }
+  .pagebreak { page-break-after: always; }
+</style>
+</head>
+<body>
+
+<div class="cover">
+  <div class="band">
+    <div class="sub">A COMPLETE BEGINNER-TO-PROFESSIONAL COURSE</div>
+    <h1>Building a Digital Career Online</h1>
+    <div class="sub">How to use freelancing and remote-work platforms such as Upwork, Fiverr, Freelancer, Toptal and more &mdash; create accounts, hunt for jobs, attract clients and grow a career from home.</div>
+  </div>
+  <div class="meta">
+    <p><b>Who this course is for:</b> anyone with basic computer and internet skills who wants to earn online.<br>
+    <b>Language:</b> English &nbsp;&nbsp; <b>Edition:</b> November 2026 &nbsp;&nbsp; <b>Chapters:</b> 18 in 4 parts</p>
+    <p class="small">Platform fees, features and rules change often. Figures in this course were checked against public sources in November 2026 but are marked as approximate. Always confirm on the platform's own help or pricing page before you act on them.</p>
+  </div>
+</div>
+
+<div class="toc">
+  <h2>Contents</h2>
+  <table>
+    <tr><td colspan="2"><span class="part-title">Part 1 &middot; Foundations</span></td></tr>
+    <tr><td>Chapter 1</td><td>The Online Work Economy</td></tr>
+    <tr><td>Chapter 2</td><td>Choosing Your Digital Career Path</td></tr>
+    <tr><td>Chapter 3</td><td>Skills, Tools and a 90-Day Learning Plan</td></tr>
+    <tr><td colspan="2"><span class="part-title">Part 2 &middot; The Platforms</span></td></tr>
+    <tr><td>Chapter 4</td><td>The Platform Landscape: Marketplaces, Networks, Portfolios and Job Boards</td></tr>
+    <tr><td>Chapter 5</td><td>Upwork: Account Creation, Profile and Bidding</td></tr>
+    <tr><td>Chapter 6</td><td>Fiverr: Gigs, Packages and Levels</td></tr>
+    <tr><td>Chapter 7</td><td>Other Platforms You Should Know</td></tr>
+    <tr><td>Chapter 8</td><td>Skills Required on Each Platform</td></tr>
+    <tr><td colspan="2"><span class="part-title">Part 3 &middot; Building Your Career</span></td></tr>
+    <tr><td>Chapter 9</td><td>Your Professional Profile and Portfolio</td></tr>
+    <tr><td>Chapter 10</td><td>Building Proof: Projects, Tests, Certificates and Reviews</td></tr>
+    <tr><td>Chapter 11</td><td>Hunting for Jobs Effectively</td></tr>
+    <tr><td>Chapter 12</td><td>Writing Proposals That Win</td></tr>
+    <tr><td>Chapter 13</td><td>Attracting Clients Beyond the Platforms</td></tr>
+    <tr><td>Chapter 14</td><td>Pricing, Contracts, Payments and Taxes</td></tr>
+    <tr><td>Chapter 15</td><td>Delivering Great Work and Earning Five-Star Reviews</td></tr>
+    <tr><td colspan="2"><span class="part-title">Part 4 &middot; Growth and Sustainability</span></td></tr>
+    <tr><td>Chapter 16</td><td>Scaling: From Solo Freelancer to Business</td></tr>
+    <tr><td>Chapter 17</td><td>Scams, Safety and Staying Healthy</td></tr>
+    <tr><td>Chapter 18</td><td>Your 90-Day Action Plan</td></tr>
+    <tr><td colspan="2"><span class="part-title">Appendices</span></td></tr>
+    <tr><td>A</td><td>Glossary of Online Work Terms</td></tr>
+    <tr><td>B</td><td>Ready-to-Use Templates and Checklists</td></tr>
+  </table>
+</div>
+<div class="chapter">
+<div class="part-title">Part 1 &middot; Foundations</div>
+<div class="chapter-head"><div class="num">Chapter 1</div><h1>The Online Work Economy</h1><p>What online work is, who hires, how money flows, and what a realistic start looks like.</p></div>
+<div class="goals"><b>Learning goals.</b> By the end of this chapter you can explain the difference between freelancing, remote employment and online gigs; describe how a job moves from a client to you and then to your bank; and set honest expectations for your first six months.</div>
+
+<h2>1.1 What is online work?</h2>
+<p>Online work means earning money by doing a task that can be delivered over the internet: writing, design, video editing, data entry, customer support, programming, marketing, translation and many more. You do the work from home or from any place with a connection, and the client may be in the next city or on the other side of the world.</p>
+<p>There are three main ways people work online:</p>
+<ul>
+  <li><b>Freelancing</b> &mdash; you run your own small business. You bid for or sell projects, set your price, and deliver a result. You are not an employee.</li>
+  <li><b>Remote employment</b> &mdash; a company hires you on a salary or hourly contract and you work from home. Many remote jobs are posted on job boards and on LinkedIn.</li>
+  <li><b>Micro-tasks and gigs</b> &mdash; small, short jobs (a logo, a proofread, a transcription, a data label). They pay little per task, but they are a quick way to earn a first review.</li>
+</ul>
+<p>This course focuses mainly on freelancing and on the platforms that connect freelancers with clients, because that is the fastest route for a beginner to start earning. Remote employment is covered in Chapter 11 when we discuss job hunting.</p>
+
+<h2>1.2 How an online job actually flows</h2>
+<p>Almost every platform works with the same basic cycle. Understanding it helps you see where your effort should go.</p>
+<div class="fig">
+<svg viewBox="0 0 620 210" xmlns="http://www.w3.org/2000/svg" font-family="DejaVu Sans, Arial" font-size="11">
+  <defs><marker id="a1" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0,0 L8,4 L0,8 z" fill="#0F766E"/></marker></defs>
+  <rect x="10" y="20" width="110" height="64" rx="8" fill="#CCFBF1" stroke="#0F766E"/><text x="65" y="46" text-anchor="middle" font-weight="bold">1. Client</text><text x="65" y="63" text-anchor="middle" font-size="9.5">posts a need</text>
+  <rect x="150" y="20" width="110" height="64" rx="8" fill="#CCFBF1" stroke="#0F766E"/><text x="205" y="46" text-anchor="middle" font-weight="bold">2. Platform</text><text x="205" y="63" text-anchor="middle" font-size="9.5">shows it to talent</text>
+  <rect x="290" y="20" width="110" height="64" rx="8" fill="#CCFBF1" stroke="#0F766E"/><text x="345" y="46" text-anchor="middle" font-weight="bold">3. You</text><text x="345" y="63" text-anchor="middle" font-size="9.5">send a proposal</text>
+  <rect x="430" y="20" width="110" height="64" rx="8" fill="#CCFBF1" stroke="#0F766E"/><text x="485" y="46" text-anchor="middle" font-weight="bold">4. Contract</text><text x="485" y="63" text-anchor="middle" font-size="9.5">agree scope and price</text>
+  <line x1="120" y1="52" x2="148" y2="52" stroke="#0F766E" stroke-width="2" marker-end="url(#a1)"/>
+  <line x1="260" y1="52" x2="288" y2="52" stroke="#0F766E" stroke-width="2" marker-end="url(#a1)"/>
+  <line x1="400" y1="52" x2="428" y2="52" stroke="#0F766E" stroke-width="2" marker-end="url(#a1)"/>
+  <rect x="430" y="125" width="110" height="64" rx="8" fill="#FEF3C7" stroke="#B45309"/><text x="485" y="151" text-anchor="middle" font-weight="bold">6. Payment</text><text x="485" y="168" text-anchor="middle" font-size="9.5">released to you</text>
+  <rect x="290" y="125" width="110" height="64" rx="8" fill="#FEF3C7" stroke="#B45309"/><text x="345" y="151" text-anchor="middle" font-weight="bold">5. Delivery</text><text x="345" y="168" text-anchor="middle" font-size="9.5">work + review</text>
+  <rect x="150" y="125" width="110" height="64" rx="8" fill="#FEF3C7" stroke="#B45309"/><text x="205" y="151" text-anchor="middle" font-weight="bold">Escrow</text><text x="205" y="168" text-anchor="middle" font-size="9.5">money held safely</text>
+  <line x1="485" y1="84" x2="485" y2="123" stroke="#B45309" stroke-width="2" marker-end="url(#a1)"/>
+  <line x1="428" y1="157" x2="402" y2="157" stroke="#B45309" stroke-width="2" marker-end="url(#a1)"/>
+  <line x1="288" y1="157" x2="262" y2="157" stroke="#B45309" stroke-width="2" marker-end="url(#a1)"/>
+  <line x1="205" y1="125" x2="345" y2="84" stroke="#94A3B8" stroke-dasharray="4 3"/>
+  <text x="10" y="205" font-size="9.5" fill="#475569">Your reputation grows with every completed, reviewed job &mdash; it is the asset that brings the next client.</text>
+</svg>
+<div class="cap">Figure 1.1 &middot; The typical online job cycle on a marketplace platform</div>
+</div>
+
+<h2>1.3 Where the money comes from</h2>
+<p>Your income is the price you charge multiplied by the hours it takes, minus the platform fees and taxes. A beginner should understand three numbers before choosing a platform:</p>
+<table>
+  <tr><th>Number</th><th>What it means</th><th>Example</th></tr>
+  <tr><td>Gross project value</td><td>What the client pays</td><td>$200 for a logo</td></tr>
+  <tr><td>Platform fee</td><td>The share the marketplace keeps (often charged to you, sometimes to the client, sometimes both)</td><td>Commonly around 10&ndash;20% on many marketplaces; check each platform</td></tr>
+  <tr><td>Net earnings per hour</td><td>What you keep per hour of real work, including unpaid time (bidding, messages, revisions)</td><td>$200 minus 15% fee = $170; if the work plus bidding takes 10 hours, you earn $17/hour</td></tr>
+</table>
+<div class="box warn"><span class="lbl">Reality check</span>Your first projects will often pay less per hour than you hope, because you are learning and building reviews. That is normal. Track your real hours for the first 10 projects so you learn what your work is really worth.</div>
+
+<h2>1.4 Who hires online?</h2>
+<ul>
+  <li><b>Small businesses</b> that need a logo, a website, social media posts or bookkeeping and cannot afford a full-time staff member.</li>
+  <li><b>Start-ups</b> that need developers, designers and marketers on short contracts.</li>
+  <li><b>Agencies</b> that subcontract overflow work to trusted freelancers.</li>
+  <li><b>Established companies</b> that run remote teams and hire through job boards.</li>
+  <li><b>Individuals</b> who need help with a personal project, a translation, a CV or a presentation.</li>
+</ul>
+
+<h2>1.5 A realistic six-month picture</h2>
+<p>Most people who succeed online follow a similar pattern. The table below is a planning guide, not a promise; results depend on your skill, time and persistence.</p>
+<table>
+  <tr><th>Period</th><th>Typical focus</th><th>What success looks like</th></tr>
+  <tr><td>Month 1</td><td>Learn the basics, set up profiles, complete tests</td><td>Complete profile, 20&ndash;30 proposals sent</td></tr>
+  <tr><td>Month 2&ndash;3</td><td>First small paid jobs, collect feedback</td><td>3&ndash;5 completed jobs, first 5-star reviews</td></tr>
+  <tr><td>Month 4&ndash;6</td><td>Raise prices, pick a niche, add repeat clients</td><td>Steady income, at least one repeat client</td></tr>
+</table>
+<div class="box tip"><span class="lbl">Key idea</span>In online work, reviews are currency. A $25 job delivered brilliantly is more valuable to your career than a $300 job you could not finish.</div>
+
+<h2>1.6 Summary</h2>
+<ul>
+  <li>Online work is freelancing, remote employment or micro-gigs. This course focuses on freelancing first.</li>
+  <li>Every job follows the cycle: need, platform, proposal, contract, escrow, delivery, payment, review.</li>
+  <li>Your real earnings are what remains after fees, taxes and unpaid time.</li>
+  <li>Expect slow starts. Reviews and a clear niche are what speed growth up.</li>
+</ul>
+</div>
+
+<div class="chapter">
+<div class="part-title">Part 1 &middot; Foundations</div>
+<div class="chapter-head"><div class="num">Chapter 2</div><h1>Choosing Your Digital Career Path</h1><p>How to match your interests and skills to the online careers that are actually in demand.</p></div>
+<div class="goals"><b>Learning goals.</b> You will choose one primary path and one backup path, understand what each path requires, and write a one-page personal skills inventory.</div>
+
+<h2>2.1 Start with you, not with the platform</h2>
+<p>Many beginners open a marketplace, see that "logo design" is popular, and start there without thinking. That can work, but you will be more motivated and more successful if you choose from three things: what you enjoy, what you are already reasonably good at, and what people will pay for.</p>
+<h3>Exercise: the three-circle check</h3>
+<ol>
+  <li>On paper, list ten things you do well or could learn in 60 days (writing, drawing, speaking English, using spreadsheets, cooking, teaching, typing fast, using a phone camera well).</li>
+  <li>Next to each, mark <i>Enjoy</i> (yes/no) and <i>Demand</i> (search the platform for it and count how many listings or projects you see).</li>
+  <li>Choose the one or two items that are marked yes on both, and check that you could reach a basic level in 90 days.</li>
+</ol>
+
+<h2>2.2 Ten digital career paths for beginners</h2>
+<p>The table below gives an overview of the most common entry-level online careers. Skill levels are approximate for a beginner.</p>
+<table>
+  <tr><th>Career path</th><th>What you do</th><th>Time to first paid job</th><th>Tools you need</th></tr>
+  <tr><td>Virtual assistant</td><td>Email, scheduling, data entry, research, admin</td><td>2&ndash;6 weeks</td><td>Email, Google Workspace, spreadsheets</td></tr>
+  <tr><td>Data entry &amp; research</td><td>Copying data, web research, lead lists</td><td>1&ndash;4 weeks</td><td>Spreadsheets, browser</td></tr>
+  <tr><td>Content writing &amp; copywriting</td><td>Articles, product descriptions, emails, scripts</td><td>3&ndash;8 weeks</td><td>Word processor, grammar tool, research skills</td></tr>
+  <tr><td>Proofreading &amp; editing</td><td>Correcting grammar, style and clarity</td><td>2&ndash;6 weeks</td><td>Style guide knowledge, track changes</td></tr>
+  <tr><td>Graphic design</td><td>Logos, social posts, flyers, presentations</td><td>4&ndash;12 weeks</td><td>Canva, Figma or Photoshop</td></tr>
+  <tr><td>Social media management</td><td>Planning and posting content, replying to comments</td><td>3&ndash;8 weeks</td><td>Meta Business Suite, Canva, scheduling tools</td></tr>
+  <tr><td>Video editing</td><td>Cutting, captions, short-form videos</td><td>4&ndash;10 weeks</td><td>CapCut, DaVinci Resolve, Premiere</td></tr>
+  <tr><td>Online tutoring &amp; teaching</td><td>Teaching a subject or language online</td><td>1&ndash;4 weeks</td><td>Video call tool, lesson plans</td></tr>
+  <tr><td>Web development</td><td>Building and fixing websites</td><td>3&ndash;6 months</td><td>HTML, CSS, JavaScript, WordPress</td></tr>
+  <tr><td>Digital marketing &amp; SEO</td><td>Keywords, ads, analytics, email campaigns</td><td>2&ndash;4 months</td><td>Google Analytics, Search Console, ad managers</td></tr>
+</table>
+<div class="box idea"><span class="lbl">Tip</span>Entry paths with short time-to-first-job (virtual assistant, data entry, proofreading, writing) are a good way to earn while you learn a higher-value skill such as design or development.</div>
+
+<div class="fig">
+<svg viewBox="0 0 620 230" xmlns="http://www.w3.org/2000/svg" font-family="DejaVu Sans, Arial" font-size="11">
+  <circle cx="170" cy="105" r="95" fill="#CCFBF1" fill-opacity=".6" stroke="#0F766E"/>
+  <circle cx="330" cy="105" r="95" fill="#FEF3C7" fill-opacity=".6" stroke="#B45309"/>
+  <circle cx="250" cy="180" r="0" fill="none"/>
+  <circle cx="250" cy="45" r="0" fill="none"/>
+  <text x="112" y="58" font-weight="bold" fill="#0F766E">What you</text>
+  <text x="112" y="72" font-weight="bold" fill="#0F766E">enjoy</text>
+  <text x="330" y="58" font-weight="bold" fill="#B45309" text-anchor="middle">What people</text>
+  <text x="330" y="72" font-weight="bold" fill="#B45309" text-anchor="middle">will pay for</text>
+  <text x="250" y="200" font-weight="bold" fill="#475569" text-anchor="middle" font-size="10">What you are good at</text>
+  <text x="250" y="216" font-size="9.5" fill="#475569" text-anchor="middle">Your career sits in the overlap of the three</text>
+  <ellipse cx="250" cy="105" rx="60" ry="32" fill="#0F766E" fill-opacity=".25" stroke="#0F766E" stroke-width="1.5"/>
+  <text x="250" y="110" text-anchor="middle" font-weight="bold" fill="#1E293B" font-size="10">Your niche</text>
+  <circle cx="170" cy="160" r="0"/>
+  <text x="250" y="44" text-anchor="middle" font-size="9" fill="#475569">Start small. Test two options</text>
+  <text x="250" y="56" text-anchor="middle" font-size="9" fill="#475569">for 2 weeks each.</text>
+</svg>
+<div class="cap">Figure 2.1 &middot; The three-circle check: choose work at the intersection of interest, skill and demand</div>
+</div>
+
+<h2>2.3 Match your path to your situation</h2>
+<table>
+  <tr><th>If your situation is&hellip;</th><th>Consider starting with&hellip;</th></tr>
+  <tr><td>You have strong English writing and little technical skill</td><td>Proofreading, content writing, copywriting</td></tr>
+  <tr><td>You are good with phones, photos or social media</td><td>Social media management, short-form video, Canva design</td></tr>
+  <tr><td>You are organised and like admin work</td><td>Virtual assistant, data entry, bookkeeping support</td></tr>
+  <tr><td>You enjoy computers and logic</td><td>Web development, data entry with spreadsheets, automation</td></tr>
+  <tr><td>You have a teaching background</td><td>Online tutoring, course creation, language teaching</td></tr>
+  <tr><td>You have limited time (2&ndash;3 hours a day)</td><td>Micro-tasks and short gigs first; then one skill at a time</td></tr>
+</table>
+
+<h2>2.4 Write your personal skills inventory</h2>
+<p>Before you create any account, write a one-page inventory. It will become the basis of your profile in Chapter 9.</p>
+<div class="tmpl">PERSONAL SKILLS INVENTORY
+Name / country / time zone:
+Languages (and level, e.g. English B2):
+Devices I own (computer, phone, camera, headset):
+Internet speed and backup plan:
+Hours per week available:
+
+Skills I already have (with proof, e.g. "wrote 20 school essays", "run a Facebook group of 300 people"):
+1.
+2.
+3.
+
+Skills I can learn in 90 days:
+1.
+2.
+
+Primary path (chosen from 2.2):
+Backup path:
+What I will deliver in my first 30 days:</div>
+
+<h2>2.5 Summary</h2>
+<ul>
+  <li>Choose a path at the intersection of what you enjoy, what you are good at and what people pay for.</li>
+  <li>Entry paths such as proofreading, data entry, writing and virtual assistance can earn quickly.</li>
+  <li>Write a skills inventory now; you will reuse it for your profile, proposals and portfolio.</li>
+</ul>
+</div>
+
+<div class="chapter">
+<div class="part-title">Part 1 &middot; Foundations</div>
+<div class="chapter-head"><div class="num">Chapter 3</div><h1>Skills, Tools and a 90-Day Learning Plan</h1><p>The core skills every online worker needs, the free tools that make work possible, and how to learn without spending a fortune.</p></div>
+<div class="goals"><b>Learning goals.</b> You will know the universal skills every client expects, set up your basic toolkit, and follow a 90-day learning plan for your chosen path.</div>
+
+<h2>3.1 Universal skills (needed in every path)</h2>
+<ol>
+  <li><b>Written English.</b> Clients read your messages and proposals. Short, clear, polite sentences win work. Practise daily.</li>
+  <li><b>Time management.</b> Deadlines decide reviews. Use a calendar and a simple task list.</li>
+  <li><b>Communication.</b> Reply within 24 hours, confirm understanding, give updates before the client asks.</li>
+  <li><b>Basic computer skills.</b> File management, PDF export, screenshots, cloud folders, video calls.</li>
+  <li><b>Self-discipline.</b> No boss will check your hours; your results are your only proof.</li>
+  <li><b>Digital security.</b> Strong passwords, two-step login, and awareness of scams (Chapter 17).</li>
+</ol>
+
+<h2>3.2 Your starter toolkit (mostly free)</h2>
+<table>
+  <tr><th>Need</th><th>Free or low-cost tool</th><th>Notes</th></tr>
+  <tr><td>Documents and spreadsheets</td><td>Google Docs and Sheets, LibreOffice</td><td>Share files with clients easily</td></tr>
+  <tr><td>Design</td><td>Canva (free tier), GIMP, Figma (free for individuals)</td><td>Canva is the fastest start for beginners</td></tr>
+  <tr><td>Video</td><td>CapCut, DaVinci Resolve (free version)</td><td>Check licences before using music</td></tr>
+  <tr><td>Grammar and style</td><td>LanguageTool, Grammarly (free tier)</td><td>Always read your work aloud too</td></tr>
+  <tr><td>Calendar and tasks</td><td>Google Calendar, Trello, Notion (free)</td><td>One system only; consistency matters more than tools</td></tr>
+  <tr><td>Video calls</td><td>Google Meet, Zoom (free tier), Microsoft Teams</td><td>Test your microphone and camera first</td></tr>
+  <tr><td>Payments</td><td>Local bank account, PayPal, Payoneer, Wise</td><td>Check which payment methods your country supports</td></tr>
+  <tr><td>Portfolio</td><td>Behance, Google Drive folder, personal website, LinkedIn featured section</td><td>Chapter 9 explains how to use them</td></tr>
+  <tr><td>Learning</td><td>YouTube, Coursera (audit), freeCodeCamp, Google Digital Garage, HubSpot Academy</td><td>Many certificates are free; paid ones are optional</td></tr>
+</table>
+<div class="box tip"><span class="lbl">Equipment on a budget</span>You need a reliable internet connection, a laptop or desktop that runs a browser and your main software smoothly, a quiet place to work, and a headset with a clear microphone. A good microphone matters more than an expensive camera for most jobs.</div>
+
+<h2>3.3 Learning without wasting money</h2>
+<ul>
+  <li>Pick <b>one</b> course and finish it before buying another.</li>
+  <li>Learn by making: every lesson should produce a small sample you can add to your portfolio.</li>
+  <li>Join one community (Reddit communities for your skill, a Discord group, a local meetup) and ask questions there.</li>
+  <li>Keep a learning log: date, what you learned, what you made.</li>
+</ul>
+
+<h2>3.4 A 90-day learning plan</h2>
+<p>This plan assumes about 1&ndash;2 hours a day. Adjust the pace, but keep the order: learn, make, show.</p>
+<div class="fig">
+<svg viewBox="0 0 620 170" xmlns="http://www.w3.org/2000/svg" font-family="DejaVu Sans, Arial" font-size="11">
+  <line x1="30" y1="80" x2="590" y2="80" stroke="#94A3B8" stroke-width="3"/>
+  <circle cx="30" cy="80" r="6" fill="#0F766E"/><circle cx="210" cy="80" r="6" fill="#0F766E"/><circle cx="400" cy="80" r="6" fill="#0F766E"/><circle cx="590" cy="80" r="6" fill="#0F766E"/>
+  <text x="30" y="46" text-anchor="middle" font-weight="bold" fill="#0F766E">Days 1&ndash;30</text>
+  <text x="210" y="46" text-anchor="middle" font-weight="bold" fill="#0F766E">Days 31&ndash;60</text>
+  <text x="400" y="46" text-anchor="middle" font-weight="bold" fill="#0F766E">Days 61&ndash;75</text>
+  <text x="590" y="46" text-anchor="middle" font-weight="bold" fill="#0F766E">Days 76&ndash;90</text>
+  <text x="30" y="110" font-size="9.5" text-anchor="middle" fill="#1E293B">LEARN the basics</text>
+  <text x="30" y="124" font-size="9.5" text-anchor="middle" fill="#1E293B">set up tools</text>
+  <text x="210" y="110" font-size="9.5" text-anchor="middle" fill="#1E293B">MAKE 3 practice</text>
+  <text x="210" y="124" font-size="9.5" text-anchor="middle" fill="#1E293B">projects</text>
+  <text x="400" y="110" font-size="9.5" text-anchor="middle" fill="#1E293B">SHOW portfolio,</text>
+  <text x="400" y="124" font-size="9.5" text-anchor="middle" fill="#1E293B">profile live</text>
+  <text x="590" y="110" font-size="9.5" text-anchor="middle" fill="#1E293B">APPLY &amp; deliver</text>
+  <text x="590" y="124" font-size="9.5" text-anchor="middle" fill="#1E293B">first paid jobs</text>
+  <text x="310" y="158" font-size="9.5" text-anchor="middle" fill="#475569">Each phase ends with a visible output you can show someone</text>
+</svg>
+<div class="cap">Figure 3.1 &middot; The 90-day learn, make, show, apply cycle</div>
+</div>
+<table>
+  <tr><th>Phase</th><th>Weekly focus</th><th>Output at the end</th></tr>
+  <tr><td>Days 1&ndash;30</td><td>Finish one beginner course; learn your tools; write daily English practice (20 minutes)</td><td>One completed course certificate or summary notes; 3 practice samples</td></tr>
+  <tr><td>Days 31&ndash;60</td><td>Make three real practice projects for imaginary or real small clients; get feedback from a peer or community</td><td>Three polished samples with a short case-study note each</td></tr>
+  <tr><td>Days 61&ndash;75</td><td>Create profiles, portfolio and first gig/service descriptions (Chapters 5, 6, 9)</td><td>Live profile on at least one platform</td></tr>
+  <tr><td>Days 76&ndash;90</td><td>Send 5 proposals per day on weekdays; deliver any small paid or free trial job well</td><td>First paid job or first review</td></tr>
+</table>
+
+<h2>3.5 Summary</h2>
+<ul>
+  <li>Universal skills (English, communication, time management, security) matter in every career path.</li>
+  <li>Most of the toolkit is free. Choose one tool per job and learn it well.</li>
+  <li>Use the 90-day plan: learn, make three samples, publish a profile, then apply.</li>
+</ul>
+</div>
+<div class="chapter">
+<div class="part-title">Part 2 &middot; The Platforms</div>
+<div class="chapter-head"><div class="num">Chapter 4</div><h1>The Platform Landscape</h1><p>The main kinds of online work platforms, how they earn their money, and how to choose where to start.</p></div>
+<div class="goals"><b>Learning goals.</b> You will classify the major platforms, understand how each one charges, and choose the first two platforms to join.</div>
+
+<h2>4.1 Five kinds of platform</h2>
+<div class="fig">
+<svg viewBox="0 0 620 250" xmlns="http://www.w3.org/2000/svg" font-family="DejaVu Sans, Arial" font-size="11">
+  <rect x="235" y="95" width="150" height="50" rx="10" fill="#0F766E"/>
+  <text x="310" y="117" text-anchor="middle" fill="#fff" font-weight="bold">YOUR CAREER</text>
+  <text x="310" y="133" text-anchor="middle" fill="#CCFBF1" font-size="9.5">profile + portfolio + reviews</text>
+  <rect x="10" y="12" width="170" height="52" rx="8" fill="#CCFBF1" stroke="#0F766E"/><text x="95" y="34" text-anchor="middle" font-weight="bold">1. Marketplaces</text><text x="95" y="52" text-anchor="middle" font-size="9.5">Upwork, Fiverr, Freelancer</text>
+  <rect x="225" y="12" width="170" height="52" rx="8" fill="#FEF3C7" stroke="#B45309"/><text x="310" y="34" text-anchor="middle" font-weight="bold">2. Vetted networks</text><text x="310" y="52" text-anchor="middle" font-size="9.5">Toptal, Malt, Braintrust</text>
+  <rect x="440" y="12" width="170" height="52" rx="8" fill="#E0E7FF" stroke="#4338CA"/><text x="525" y="34" text-anchor="middle" font-weight="bold">3. Portfolio sites</text><text x="525" y="52" text-anchor="middle" font-size="9.5">Behance, Dribbble, GitHub</text>
+  <rect x="10" y="186" width="170" height="52" rx="8" fill="#FCE7F3" stroke="#BE185D"/><text x="95" y="208" text-anchor="middle" font-weight="bold">4. Professional network</text><text x="95" y="226" text-anchor="middle" font-size="9.5">LinkedIn, referrals</text>
+  <rect x="225" y="186" width="170" height="52" rx="8" fill="#DCFCE7" stroke="#166534"/><text x="310" y="208" text-anchor="middle" font-weight="bold">5. Job boards</text><text x="310" y="226" text-anchor="middle" font-size="9.5">Indeed, WeWorkRemotely, Wellfound</text>
+  <rect x="440" y="186" width="170" height="52" rx="8" fill="#F1F5F9" stroke="#475569"/><text x="525" y="208" text-anchor="middle" font-weight="bold">Your own site</text><text x="525" y="226" text-anchor="middle" font-size="9.5">direct clients, no fee</text>
+  <line x1="95" y1="64" x2="270" y2="95" stroke="#94A3B8" stroke-dasharray="4 3"/>
+  <line x1="310" y1="64" x2="310" y2="95" stroke="#94A3B8" stroke-dasharray="4 3"/>
+  <line x1="525" y1="64" x2="355" y2="95" stroke="#94A3B8" stroke-dasharray="4 3"/>
+  <line x1="95" y1="186" x2="270" y2="145" stroke="#94A3B8" stroke-dasharray="4 3"/>
+  <line x1="310" y1="186" x2="310" y2="145" stroke="#94A3B8" stroke-dasharray="4 3"/>
+  <line x1="525" y1="186" x2="355" y2="145" stroke="#94A3B8" stroke-dasharray="4 3"/>
+</svg>
+<div class="cap">Figure 4.1 &middot; Five kinds of platform feeding one career; a strong career uses at least two of them</div>
+</div>
+
+<h2>4.2 How platforms make money</h2>
+<table>
+  <tr><th>Model</th><th>How it works</th><th>What to watch</th></tr>
+  <tr><td>Freelancer commission</td><td>Platform keeps a percentage of each payment you receive</td><td>The effective rate can be higher than the headline rate; read the fee page</td></tr>
+  <tr><td>Client fee</td><td>Client pays an extra service fee on top of your price</td><td>Clients may compare your price with the total they pay</td></tr>
+  <tr><td>Paid bids or connects</td><td>You pay to submit each proposal (Upwork Connects, Freelancer bids)</td><td>Spend on bids only where you have a real chance</td></tr>
+  <tr><td>Subscription</td><td>Monthly fee for extra features or bids (e.g. Upwork Plus)</td><td>Pays off only if you use the bids every month</td></tr>
+  <tr><td>Membership or vetting fee</td><td>Vetted networks may charge a rate split or screen applicants</td><td>Acceptance is competitive; plan a long timeline</td></tr>
+</table>
+<div class="box warn"><span class="lbl">Fee caution</span>The fees and rules in this course were checked in November 2026 against public sources, which sometimes disagree with each other. Treat every percentage as approximate and read the official pricing and help pages before you start. Fees often change, and they can depend on your country, plan and earnings with each client.</div>
+
+<h2>4.3 How to choose your first two platforms</h2>
+<ol>
+  <li><b>Where do your clients buy?</b> Designers and developers often find work on Upwork and Fiverr; writers and VAs also use Upwork; UK-based work often appears on PeoplePerHour; European tech consultants may prefer Malt.</li>
+  <li><b>How much competition?</b> Popular categories on big marketplaces have many bidders. Niche categories may have less competition but fewer jobs.</li>
+  <li><b>Can you survive the first 10 jobs?</b> Choose a platform that lets you start without paying a large upfront membership.</li>
+  <li><b>Pick one "bidding" platform (where you send proposals) and one "selling" platform (where clients buy a ready package).</b></li>
+</ol>
+<div class="box tip"><span class="lbl">Recommended start</span>For most beginners: Upwork (bidding and long projects) plus Fiverr (packaged services). Add a portfolio site (Behance, Dribbble or GitHub) and a LinkedIn profile in the first month.</div>
+
+<h2>4.4 Bidding model vs. selling model</h2>
+<table>
+  <tr><th></th><th>Bidding (e.g. Upwork)</th><th>Selling (e.g. Fiverr)</th></tr>
+  <tr><td>Who starts?</td><td>Client posts a job; you apply</td><td>You publish a service; buyer chooses it</td></tr>
+  <tr><td>Your effort</td><td>Write a proposal for each job</td><td>Create the listing once, then wait and improve</td></tr>
+  <tr><td>Pricing</td><td>Negotiated per project or per hour</td><td>Fixed packages (Basic, Standard, Premium)</td></tr>
+  <tr><td>Best for beginners who&hellip;</td><td>Like talking to clients and scoping work</td><td>Prefer clear, repeatable services</td></tr>
+</table>
+
+<h2>4.5 Summary</h2>
+<ul>
+  <li>Platforms fall into marketplaces, vetted networks, portfolio sites, professional networks and job boards.</li>
+  <li>Read each platform's fee page; headline rates and effective rates differ.</li>
+  <li>Start with one bidding and one selling platform, and build your own presence alongside them.</li>
+</ul>
+</div>
+
+<div class="chapter">
+<div class="part-title">Part 2 &middot; The Platforms</div>
+<div class="chapter-head"><div class="num">Chapter 5</div><h1>Upwork: Account, Profile and Bidding</h1><p>Step-by-step account creation, a strong freelancer profile, skill tests, Connects and how to win your first contract.</p></div>
+<div class="goals"><b>Learning goals.</b> You will create and verify an Upwork freelancer account, set up a profile that gets read, and send your first well-targeted proposals.</div>
+
+<h2>5.1 What Upwork is</h2>
+<p>Upwork is one of the largest freelance marketplaces. Clients post jobs (hourly or fixed-price) and freelancers submit proposals. It covers writing, design, development, admin, marketing, customer support and many other categories. It suits people who like to discuss a project and agree on its scope before starting.</p>
+
+<h2>5.2 Creating your account (step by step)</h2>
+<div class="fig">
+<svg viewBox="0 0 620 120" xmlns="http://www.w3.org/2000/svg" font-family="DejaVu Sans, Arial" font-size="10.5">
+  <g>
+    <rect x="5" y="30" width="110" height="60" rx="8" fill="#CCFBF1" stroke="#0F766E"/><text x="60" y="55" text-anchor="middle" font-weight="bold">Sign up</text><text x="60" y="72" text-anchor="middle" font-size="9">email, Google</text>
+    <rect x="130" y="30" width="110" height="60" rx="8" fill="#CCFBF1" stroke="#0F766E"/><text x="185" y="55" text-anchor="middle" font-weight="bold">Choose role</text><text x="185" y="72" text-anchor="middle" font-size="9">&quot;Freelancer&quot;</text>
+    <rect x="255" y="30" width="110" height="60" rx="8" fill="#CCFBF1" stroke="#0F766E"/><text x="310" y="55" text-anchor="middle" font-weight="bold">Build profile</text><text x="310" y="72" text-anchor="middle" font-size="9">title, skills, rate</text>
+    <rect x="380" y="30" width="110" height="60" rx="8" fill="#FEF3C7" stroke="#B45309"/><text x="435" y="55" text-anchor="middle" font-weight="bold">Verify ID</text><text x="435" y="72" text-anchor="middle" font-size="9">and payment</text>
+    <rect x="505" y="30" width="110" height="60" rx="8" fill="#DCFCE7" stroke="#166534"/><text x="560" y="55" text-anchor="middle" font-weight="bold">Take tests</text><text x="560" y="72" text-anchor="middle" font-size="9">then bid</text>
+    <line x1="115" y1="60" x2="128" y2="60" stroke="#0F766E" stroke-width="2"/><line x1="240" y1="60" x2="253" y2="60" stroke="#0F766E" stroke-width="2"/><line x1="365" y1="60" x2="378" y2="60" stroke="#0F766E" stroke-width="2"/><line x1="490" y1="60" x2="503" y2="60" stroke="#0F766E" stroke-width="2"/>
+  </g>
+  <text x="5" y="112" font-size="9.5" fill="#475569">Sequence for a new freelancer. Complete all steps before your first proposal so that clients can trust your profile.</text>
+</svg>
+<div class="cap">Figure 5.1 &middot; The Upwork onboarding sequence</div>
+</div>
+<ol class="steps">
+  <li><b>Go to upwork.com and select "Sign up".</b> Use a professional email address (for example, first name and surname). Choose the option to sign up as a <b>freelancer</b>, not as a client. Keep your password in a password manager.</li>
+  <li><b>Enter your basic details.</b> Name as it appears on your government ID, country, primary language and the type of work you do. Use your real name; mismatched names can delay verification.</li>
+  <li><b>Choose your categories and specialisation.</b> Pick one main category now (for example "Writing" or "Graphic Design"). You can add others later.</li>
+  <li><b>Set up identity verification.</b> Upload a government ID and complete any selfie or phone check. Verification can take a few days.</li>
+  <li><b>Add a payment method.</b> Upwork lists the withdrawal methods available in your country (bank transfer, PayPal, Payoneer and others, depending on region). Confirm the fees and currency before choosing.</li>
+  <li><b>Build your profile</b> (section 5.3) before you bid on anything.</li>
+  <li><b>Take the skill tests</b> that match your categories (section 5.5). A passed test is shown on your profile.</li>
+  <li><b>Buy or use Connects</b> (section 5.4) and send your first proposals.</li>
+</ol>
+<div class="box idea"><span class="lbl">Check on the day you sign up</span>Upwork's sign-up screens and onboarding steps change from time to time. If a step looks different, follow what the screen asks and read Upwork's help centre articles on "freelancer profile" and "verification". Never pay anyone who claims they can "guarantee" your account approval.</div>
+
+<h2>5.3 Writing a profile that gets read</h2>
+<p>Clients look at four things in order: your title, your first lines of overview, your hourly rate and your portfolio. Build them in this order.</p>
+<ul>
+  <li><b>Title (one line):</b> Name your service and the result you give. Good: "Proofreader and Copy Editor for Business English". Weak: "Hardworking writer".</li>
+  <li><b>Overview (first 3 lines count most):</b> Say who you help, what you deliver and one proof point. Then describe your process in short paragraphs or bullets, and close with a call to action.</li>
+  <li><b>Skills (up to 15):</b> Use the exact words clients type in search, such as "SEO writing", "WordPress" or "Canva". Remove skills you cannot show evidence for.</li>
+  <li><b>Hourly rate:</b> Start realistically (see Chapter 14). You can raise it after your first reviews.</li>
+  <li><b>Portfolio:</b> Add 3&ndash;5 items with images, a description and the result. Chapter 9 gives a case-study template.</li>
+  <li><b>Work history and education:</b> Include relevant past jobs, volunteer work and courses, even if they were not paid.</li>
+  <li><b>Photo:</b> A clear, friendly head-and-shoulders photo in good light. No group photos, filters or logos.</li>
+</ul>
+<div class="tmpl">EXAMPLE OVERVIEW (fill in your own details)
+I help small online shops write product descriptions that sell.
+In the last year I wrote 40+ descriptions for clothing, beauty and home brands,
+with an average turnaround of 48 hours.
+
+How I work:
+1. You send your brand notes and 2-3 example products.
+2. I deliver a first draft within 2 working days.
+3. You get two free rounds of revisions.
+
+Send me a message with your product list and I will reply within 24 hours.</div>
+
+<h2>5.4 Understanding Connects</h2>
+<p>On Upwork, each proposal costs a small number of <b>Connects</b>. Connects are spent when you submit a proposal and are generally not refunded if the client does not reply. Plans include different monthly allowances, and extra Connects can be bought. Check the current cost of Connects per proposal and the plan allowances on upwork.com, since these have changed several times.</p>
+<div class="box warn"><span class="lbl">Spend wisely</span>Do not spend Connects on jobs you cannot deliver within the budget and timeline. Ten targeted proposals are worth more than fifty generic ones.</div>
+
+<h2>5.5 Skill tests and badges</h2>
+<p>Upwork offers skill tests (multiple-choice or short practical tests) and an English assessment for many categories. A passed test appears as a badge on your profile. Take only tests that match your strengths; a low score can be visible to clients. Use the test preparation guides in Upwork's help centre and practise the topic before you start.</p>
+
+<h2>5.6 Finding and applying to jobs on Upwork</h2>
+<ol>
+  <li>Use the search bar with specific words (for example "product description", "Shopify", "blog post SEO") and set filters for <i>Fixed-price</i> or <i>Hourly</i>, <i>Entry level</i> and <i>Payment verified</i>.</li>
+  <li>Open the job and read the full description. Check the budget, duration, client history (hire rate, total spent, reviews) and the number of proposals.</li>
+  <li>Save promising jobs. Apply to 5&ndash;10 per day at most, so each proposal can be personal.</li>
+  <li>Write your proposal (Chapter 12), attach a relevant sample, and submit.</li>
+  <li>Check your Messages every day. Reply within a few hours where possible.</li>
+</ol>
+
+<h2>5.7 After you win a job: contracts, milestones and reviews</h2>
+<ul>
+  <li><b>Fixed-price contracts</b> can use milestones; the client funds each milestone before you start it, which protects both sides.</li>
+  <li><b>Hourly contracts</b> track time with Upwork's tracker. Use it honestly; screenshots are required in some cases.</li>
+  <li>Keep all communication on the platform. Moving clients off-platform in the early stage can break Upwork's terms and removes your protection.</li>
+  <li>When the job is finished, ask politely for a review. Reviews carry more weight than anything in your profile.</li>
+</ul>
+
+<h2>5.8 Summary</h2>
+<ul>
+  <li>Sign up as a freelancer, verify your identity and payment method, then build the profile before bidding.</li>
+  <li>Write a clear title and the first lines of your overview; these decide whether clients read further.</li>
+  <li>Spend Connects on targeted proposals and keep all work and messages on the platform.</li>
+</ul>
+</div>
+
+<div class="chapter">
+<div class="part-title">Part 2 &middot; The Platforms</div>
+<div class="chapter-head"><div class="num">Chapter 6</div><h1>Fiverr: Gigs, Packages and Levels</h1><p>How to create a Fiverr seller account, design a gig that buyers choose, and climb the seller levels.</p></div>
+<div class="goals"><b>Learning goals.</b> You will create a seller account, publish a gig with three packages, and understand the seller levels and how buyers search.</div>
+
+<h2>6.1 What Fiverr is</h2>
+<p>Fiverr is a marketplace where sellers publish fixed services called <b>gigs</b>, and buyers choose from listings. Your gig is like a shop window: buyers see the image, title, starting price and reviews before they message you. It suits people who can describe a service clearly and deliver it in a repeatable way.</p>
+
+<h2>6.2 Creating a seller account</h2>
+<ol class="steps">
+  <li><b>Go to fiverr.com and sign up</b> with email, Google or another login option. Choose a username that is short and professional.</li>
+  <li><b>Switch to selling</b> via the "Become a Seller" option. Complete the seller onboarding: your name, country, language, skills, and phone verification.</li>
+  <li><b>Set up your seller profile:</b> a clear photo, a short description, your languages and education or certificates. Keep the tone friendly and specific.</li>
+  <li><b>Add a payout method</b> (bank or other supported options in your country) and review Fiverr's current seller fee on its official help pages. Public sources commonly report a 20% seller commission on earnings, so confirm this before pricing your gigs.</li>
+  <li><b>Create your first gig</b> (section 6.3). Publish only when you can deliver the lowest package well.</li>
+</ol>
+
+<h2>6.3 Anatomy of a winning gig</h2>
+<div class="fig">
+<svg viewBox="0 0 620 260" xmlns="http://www.w3.org/2000/svg" font-family="DejaVu Sans, Arial" font-size="10.5">
+  <rect x="150" y="10" width="320" height="200" rx="10" fill="#fff" stroke="#94A3B8"/>
+  <rect x="165" y="25" width="290" height="90" rx="6" fill="#CCFBF1" stroke="#0F766E"/><text x="310" y="72" text-anchor="middle" font-size="11" font-weight="bold" fill="#0F766E">Gallery image / short video (1)</text>
+  <rect x="165" y="125" width="290" height="22" rx="4" fill="#F1F5F9"/><text x="172" y="140" font-weight="bold">I will write SEO-friendly product descriptions (2)</text>
+  <text x="172" y="168" font-size="9.5" fill="#475569">Rated 4.9 (120 reviews) &#8226; Seller level badge (3)</text>
+  <rect x="165" y="178" width="290" height="22" rx="4" fill="#FEF3C7"/><text x="172" y="193" font-weight="bold" fill="#B45309">Starting at $25 (4)</text>
+  <line x1="470" y1="125" x2="560" y2="60" stroke="#B45309"/><text x="520" y="50" fill="#B45309" font-size="9.5">Title: include the service + the result</text>
+  <line x1="150" y1="60" x2="60" y2="60" stroke="#0F766E"/><text x="10" y="50" fill="#0F766E" font-size="9.5">Image: clear proof of work</text>
+  <line x1="470" y1="185" x2="560" y2="190" stroke="#B45309"/><text x="520" y="208" fill="#B45309" font-size="9.5">Price: entry package</text>
+  <line x1="470" y1="165" x2="560" y2="150" stroke="#475569"/><text x="520" y="144" fill="#475569" font-size="9.5">Reviews build trust</text>
+  <rect x="10" y="222" width="600" height="30" rx="6" fill="#F8FAFC" stroke="#E2E8F0"/>
+  <text x="20" y="241" font-size="9.5">Inside the gig: three packages (Basic / Standard / Premium), a description, FAQ, requirements, and a gallery of up to 5 images or 1 video.</text>
+</svg>
+<div class="cap">Figure 6.1 &middot; What a buyer sees first on a gig card and where each element matters</div>
+</div>
+
+<h2>6.4 Designing your three packages</h2>
+<table>
+  <tr><th>Package</th><th>Purpose</th><th>Example: product descriptions</th></tr>
+  <tr><td>Basic</td><td>Entry offer that gets the first review. Price it fairly but low.</td><td>5 product descriptions, 1 revision, 2 days, $25</td></tr>
+  <tr><td>Standard</td><td>The package most buyers choose. It should give the best value.</td><td>15 descriptions, SEO keywords, 2 revisions, 3 days, $60</td></tr>
+  <tr><td>Premium</td><td>For serious buyers. Adds extras that save them time.</td><td>30 descriptions, keyword research, meta titles, unlimited revisions, 5 days, $120</td></tr>
+</table>
+<p>Use the same wording style across packages so buyers can compare them quickly. Show clearly what changes between them: quantity, speed, revisions and extras. Prices above are examples only; set yours after researching similar gigs.</p>
+
+<h2>6.5 Writing the title, description and FAQ</h2>
+<ul>
+  <li><b>Title:</b> "I will [do what] for [who] [result]". Example: "I will write SEO product descriptions for your online shop". Keep it under the platform's character limit and include your main keyword once.</li>
+  <li><b>Description:</b> Explain the service, who it is for, what the buyer must send you, and what they receive. Use short paragraphs and bullet points.</li>
+  <li><b>Requirements:</b> Ask only for what you need (product list, brand guidelines, photos). Good requirements prevent delays.</li>
+  <li><b>FAQ:</b> Answer the three questions buyers ask most, such as file formats, revision policy and usage rights.</li>
+</ul>
+
+<h2>6.6 Seller levels</h2>
+<p>Fiverr describes seller levels such as New Seller, Level 1, Level 2 and Top Rated. Levels are based on criteria like completed orders, ratings, response time and on-time delivery. Higher levels improve visibility and trust, but each level must be earned again if performance drops. Check the current criteria in Fiverr's seller help pages, since they change.</p>
+<div class="box idea"><span class="lbl">Fiverr Pro</span>Fiverr Pro is a separate, invitation or application-based tier for professional sellers who pass a vetting process, usually after building a strong track record and portfolio. Do not expect it in your first months.</div>
+
+<h2>6.7 Getting buyers to choose you</h2>
+<ul>
+  <li>Reply to every buyer message within a few hours.</li>
+  <li>Deliver early when you can, and always deliver a little more than the package promises (for example, an extra sample or a checklist).</li>
+  <li>Ask for a review after delivery, politely and without pressure.</li>
+  <li>Use "Promote" and offers carefully; test a small budget and watch the results before spending more.</li>
+  <li>Create 2&ndash;3 related gigs rather than one vague gig, for example "Product description", "Blog article" and "Email newsletter".</li>
+</ul>
+
+<h2>6.8 Summary</h2>
+<ul>
+  <li>Fiverr sells fixed, packaged gigs; buyers decide from the image, title, price and reviews.</li>
+  <li>Use three clear packages, a keyword-rich title and a gallery that proves your work.</li>
+  <li>Check Fiverr's official fee and level criteria, and respond quickly to build your rating.</li>
+</ul>
+</div>
+<div class="chapter">
+<div class="part-title">Part 2 &middot; The Platforms</div>
+<div class="chapter-head"><div class="num">Chapter 7</div><h1>Other Platforms You Should Know</h1><p>Freelancer.com, Toptal, Guru, PeoplePerHour, Contra, Malt, Braintrust, portfolio sites, LinkedIn, job boards and AI-training platforms.</p></div>
+<div class="goals"><b>Learning goals.</b> You will know what each major alternative is best for, what it expects from you, and how to decide whether to join it.</div>
+
+<h2>7.1 How to read this chapter</h2>
+<p>Each platform below is described by its focus, typical client, how it generally earns money, and what it asks from you. Fee notes are deliberately general: several public sources disagree on exact percentages, so read the official pricing or help page before you join. Platforms are listed in roughly the order a beginner might consider them.</p>
+
+<h2>7.2 Marketplaces similar to Upwork and Fiverr</h2>
+<h3>Freelancer.com</h3>
+<ul>
+  <li><b>Focus:</b> A very broad marketplace: web and app development, design, writing, data entry, translation and small local jobs worldwide.</li>
+  <li><b>Good for:</b> Beginners who want many small projects and a low-entry bidding model.</li>
+  <li><b>Money:</b> Bidding uses a limited number of free bids and paid bid packs or memberships. Projects carry a commission on payments, commonly reported around 10% with a minimum fee; confirm on the official fee page.</li>
+  <li><b>Watch out for:</b> Many contest-style or very low-budget listings. Avoid projects that ask you to work before a milestone is funded.</li>
+</ul>
+<h3>Guru</h3>
+<ul>
+  <li><b>Focus:</b> Long-running marketplace for business, IT, design and writing, with a "Work Diary" time tracker for hourly work.</li>
+  <li><b>Good for:</b> Freelancers who prefer hourly, tracked work and want a simpler, less crowded market than the largest platforms.</li>
+  <li><b>Money:</b> Commission is usually described as a smaller percentage than the largest marketplaces, with a membership option. Verify current rates.</li>
+</ul>
+<h3>PeoplePerHour</h3>
+<ul>
+  <li><b>Focus:</b> UK-founded marketplace with strong demand in design, marketing, web development and writing. Clients are often European.</li>
+  <li><b>Good for:</b> Freelancers based in the UK or Europe who can work in British English or a European time zone.</li>
+  <li><b>Money:</b> Commission reportedly decreases as you bill more with the same client, so long-term clients become cheaper to serve. Check the current tiers.</li>
+</ul>
+
+<h2>7.3 Vetted and premium networks</h2>
+<h3>Toptal</h3>
+<ul>
+  <li><b>Focus:</b> A highly selective network for software developers, designers, finance and project experts, often for long-term or senior remote roles.</li>
+  <li><b>Good for:</b> Experienced professionals (usually several years of paid experience) who can pass multi-stage tests and interviews.</li>
+  <li><b>Money:</b> Clients pay a premium rate. Freelancers are paid their agreed rate; the exact structure is not public in a single headline figure, so confirm during the application.</li>
+  <li><b>Reality:</b> Expect a long screening process. Use it as a goal to aim for, and prepare a strong portfolio and references.</li>
+</ul>
+<h3>Braintrust</h3>
+<ul>
+  <li><b>Focus:</b> A talent network with a marketplace-like model that matches freelancers with companies, often for tech and business roles.</li>
+  <li><b>Good for:</b> Freelancers with a clear specialist skill who prefer matching over bidding.</li>
+  <li><b>Money:</b> Platform cut and any membership fees should be checked directly.</li>
+</ul>
+
+<h2>7.4 Portfolio-first platforms</h2>
+<h3>Behance (by Adobe)</h3>
+<ul>
+  <li><b>Focus:</b> Showcase site for designers, illustrators, photographers and creative teams. Projects are displayed as case studies.</li>
+  <li><b>Good for:</b> Visibility with art directors and agencies. Free to join.</li>
+  <li><b>Tip:</b> Upload 3&ndash;5 complete projects with a problem, process and result, not just finished images.</li>
+</ul>
+<h3>Dribbble</h3>
+<ul>
+  <li><b>Focus:</b> Design community and portfolio, especially UI/UX, branding and illustration. Designers also use it to find hiring clients.</li>
+  <li><b>Tip:</b> Post shots regularly and link to full case studies on your own site.</li>
+</ul>
+<h3>GitHub and Kaggle</h3>
+<ul>
+  <li><b>GitHub:</b> Host code projects and a clean README for each. Essential for developers and automation specialists.</li>
+  <li><b>Kaggle:</b> Data analysis notebooks and competitions. Valuable for data analysts and data scientists.</li>
+</ul>
+
+<h2>7.5 Professional networks and job boards</h2>
+<h3>LinkedIn</h3>
+<ul>
+  <li><b>Focus:</b> The main professional network. Used for recruiting, referrals, thought leadership and client outreach.</li>
+  <li><b>Good for:</b> Every career path. Chapter 13 explains how to use it for clients.</li>
+  <li><b>Features to use:</b> Profile headline, "Open to work" (visible to recruiters only if you choose), Services page, Featured section, Jobs search and Creator mode for posting.</li>
+</ul>
+<h3>Job boards for remote work</h3>
+<table>
+  <tr><th>Board</th><th>Typical roles</th><th>Notes</th></tr>
+  <tr><td>Indeed (remote filter)</td><td>All types, many local-remote roles</td><td>Free search; beware of fake listings (Chapter 17)</td></tr>
+  <tr><td>We Work Remotely</td><td>Programming, design, marketing, support</td><td>Long-established remote-only board</td></tr>
+  <tr><td>Remote OK</td><td>Tech and non-tech remote roles</td><td>Free to browse; read each listing carefully</td></tr>
+  <tr><td>Wellfound (formerly AngelList Talent)</td><td>Start-up jobs, including remote</td><td>Good for tech and product roles</td></tr>
+  <tr><td>Remotive</td><td>Remote tech, marketing and support</td><td>Curated listings; check company details</td></tr>
+  <tr><td>FlexJobs</td><td>Vetted remote and flexible roles</td><td>Paid subscription; check whether the fee is worth it for you</td></tr>
+</table>
+
+<h2>7.6 Portfolio, design and creator-economy sites</h2>
+<ul>
+  <li><b>Contra:</b> A profile-led platform for independent professionals. It is often described as having no commission for freelancers, with clients paying a platform fee. It rewards strong case studies and a clear service page. Verify current terms.</li>
+  <li><b>Malt:</b> A European platform, strongest for tech, digital and consulting freelancers working with European companies. Check the rate policy and vetting requirements in your country.</li>
+  <li><b>99designs, Upwork Talent Cloud and niche boards:</b> Specialist contests and boards for designers, writers, translators and others. Read the terms of any contest-based model; many pay only the winner.</li>
+</ul>
+
+<h2>7.7 AI-training and data-annotation platforms</h2>
+<p>Platforms such as DataAnnotation and Outlier pay people to rate AI responses, label data or review text. They can be a flexible starter income for people with strong English, careful judgment and a few hours a week. However, pay is often variable, screening can be long, and many clones and fake sites exist. Only apply through the official site that you find yourself, never through a link sent to you by a stranger, and never pay anyone to get access.</p>
+
+<h2>7.8 Choosing among the alternatives</h2>
+<table>
+  <tr><th>If you&hellip;</th><th>Consider</th></tr>
+  <tr><td>Want many small projects worldwide</td><td>Freelancer.com</td></tr>
+  <tr><td>Prefer hourly tracked work</td><td>Guru, Upwork hourly</td></tr>
+  <tr><td>Live in the UK or Europe</td><td>PeoplePerHour, Malt</td></tr>
+  <tr><td>Are an experienced senior professional</td><td>Toptal, Braintrust (apply after building proof)</td></tr>
+  <tr><td>Are a designer or illustrator</td><td>Behance, Dribbble, 99designs (read terms)</td></tr>
+  <tr><td>Are a developer</td><td>GitHub, Toptal, Upwork, Wellfound</td></tr>
+  <tr><td>Want repeat, long-term clients</td><td>LinkedIn plus your own website</td></tr>
+  <tr><td>Want flexible part-time AI work</td><td>Official AI-training platforms (read Section 7.7)</td></tr>
+</table>
+<div class="box warn"><span class="lbl">Before you join any platform</span>Read its terms of service on freelancer obligations, payment holds, dispute rules and account closure. Then check reviews on independent sites and search the platform's name with the word "scam" to see recent complaints.</div>
+
+<h2>7.9 Summary</h2>
+<ul>
+  <li>Freelancer.com, Guru and PeoplePerHour are broad marketplaces with different fee and client profiles.</li>
+  <li>Toptal and Braintrust are selective; treat them as goals after you build proof.</li>
+  <li>Portfolio sites, GitHub and LinkedIn support every platform you use; keep them consistent.</li>
+  <li>Verify every fee and term on the official site before you sign up.</li>
+</ul>
+</div>
+
+<div class="chapter">
+<div class="part-title">Part 2 &middot; The Platforms</div>
+<div class="chapter-head"><div class="num">Chapter 8</div><h1>Skills Required on Each Platform</h1><p>A practical matrix showing which skills each platform rewards and how to build them.</p></div>
+<div class="goals"><b>Learning goals.</b> You will read the skill matrix, identify the gaps in your own skill set, and plan the next 30 days of learning.</div>
+
+<h2>8.1 How to use this matrix</h2>
+<p>Ratings are a guide for a beginner: <b>H</b> = high importance, <b>M</b> = medium, <b>L</b> = low or optional. "Core" skills are those clients test or ask about immediately. Your job is to match at least the core skills of one or two platforms you plan to use.</p>
+
+<h2>8.2 Platform skill matrix</h2>
+<table>
+  <tr><th>Platform</th><th>Writing &amp; English</th><th>Design tools</th><th>Web / code</th><th>Marketing &amp; SEO</th><th>Admin &amp; data</th><th>Communication &amp; speed</th><th>Portfolio evidence</th></tr>
+  <tr><td>Upwork</td><td>H (most categories)</td><td>H (design)</td><td>H (dev)</td><td>M</td><td>H (VA, data)</td><td>H</td><td>H</td></tr>
+  <tr><td>Fiverr</td><td>M&ndash;H</td><td>H (gig design)</td><td>M</td><td>M&ndash;H</td><td>M</td><td>H (fast replies)</td><td>H (gallery)</td></tr>
+  <tr><td>Freelancer.com</td><td>M</td><td>M</td><td>H (dev contests)</td><td>M</td><td>H (data entry)</td><td>H</td><td>M</td></tr>
+  <tr><td>Guru</td><td>M</td><td>M</td><td>H</td><td>M</td><td>H (admin)</td><td>H (hourly reporting)</td><td>M</td></tr>
+  <tr><td>PeoplePerHour</td><td>H (UK English)</td><td>H</td><td>H</td><td>H</td><td>M</td><td>H</td><td>H</td></tr>
+  <tr><td>Toptal</td><td>H (business)</td><td>H (senior)</td><td>H (senior)</td><td>M</td><td>M</td><td>H (interviews)</td><td>H (strong)</td></tr>
+  <tr><td>Contra / Malt</td><td>M</td><td>H</td><td>H</td><td>M</td><td>M</td><td>H</td><td>H (case studies)</td></tr>
+  <tr><td>Behance / Dribbble</td><td>L</td><td>H</td><td>L</td><td>M</td><td>L</td><td>M</td><td>H</td></tr>
+  <tr><td>GitHub / Kaggle</td><td>L</td><td>L</td><td>H</td><td>L</td><td>M (data)</td><td>M</td><td>H</td></tr>
+  <tr><td>LinkedIn</td><td>H (headline and posts)</td><td>M</td><td>M</td><td>H</td><td>M</td><td>H</td><td>M</td></tr>
+  <tr><td>AI-training platforms</td><td>H (grammar, reasoning)</td><td>L</td><td>M (some)</td><td>L</td><td>M</td><td>M</td><td>L</td></tr>
+</table>
+
+<h2>8.3 Skill detail by path</h2>
+<h3>Writing and editing</h3>
+<ul>
+  <li><b>Core:</b> Grammar, style guides (AP, Chicago or British), SEO basics, research and fact-checking, product or sales copy.</li>
+  <li><b>Tools:</b> Google Docs, Grammarly or LanguageTool, Hemingway-style readability checks, basic keyword tools.</li>
+  <li><b>Build proof by:</b> Writing 3 sample blog posts and 3 product descriptions for real or imaginary brands.</li>
+</ul>
+<h3>Graphic design and social media design</h3>
+<ul>
+  <li><b>Core:</b> Layout, typography, colour theory, brand basics, file preparation (PNG, PDF, print sizes).</li>
+  <li><b>Tools:</b> Canva (beginner), Figma (UI), Adobe Illustrator or Photoshop, GIMP (free).</li>
+  <li><b>Build proof by:</b> A 5-design brand kit for one business and a case study of how you made it.</li>
+</ul>
+<h3>Virtual assistance and admin</h3>
+<ul>
+  <li><b>Core:</b> Email management, calendar scheduling, spreadsheets (formulas, pivot tables), document formatting, confidentiality.</li>
+  <li><b>Tools:</b> Google Workspace or Microsoft 365, Calendly, Trello, Zapier basics.</li>
+  <li><b>Build proof by:</b> A sample weekly schedule and a clean spreadsheet dashboard for a fictional business.</li>
+</ul>
+<h3>Video and audio editing</h3>
+<ul>
+  <li><b>Core:</b> Cutting, pacing, captions, colour correction basics, audio levelling, export settings for each platform.</li>
+  <li><b>Tools:</b> CapCut, DaVinci Resolve, Premiere Pro, Audacity.</li>
+  <li><b>Build proof by:</b> Three 30&ndash;60 second short-form videos with before and after notes.</li>
+</ul>
+<h3>Web development and no-code</h3>
+<ul>
+  <li><b>Core:</b> HTML, CSS, JavaScript basics, responsive layout, WordPress or Shopify setup, Git basics, testing on phones.</li>
+  <li><b>Tools:</b> VS Code, GitHub, WordPress, Shopify, Webflow, Google Search Console.</li>
+  <li><b>Build proof by:</b> Two live websites and one clone of a real landing page with a short write-up.</li>
+</ul>
+<h3>Digital marketing and SEO</h3>
+<ul>
+  <li><b>Core:</b> Keyword research, on-page SEO, Google Analytics 4, Search Console, email marketing, ad basics, reporting.</li>
+  <li><b>Tools:</b> Google Analytics, Search Console, Meta Business Suite, Mailchimp or Brevo, Canva.</li>
+  <li><b>Build proof by:</b> A 30-day content plan and a monthly report template for a practice site.</li>
+</ul>
+<h3>Online teaching and tutoring</h3>
+<ul>
+  <li><b>Core:</b> Lesson planning, clear explanation, assessment, a calm and friendly video presence, time-zone planning.</li>
+  <li><b>Tools:</b> Google Meet, Zoom, Google Slides, Miro or a whiteboard tool.</li>
+  <li><b>Build proof by:</b> A recorded sample lesson (with permission) and a lesson plan template.</li>
+</ul>
+
+<h2>8.4 Skill-building order</h2>
+<ol>
+  <li>Master one core skill to a level where you can deliver a paid job without help.</li>
+  <li>Add one supporting skill that makes your main service more valuable (for example, a writer who learns basic SEO).</li>
+  <li>Learn one platform-specific skill (Upwork Skill Tests, Fiverr gig design, LinkedIn content).</li>
+  <li>Only then consider a second main service. Breadth too early weakens the portfolio.</li>
+</ol>
+
+<h2>8.5 Summary</h2>
+<ul>
+  <li>Each platform rewards a different mix of skills; read the matrix before you commit.</li>
+  <li>Every core skill needs evidence. Build a sample for each one before you claim it.</li>
+  <li>Learn in this order: one core skill, one supporting skill, then the platform skills.</li>
+</ul>
+</div>
+<div class="chapter">
+<div class="part-title">Part 3 &middot; Building Your Career</div>
+<div class="chapter-head"><div class="num">Chapter 9</div><h1>Your Professional Profile and Portfolio</h1><p>How to present yourself so that a stranger understands what you do, trusts you and contacts you.</p></div>
+<div class="goals"><b>Learning goals.</b> You will build a consistent professional identity across platforms and create a case-study portfolio item that proves your results.</div>
+
+<h2>9.1 One identity, many places</h2>
+<p>Clients often check two or three places before they hire you: the platform profile, LinkedIn and your portfolio. Your name, photo, headline and main service should match on all of them. A consistent identity makes you look established even when you are new.</p>
+
+<div class="fig">
+<svg viewBox="0 0 620 230" xmlns="http://www.w3.org/2000/svg" font-family="DejaVu Sans, Arial" font-size="10.5">
+  <rect x="10" y="10" width="600" height="210" rx="10" fill="#fff" stroke="#94A3B8"/>
+  <circle cx="75" cy="60" r="35" fill="#CCFBF1" stroke="#0F766E"/><text x="75" y="65" text-anchor="middle" font-size="9" fill="#0F766E">Photo</text>
+  <text x="130" y="48" font-size="15" font-weight="bold">Your Name</text>
+  <text x="130" y="66" font-size="11" fill="#0F766E" font-weight="bold">Proofreader for online brands | Business English</text>
+  <text x="130" y="82" font-size="9.5" fill="#475569">Country &#8226; Languages &#8226; Available 30 hrs/week &#8226; Response within 4 hrs</text>
+  <rect x="30" y="110" width="270" height="30" rx="5" fill="#F8FAFC" stroke="#E2E8F0"/><text x="40" y="129" font-size="9.5">Overview: who you help, result, proof point</text>
+  <rect x="30" y="148" width="270" height="22" rx="5" fill="#FEF3C7"/><text x="40" y="163" font-size="9.5" font-weight="bold" fill="#B45309">Skills: Proofreading | Copy editing | Shopify</text>
+  <rect x="30" y="178" width="270" height="34" rx="5" fill="#F8FAFC" stroke="#E2E8F0"/><text x="40" y="199" font-size="9.5">Rate: $20/hr (or project price) &#8226; Badges</text>
+  <rect x="315" y="110" width="285" height="102" rx="5" fill="#DCFCE7" stroke="#166534"/>
+  <text x="330" y="132" font-size="10" font-weight="bold" fill="#166534">Portfolio (3&ndash;5 case studies)</text>
+  <text x="330" y="150" font-size="9.5">1. Before/after image + result</text>
+  <text x="330" y="166" font-size="9.5">2. Short description of the problem</text>
+  <text x="330" y="182" font-size="9.5">3. Client feedback quote (with permission)</text>
+  <text x="330" y="200" font-size="9.5" fill="#475569">Reviews: 5-star ratings with comments</text>
+</svg>
+<div class="cap">Figure 9.1 &middot; Anatomy of a strong freelancer profile</div>
+</div>
+
+<h2>9.2 Choosing your headline</h2>
+<p>Your headline is the first thing people read. Use this formula:</p>
+<div class="tmpl">[Who you are] + [what you do] + [for whom] + [proof or specialisation]
+
+Examples:
+"Copy editor for SaaS and e-commerce brands | 40+ articles edited"
+"Canva designer for social media and small business | 120 posts delivered"
+"Virtual assistant for busy founders | Email, calendar and CRM support"</div>
+
+<h2>9.3 Writing your LinkedIn profile</h2>
+<ul>
+  <li><b>Headline:</b> Same formula as above; LinkedIn allows about 220 characters.</li>
+  <li><b>About section:</b> Three short paragraphs: who you help, how you work, what you are looking for. End with a way to contact you.</li>
+  <li><b>Featured section:</b> Pin your 2&ndash;3 best case studies or portfolio links.</li>
+  <li><b>Experience:</b> Add freelance work with a title such as "Freelance Copywriter (self-employed)" and bullet results.</li>
+  <li><b>Skills:</b> Add 5&ndash;10 skills that match your services and get endorsements from people who know your work.</li>
+  <li><b>Recommendations:</b> Ask past clients or teachers for one short recommendation each.</li>
+</ul>
+
+<h2>9.4 Building a portfolio without paid clients</h2>
+<p>Beginners often think they need a paying client before they can have a portfolio. You do not. You can create <b>spec projects</b>: realistic work for a real or imagined business, labelled clearly as a practice or concept project.</p>
+<ol>
+  <li><b>Choose a real business</b> you like (a local café, a small online shop, a non-profit) or invent a plausible one.</li>
+  <li><b>Write a brief:</b> goal, audience, deliverable, deadline. Keep it short and realistic.</li>
+  <li><b>Do the work to a professional standard</b> and save your process (sketches, drafts, versions).</li>
+  <li><b>Write the case study</b> (section 9.5).</li>
+  <li><b>Ask for feedback</b> from a community or peer and improve the piece once.</li>
+</ol>
+<div class="box warn"><span class="lbl">Honesty rule</span>Label spec or practice work as such. Do not claim that a client hired you, or invent testimonials. Clients check, and a false claim can end your account.</div>
+
+<h2>9.5 The case-study template</h2>
+<div class="tmpl">CASE STUDY: [Project title]
+
+Client / context: [real or practice brief, one line]
+The problem: [what was not working, in 2 sentences]
+My role: [what you did exactly]
+Process: 1. [step]  2. [step]  3. [step]
+Tools used: [list]
+Result: [a number if possible: "conversion up 12%", "delivered in 2 days",
+         "reduced editing time by half" - only if true; otherwise describe the quality]
+What I learned: [1 sentence]
+Image(s): [before/after, mock-up, screenshot]</div>
+
+<h2>9.6 Portfolio hosting choices</h2>
+<table>
+  <tr><th>Option</th><th>Best for</th><th>Cost</th></tr>
+  <tr><td>Platform gallery (Fiverr, Upwork, Contra)</td><td>Quick proof that buyers see instantly</td><td>Free</td></tr>
+  <tr><td>Behance or Dribbble</td><td>Designers, illustrators, UX</td><td>Free</td></tr>
+  <tr><td>Google Drive folder (public link)</td><td>Writers, VAs, editors who share PDFs</td><td>Free</td></tr>
+  <tr><td>Free website (Google Sites, Carrd, Notion page)</td><td>Simple, professional single page</td><td>Free to low cost</td></tr>
+  <tr><td>Own domain and website (WordPress, Webflow)</td><td>Serious long-term career and SEO</td><td>Domain and hosting (roughly a few dollars a month)</td></tr>
+</table>
+
+<h2>9.7 Keeping your profiles current</h2>
+<ul>
+  <li>Update your portfolio after every finished project (with the client's permission).</li>
+  <li>Review your headline and skills every three months.</li>
+  <li>Remove skills and samples that no longer represent the work you want.</li>
+</ul>
+
+<h2>9.8 Summary</h2>
+<ul>
+  <li>Keep name, photo, headline and service consistent on every platform and on LinkedIn.</li>
+  <li>Use a headline formula: who, what, for whom, and proof.</li>
+  <li>Create spec projects if you have no clients yet; label them honestly and write case studies.</li>
+</ul>
+</div>
+
+<div class="chapter">
+<div class="part-title">Part 3 &middot; Building Your Career</div>
+<div class="chapter-head"><div class="num">Chapter 10</div><h1>Building Proof: Projects, Tests, Certificates and Reviews</h1><p>How to turn skill into believable evidence that clients can trust.</p></div>
+<div class="goals"><b>Learning goals.</b> You will plan a proof strategy: samples, tests, certificates and your first reviews, in the right order.</div>
+
+<h2>10.1 Why proof matters more than claims</h2>
+<p>Every freelancer says "I am detail-oriented and reliable". Clients ignore those words because everyone uses them. What convinces them is evidence: a sample of similar work, a test result, a certificate from a recognised provider, or a review from someone who paid you.</p>
+
+<h2>10.2 The proof ladder</h2>
+<div class="fig">
+<svg viewBox="0 0 620 230" xmlns="http://www.w3.org/2000/svg" font-family="DejaVu Sans, Arial" font-size="10.5">
+  <rect x="60" y="180" width="500" height="40" rx="6" fill="#CCFBF1" stroke="#0F766E"/><text x="310" y="204" text-anchor="middle" font-weight="bold">1. Practice samples (you create them)</text>
+  <rect x="100" y="135" width="420" height="40" rx="6" fill="#E0F2FE" stroke="#0369A1"/><text x="310" y="159" text-anchor="middle" font-weight="bold">2. Certificates and skill tests (external check)</text>
+  <rect x="140" y="90" width="340" height="40" rx="6" fill="#FEF3C7" stroke="#B45309"/><text x="310" y="114" text-anchor="middle" font-weight="bold">3. Free or discounted trial work (first clients)</text>
+  <rect x="180" y="45" width="260" height="40" rx="6" fill="#DCFCE7" stroke="#166534"/><text x="310" y="69" text-anchor="middle" font-weight="bold">4. Five-star reviews (paid work)</text>
+  <rect x="220" y="5" width="180" height="32" rx="6" fill="#FCE7F3" stroke="#BE185D"/><text x="310" y="26" text-anchor="middle" font-weight="bold">5. Repeat clients</text>
+</svg>
+<div class="cap">Figure 10.1 &middot; Build proof from the bottom up; each rung makes the next one easier to reach</div>
+</div>
+
+<h2>10.3 Certificates: which ones help?</h2>
+<table>
+  <tr><th>Certificate type</th><th>Examples</th><th>Value to clients</th></tr>
+  <tr><td>Platform skill test</td><td>Upwork Skill Tests, LinkedIn Skill Assessments</td><td>Quick credibility signal on the profile</td></tr>
+  <tr><td>Vendor or tool certificate</td><td>Google Analytics, Google Ads, Meta Blueprint, HubSpot, Canva design courses</td><td>Strong for marketing and design roles</td></tr>
+  <tr><td>Online course certificate</td><td>Coursera, freeCodeCamp, Google Digital Garage</td><td>Good as proof of learning; show the project you made</td></tr>
+  <tr><td>Formal qualification</td><td>Diplomas or degrees in relevant fields</td><td>Helpful for some professional and employment roles</td></tr>
+</table>
+<div class="box tip"><span class="lbl">Rule of thumb</span>A certificate proves that you studied. A sample proves that you can do the work. Show the sample, and list the certificate as support.</div>
+
+<h2>10.4 Trial work and first clients</h2>
+<p>Offering a small discounted or trial job can be a sensible way to win your first review. Set limits so that you do not lose money or time:</p>
+<ul>
+  <li>Offer one clearly defined trial (for example, "one 500-word article for $15 with a review request").</li>
+  <li>Never work for free beyond a short paid test, and never accept unlimited revisions.</li>
+  <li>Tell the client what you will deliver, when, and how many revisions are included.</li>
+  <li>Before you start, confirm that the work will be on the platform's contract system (escrow or milestones).</li>
+</ul>
+
+<h2>10.5 Collecting reviews the right way</h2>
+<ol>
+  <li>Deliver on time with a short cover message: what is attached, what to check, and how to request changes.</li>
+  <li>Two or three days later, send a short note: "I hope the work helps. If you are happy with it, would you mind leaving a review on the platform? Thank you."</li>
+  <li>Never offer payment, discounts or favours for reviews. Platforms can remove reviews and suspend accounts for this.</li>
+  <li>Reply to every review, thanking the client and naming the result.</li>
+</ol>
+
+<h2>10.6 Summary</h2>
+<ul>
+  <li>Proof beats claims. Build practice samples first, then tests and certificates, then paid reviews.</li>
+  <li>Use trial work carefully, with clear limits and platform protection.</li>
+  <li>Ask for reviews honestly; never buy or trade them.</li>
+</ul>
+</div>
+
+<div class="chapter">
+<div class="part-title">Part 3 &middot; Building Your Career</div>
+<div class="chapter-head"><div class="num">Chapter 11</div><h1>Hunting for Jobs Effectively</h1><p>Search strategies, filters, reading job posts like a professional, and building a daily job-hunting routine.</p></div>
+<div class="goals"><b>Learning goals.</b> You will run a daily 60-minute job-hunting routine, read a job post for real signals, and shortlist jobs you can win.</div>
+
+<h2>11.1 The job-hunting funnel</h2>
+<div class="fig">
+<svg viewBox="0 0 620 220" xmlns="http://www.w3.org/2000/svg" font-family="DejaVu Sans, Arial" font-size="10.5">
+  <polygon points="40,10 580,10 500,60 120,60" fill="#CCFBF1" stroke="#0F766E"/><text x="310" y="40" text-anchor="middle" font-weight="bold">100 jobs viewed</text>
+  <polygon points="120,70 500,70 440,120 180,120" fill="#E0F2FE" stroke="#0369A1"/><text x="310" y="100" text-anchor="middle" font-weight="bold">20 jobs shortlisted (good fit, budget, clear brief)</text>
+  <polygon points="180,130 440,130 400,170 220,170" fill="#FEF3C7" stroke="#B45309"/><text x="310" y="155" text-anchor="middle" font-weight="bold">10 proposals sent (personalised)</text>
+  <polygon points="220,180 400,180 370,210 250,210" fill="#DCFCE7" stroke="#166534"/><text x="310" y="201" text-anchor="middle" font-weight="bold">2&ndash;3 replies / interviews</text>
+</svg>
+<div class="cap">Figure 11.1 &middot; A realistic daily funnel for a beginner; numbers vary by platform and skill</div>
+</div>
+
+<h2>11.2 A daily routine (60 minutes)</h2>
+<table>
+  <tr><th>Minutes</th><th>Activity</th></tr>
+  <tr><td>0&ndash;10</td><td>Check messages, invitations and contracts; reply to any client within your promise</td></tr>
+  <tr><td>10&ndash;25</td><td>Search and shortlist 10&ndash;15 jobs using saved searches</td></tr>
+  <tr><td>25&ndash;50</td><td>Write and send 3&ndash;5 personalised proposals (Chapter 12)</td></tr>
+  <tr><td>50&ndash;60</td><td>Improve one thing: profile sentence, portfolio image, or a skill lesson</td></tr>
+</table>
+
+<h2>11.3 Search and filters</h2>
+<ul>
+  <li>Search using the exact words clients use: "product description", "Canva social media", "transcription English", "Excel dashboard".</li>
+  <li>Save searches and set alerts so new jobs come to you.</li>
+  <li>Filter by payment status (verified payment), client history, budget and project length.</li>
+  <li>Sort by "newest" for a head start; many jobs get dozens of proposals within hours.</li>
+  <li>On LinkedIn and job boards, use "remote", country filters and job titles such as "Virtual Assistant", "Content Writer", "Junior Designer".</li>
+</ul>
+
+<h2>11.4 Reading a job post like a professional</h2>
+<table>
+  <tr><th>Look for (green flags)</th><th>Be careful (red flags)</th></tr>
+  <tr><td>Clear goal, deliverables and deadline</td><td>Vague brief like "need someone to do everything"</td></tr>
+  <tr><td>Realistic budget for the scope</td><td>Very low budget for a large task</td></tr>
+  <tr><td>Client with reviews and hire history</td><td>New client with no payment verification</td></tr>
+  <tr><td>Asks for samples or a short call</td><td>Asks for personal data, bank logins or a fee to start</td></tr>
+  <tr><td>Explains tools and communication</td><td>Wants you to move to WhatsApp or email immediately</td></tr>
+</table>
+
+<h2>11.5 Job-hunting outside the big platforms</h2>
+<ul>
+  <li><b>LinkedIn:</b> Search job posts, then message the hiring manager with a short, specific note (Chapter 13).</li>
+  <li><b>Remote boards:</b> Check the company's own careers page before applying; it is safer and sometimes less competitive.</li>
+  <li><b>Referrals:</b> Ask former classmates, colleagues and online community members whether they know a company hiring.</li>
+  <li><b>Communities:</b> Many Discord and Slack groups share jobs for their skill area. Be active first, then ask.</li>
+</ul>
+
+<h2>11.6 Remote employment vs. freelancing</h2>
+<table>
+  <tr><th>Factor</th><th>Remote employment</th><th>Freelancing</th></tr>
+  <tr><td>Income</td><td>More stable salary or hourly pay</td><td>Variable; you control price and volume</td></tr>
+  <tr><td>Benefits</td><td>Often include insurance, leave, pension (country-dependent)</td><td>You arrange your own insurance, leave and savings</td></tr>
+  <tr><td>Control</td><td>Set hours and processes</td><td>Choose clients and projects</td></tr>
+  <tr><td>Speed to start</td><td>Slower; applications and interviews</td><td>Faster to start, slower to stabilise</td></tr>
+</table>
+<p>Many people combine both: a part-time remote job for stable income while building freelance clients.</p>
+
+<h2>11.7 Summary</h2>
+<ul>
+  <li>Use a fixed daily routine of about an hour; consistency beats bursts.</li>
+  <li>Search with client language, save alerts and read every post for green and red flags.</li>
+  <li>Look beyond the big platforms: LinkedIn, company career pages, referrals and communities.</li>
+</ul>
+</div>
+
+<div class="chapter">
+<div class="part-title">Part 3 &middot; Building Your Career</div>
+<div class="chapter-head"><div class="num">Chapter 12</div><h1>Writing Proposals That Win</h1><p>A proven structure for proposals, cover letters and first messages, with examples and common mistakes.</p></div>
+<div class="goals"><b>Learning goals.</b> You will write a 150-word proposal that shows you understood the client, with a clear next step, and you will avoid the mistakes that lose jobs.</div>
+
+<h2>12.1 Why most proposals fail</h2>
+<p>Clients often receive 10 to 50 proposals for one job. Most are generic: "Hello, I am an expert in this field with 5 years experience. I can do this for you." Clients skip them within seconds. A winning proposal proves that you read the job, understood the problem and have a clear plan.</p>
+
+<h2>12.2 Proposal anatomy</h2>
+<div class="fig">
+<svg viewBox="0 0 620 210" xmlns="http://www.w3.org/2000/svg" font-family="DejaVu Sans, Arial" font-size="10.5">
+  <rect x="150" y="8" width="320" height="34" rx="6" fill="#CCFBF1" stroke="#0F766E"/><text x="310" y="29" text-anchor="middle" font-weight="bold">1. Hook: their problem in their words</text>
+  <rect x="150" y="50" width="320" height="34" rx="6" fill="#E0F2FE" stroke="#0369A1"/><text x="310" y="71" text-anchor="middle" font-weight="bold">2. Proof: one similar result you delivered</text>
+  <rect x="150" y="92" width="320" height="34" rx="6" fill="#FEF3C7" stroke="#B45309"/><text x="310" y="113" text-anchor="middle" font-weight="bold">3. Plan: 2&ndash;3 steps you will take</text>
+  <rect x="150" y="134" width="320" height="34" rx="6" fill="#DCFCE7" stroke="#166534"/><text x="310" y="155" text-anchor="middle" font-weight="bold">4. Price and timeline (or a question)</text>
+  <rect x="150" y="176" width="320" height="28" rx="6" fill="#FCE7F3" stroke="#BE185D"/><text x="310" y="195" text-anchor="middle" font-weight="bold">5. Call to action: one simple question</text>
+  <text x="10" y="30" font-size="9.5" fill="#475569">Keep it</text><text x="10" y="44" font-size="9.5" fill="#475569">short:</text>
+  <text x="10" y="62" font-size="9.5" fill="#475569">120&ndash;180</text><text x="10" y="76" font-size="9.5" fill="#475569">words</text>
+  <line x1="150" y1="25" x2="60" y2="25" stroke="#94A3B8" stroke-dasharray="3 3"/>
+  <line x1="150" y1="193" x2="60" y2="193" stroke="#94A3B8" stroke-dasharray="3 3"/>
+</svg>
+<div class="cap">Figure 12.1 &middot; Five parts of a winning proposal, in order</div>
+</div>
+
+<h2>12.3 A proposal template</h2>
+<div class="tmpl">Hi [Client name],
+
+You mentioned that your product descriptions are [their problem, in their words],
+and that you need them to [their goal].
+
+I recently [similar result: "rewrote 35 descriptions for a skincare shop; their
+add-to-cart rate rose from 2% to 2.6% in six weeks"]. Here is what I would do for you:
+1. Review your top 10 products and your competitors' descriptions (day 1)
+2. Write a first draft of 10 descriptions with keyword research (day 2-3)
+3. Send one round of revisions after your feedback (day 4)
+
+I can deliver the first 10 within 3 working days for [price]. Could you share
+the product list and the tone you prefer: friendly, premium or practical?
+
+[Your name]
+[Portfolio link]</div>
+<div class="box tip"><span class="lbl">Write for the reader</span>Use the client's words from the posting, answer their specific questions, and make the next step easy. Read it once aloud before sending.</div>
+
+<h2>12.4 Things to do and not to do</h2>
+<table>
+  <tr><th>Do</th><th>Do not</th></tr>
+  <tr><td>Name the client's problem in the first line</td><td>Start with "Hello, I am a hard-working expert"</td></tr>
+  <tr><td>Refer to one specific detail from the job post</td><td>Paste the same message to everyone</td></tr>
+  <tr><td>Attach one relevant sample, with a one-line description</td><td>Attach a dozen unrelated images</td></tr>
+  <tr><td>Ask one good question about the scope</td><td>Ask questions answered in the post</td></tr>
+  <tr><td>Keep your price within the client's budget, or explain the difference</td><td>Quote far above the budget without a reason</td></tr>
+  <tr><td>Keep all communication on the platform</td><td>Ask for emails or WhatsApp in the first message</td></tr>
+</table>
+
+<h2>12.5 Cover messages for direct outreach</h2>
+<p>When you approach a business directly (Chapter 13), keep the message even shorter: two lines about their business, one line about your result, one question. Example:</p>
+<div class="tmpl">Hi Sara, I loved your Instagram post about your handmade candles.
+I noticed your product pages are missing descriptions that mention scent and
+burn time, which many buyers search for. I rewrote 20 descriptions for a similar
+candle shop, and their pages gained more organic visits within a month.
+Would you like me to send a free sample of two of your products?</div>
+
+<h2>12.6 Follow-up without being annoying</h2>
+<ul>
+  <li>If there is no reply after 3&ndash;4 days, send one short follow-up with a new idea or sample.</li>
+  <li>After that, move on. Two follow-ups are enough.</li>
+  <li>When a client says "budget is too low", offer a smaller scope rather than a discount.</li>
+</ul>
+
+<h2>12.7 Summary</h2>
+<ul>
+  <li>Structure every proposal: problem, proof, plan, price or question, call to action.</li>
+  <li>Personalise at least the first two lines and show you read the post.</li>
+  <li>Keep it short. Clients judge fit in seconds.</li>
+</ul>
+</div>
+
+<div class="chapter">
+<div class="part-title">Part 3 &middot; Building Your Career</div>
+<div class="chapter-head"><div class="num">Chapter 13</div><h1>Attracting Clients Beyond the Platforms</h1><p>Direct outreach, LinkedIn, content, referrals and networking that bring repeat clients to you.</p></div>
+<div class="goals"><b>Learning goals.</b> You will set up a simple client-attraction system with weekly activities, and you will know how to turn one-time buyers into repeat clients.</div>
+
+<h2>13.1 Why you need clients outside platforms</h2>
+<p>Platforms are an excellent start, but they take a share of every payment, and they put you in a crowd of competitors. Direct clients pay you more, rarely compete with you on price and often become long-term partners. Build a second channel as soon as you have three good reviews.</p>
+
+<h2>13.2 The client attraction funnel</h2>
+<div class="fig">
+<svg viewBox="0 0 620 200" xmlns="http://www.w3.org/2000/svg" font-family="DejaVu Sans, Arial" font-size="10.5">
+  <rect x="10" y="20" width="130" height="60" rx="8" fill="#CCFBF1" stroke="#0F766E"/><text x="75" y="48" text-anchor="middle" font-weight="bold">Visibility</text><text x="75" y="65" text-anchor="middle" font-size="9">posts, profile, referrals</text>
+  <rect x="165" y="20" width="130" height="60" rx="8" fill="#E0F2FE" stroke="#0369A1"/><text x="230" y="48" text-anchor="middle" font-weight="bold">Conversation</text><text x="230" y="65" text-anchor="middle" font-size="9">comments, DMs, calls</text>
+  <rect x="320" y="20" width="130" height="60" rx="8" fill="#FEF3C7" stroke="#B45309"/><text x="385" y="48" text-anchor="middle" font-weight="bold">Trial</text><text x="385" y="65" text-anchor="middle" font-size="9">sample or small job</text>
+  <rect x="475" y="20" width="130" height="60" rx="8" fill="#DCFCE7" stroke="#166534"/><text x="540" y="48" text-anchor="middle" font-weight="bold">Client</text><text x="540" y="65" text-anchor="middle" font-size="9">paid project</text>
+  <rect x="320" y="120" width="285" height="60" rx="8" fill="#FCE7F3" stroke="#BE185D"/><text x="462" y="146" text-anchor="middle" font-weight="bold">Repeat client and referrals</text><text x="462" y="164" text-anchor="middle" font-size="9">the goal of every project</text>
+  <line x1="140" y1="50" x2="163" y2="50" stroke="#0F766E" stroke-width="2"/><line x1="295" y1="50" x2="318" y2="50" stroke="#0F766E" stroke-width="2"/><line x1="450" y1="50" x2="473" y2="50" stroke="#0F766E" stroke-width="2"/>
+  <line x1="540" y1="82" x2="462" y2="118" stroke="#BE185D" stroke-width="2"/>
+  <text x="10" y="150" font-size="9.5" fill="#475569">Work backwards: good delivery creates</text>
+  <text x="10" y="165" font-size="9.5" fill="#475569">referrals, and referrals cost you nothing.</text>
+</svg>
+<div class="cap">Figure 13.1 &middot; From visibility to repeat clients; most of your effort should go into the first two stages</div>
+</div>
+
+<h2>13.3 LinkedIn as a client channel</h2>
+<ul>
+  <li><b>Post twice a week</b> about something you did: a before-and-after, a lesson learned, a small tip for your audience. Keep posts specific and humble.</li>
+  <li><b>Connect with the right people:</b> founders of small companies, marketing managers, agency owners, and people who have just launched a product. Send a short personal note, never a sales pitch.</li>
+  <li><b>Comment thoughtfully</b> on posts by your target clients before you ask for anything.</li>
+  <li><b>Use the Services page</b> to list what you offer and how to start a project.</li>
+</ul>
+<div class="tmpl">Connection note example:
+"Hi Ahmed, I enjoyed your post about your new skincare line. I help small beauty
+brands write product pages. Would it be useful to connect?"</div>
+
+<h2>13.4 Content that attracts clients</h2>
+<p>You do not need to be famous. You need to be useful to the people who can hire you. Choose one audience and one topic.</p>
+<table>
+  <tr><th>Content type</th><th>Example for a copywriter</th><th>How often</th></tr>
+  <tr><td>Tip post</td><td>"3 words that make product titles easier to find"</td><td>1&ndash;2 a week</td></tr>
+  <tr><td>Case study</td><td>"How I rewrote 20 candle descriptions in 3 days"</td><td>Monthly</td></tr>
+  <tr><td>Behind the scenes</td><td>Your workspace, your checklist, your draft process</td><td>Occasional</td></tr>
+  <tr><td>Question post</td><td>"What is the hardest part of writing your About page?"</td><td>Occasional</td></tr>
+</table>
+
+<h2>13.5 Networking that works</h2>
+<ul>
+  <li>Join local business groups, chambers of commerce, or online communities where your clients ask questions.</li>
+  <li>Offer help before asking for work. Answer questions, share a free checklist, make an introduction.</li>
+  <li>Tell people clearly what you do. "I help online shops with product descriptions" is easier to remember than "I am a writer".</li>
+  <li>Follow up with everyone you meet within a week.</li>
+</ul>
+
+<h2>13.6 Cold outreach with respect</h2>
+<p>Cold outreach can work when it is specific and polite. Find 10 businesses that match your ideal client each week. For each one, record the business name, the problem you noticed, and the message you sent. Do not send mass mails or pay for lists of unverified emails; these can break anti-spam laws and damage your reputation.</p>
+<div class="box warn"><span class="lbl">Respect the rules</span>Only contact people in ways that the law of their country allows (for example, opt-out rules for marketing emails). Stop contacting anyone who asks you to stop.</div>
+
+<h2>13.7 Turning one client into many</h2>
+<ol>
+  <li>Deliver more than you promised, on time.</li>
+  <li>After delivery, send a short summary of what you did and one suggested next step.</li>
+  <li>Offer a monthly package (retainer) for ongoing work, such as "10 posts a month" or "monthly SEO check".</li>
+  <li>Ask for a referral: "Do you know another business that could use this?"</li>
+</ol>
+
+<h2>13.8 Summary</h2>
+<ul>
+  <li>Build a second channel: LinkedIn, content, networking and respectful outreach.</li>
+  <li>Post about real work to attract the clients you want.</li>
+  <li>Turn every good project into a retainer or a referral.</li>
+</ul>
+</div>
+
+<div class="chapter">
+<div class="part-title">Part 3 &middot; Building Your Career</div>
+<div class="chapter-head"><div class="num">Chapter 14</div><h1>Pricing, Contracts, Payments and Taxes</h1><p>How to price your work, protect yourself with simple agreements, get paid reliably and handle taxes wherever you live.</p></div>
+<div class="goals"><b>Learning goals.</b> You will calculate a minimum hourly rate, choose a pricing model, use a basic contract, and know the general tax duties you must check in your country.</div>
+
+<h2>14.1 Calculate your minimum rate</h2>
+<p>Many beginners price by guessing. Instead, calculate the minimum you need:</p>
+<div class="tmpl">Monthly living costs (rent, food, internet, phone, transport)   = A
+Savings and emergency fund target (10%)                          = B
+Taxes and platform fees (estimate 20-30%)                        = C
+Insurance, software, learning budget                             = D
+
+Monthly target income = (A + B + D) / (1 - tax and fee share)
+Billable hours per month (about 60% of 160 working hours)        = H
+Minimum hourly rate = Monthly target income / H
+
+Example: A = $600, B = $60, D = $60, fees and taxes 25%
+Target = 720 / 0.75 = $960 per month; H = 96 hours
+Minimum rate = $960 / 96 = $10 per hour</div>
+<div class="box idea"><span class="lbl">Note</span>The example is only arithmetic. Your real costs, tax rate and billable hours will differ. Use the same method with your own figures, and raise your rate as your skills and reviews grow.</div>
+
+<h2>14.2 Choosing a pricing model</h2>
+<table>
+  <tr><th>Model</th><th>Best when</th><th>Risk</th></tr>
+  <tr><td>Hourly</td><td>Scope is unclear or work is ongoing</td><td>Clients may question time; you earn less for skill</td></tr>
+  <tr><td>Fixed project price</td><td>Scope is clear and repeatable</td><td>Scope creep if the brief is vague</td></tr>
+  <tr><td>Package or gig tiers</td><td>Work is standard and easy to compare</td><td>Must be well defined to avoid disputes</td></tr>
+  <tr><td>Monthly retainer</td><td>Ongoing work for one client</td><td>Client may cancel; need a notice period</td></tr>
+  <tr><td>Value-based</td><td>Your work creates measurable business value</td><td>Hard to prove without data</td></tr>
+</table>
+
+<h2>14.3 Price ladder for beginners</h2>
+<div class="fig">
+<svg viewBox="0 0 620 230" xmlns="http://www.w3.org/2000/svg" font-family="DejaVu Sans, Arial" font-size="10.5">
+  <rect x="60" y="170" width="120" height="50" fill="#CCFBF1" stroke="#0F766E"/><text x="120" y="192" text-anchor="middle" font-weight="bold">Stage 1</text><text x="120" y="208" text-anchor="middle" font-size="9">0&ndash;3 reviews</text>
+  <rect x="200" y="130" width="120" height="90" fill="#E0F2FE" stroke="#0369A1"/><text x="260" y="162" text-anchor="middle" font-weight="bold">Stage 2</text><text x="260" y="178" text-anchor="middle" font-size="9">4&ndash;15 reviews</text>
+  <rect x="340" y="90" width="120" height="130" fill="#FEF3C7" stroke="#B45309"/><text x="400" y="122" text-anchor="middle" font-weight="bold">Stage 3</text><text x="400" y="138" text-anchor="middle" font-size="9">steady repeat clients</text>
+  <rect x="480" y="40" width="120" height="180" fill="#DCFCE7" stroke="#166534"/><text x="540" y="72" text-anchor="middle" font-weight="bold">Stage 4</text><text x="540" y="88" text-anchor="middle" font-size="9">specialist, retainers</text>
+  <text x="60" y="30" font-size="9.5" fill="#475569">Raise your rate by 10&ndash;25% at each stage, when demand supports it</text>
+  <text x="60" y="222" font-size="9" fill="#475569">Stage names are guides; use your own review counts and demand as the real signal.</text>
+</svg>
+<div class="cap">Figure 14.1 &middot; A price ladder: raise rates in steps as proof and demand grow</div>
+</div>
+
+<h2>14.4 A simple contract checklist</h2>
+<p>Even for small jobs, agree these points in writing (a platform contract, an email exchange or a one-page agreement):</p>
+<ul>
+  <li>Scope: what is included and what is not, with the number of revisions.</li>
+  <li>Deliverables, format and delivery date.</li>
+  <li>Price, payment method, payment schedule and late-payment terms.</li>
+  <li>Client responsibilities (feedback, materials, approvals) and their deadlines.</li>
+  <li>Ownership and usage rights: when the client receives full rights and whether you may show the work in your portfolio.</li>
+  <li>Confidentiality, cancellation and kill fee (what you are paid if the client stops).</li>
+</ul>
+<div class="tmpl">SHORT PROJECT AGREEMENT (template - adapt and check locally)
+Client:            [name, company]
+Freelancer:        [name]
+Project:           [one-sentence scope]
+Deliverables:      [list with formats and quantities]
+Included revisions:[number]
+Price and terms:   [amount, currency, milestones, payment method]
+Timeline:          [start date, delivery date, feedback deadline]
+Usage rights:      [transfer on full payment; portfolio use permitted: yes/no]
+Cancellation:      [notice period; payment for work completed]
+Signed (date):     [client]   [freelancer]</div>
+
+<h2>14.5 Getting paid safely</h2>
+<ul>
+  <li>On platforms, always use the platform's payment protection (escrow or milestones) and keep work inside the platform.</li>
+  <li>For direct clients, ask for a deposit (commonly 30&ndash;50% for new clients) before you start.</li>
+  <li>Use invoices with your business name, the service, the amount, currency, due date and payment details.</li>
+  <li>Track every payment in a simple spreadsheet: date, client, amount, fee, net amount.</li>
+  <li>Never accept a cheque or transfer that you cannot verify, and never send work before a payment is confirmed on a new client.</li>
+</ul>
+
+<h2>14.6 Taxes and record-keeping</h2>
+<p>Freelance income is usually taxable, and many countries require freelancers to register as self-employed or to file returns. Rules vary widely, so this section gives you the questions to ask rather than the answers.</p>
+<ol>
+  <li>Do I need to register as self-employed, sole trader or a similar status?</li>
+  <li>Is income from foreign clients taxable where I live, and do I need to report payments from platforms?</li>
+  <li>Are platform fees deductible, and which other expenses (software, internet share, equipment) can I claim?</li>
+  <li>Do I need to set aside a fixed percentage of each payment for tax, and when are the deadlines?</li>
+  <li>Are there social insurance or pension contributions for self-employed people?</li>
+</ol>
+<div class="box warn"><span class="lbl">Get local advice</span>Speak with a qualified tax adviser or your national tax authority's official guidance before your first year of earnings. Keep receipts and records from day one.</div>
+
+<h2>14.7 Currency and fees</h2>
+<ul>
+  <li>Compare the exchange rate and withdrawal fee of each payment method before choosing it.</li>
+  <li>Price in the currency your clients expect, and state it clearly on every quote.</li>
+  <li>Remember that the platform fee and the currency conversion fee both reduce what you keep.</li>
+</ul>
+
+<h2>14.8 Summary</h2>
+<ul>
+  <li>Calculate your minimum hourly rate from real costs before you set any price.</li>
+  <li>Use a written scope and simple contract every time; use platform escrow.</li>
+  <li>Track income and expenses from the start, and check your tax duties with local sources.</li>
+</ul>
+</div>
+
+<div class="chapter">
+<div class="part-title">Part 3 &middot; Building Your Career</div>
+<div class="chapter-head"><div class="num">Chapter 15</div><h1>Delivering Great Work and Earning Five-Star Reviews</h1><p>Project management, communication and quality habits that turn one job into a long-term reputation.</p></div>
+<div class="goals"><b>Learning goals.</b> You will use a delivery workflow for every project, handle revisions and difficult clients calmly, and recover well when something goes wrong.</div>
+
+<h2>15.1 The delivery workflow</h2>
+<div class="fig">
+<svg viewBox="0 0 620 120" xmlns="http://www.w3.org/2000/svg" font-family="DejaVu Sans, Arial" font-size="10.5">
+  <rect x="5" y="30" width="110" height="60" rx="8" fill="#CCFBF1" stroke="#0F766E"/><text x="60" y="56" text-anchor="middle" font-weight="bold">Kick-off</text><text x="60" y="74" text-anchor="middle" font-size="9">confirm brief</text>
+  <rect x="130" y="30" width="110" height="60" rx="8" fill="#E0F2FE" stroke="#0369A1"/><text x="185" y="56" text-anchor="middle" font-weight="bold">Plan</text><text x="185" y="74" text-anchor="middle" font-size="9">steps and dates</text>
+  <rect x="255" y="30" width="110" height="60" rx="8" fill="#FEF3C7" stroke="#B45309"/><text x="310" y="56" text-anchor="middle" font-weight="bold">Draft</text><text x="310" y="74" text-anchor="middle" font-size="9">first version</text>
+  <rect x="380" y="30" width="110" height="60" rx="8" fill="#FCE7F3" stroke="#BE185D"/><text x="435" y="56" text-anchor="middle" font-weight="bold">Revise</text><text x="435" y="74" text-anchor="middle" font-size="9">within limit</text>
+  <rect x="505" y="30" width="110" height="60" rx="8" fill="#DCFCE7" stroke="#166534"/><text x="560" y="56" text-anchor="middle" font-weight="bold">Deliver</text><text x="560" y="74" text-anchor="middle" font-size="9">+ review request</text>
+  <line x1="115" y1="60" x2="128" y2="60" stroke="#0F766E" stroke-width="2"/><line x1="240" y1="60" x2="253" y2="60" stroke="#0F766E" stroke-width="2"/><line x1="365" y1="60" x2="378" y2="60" stroke="#0F766E" stroke-width="2"/><line x1="490" y1="60" x2="503" y2="60" stroke="#0F766E" stroke-width="2"/>
+  <text x="5" y="112" font-size="9.5" fill="#475569">Send a short progress update at each stage; clients rarely complain about too much communication.</text>
+</svg>
+<div class="cap">Figure 15.1 &middot; Six stages of every project from kick-off to review</div>
+</div>
+
+<h2>15.2 Kick-off checklist</h2>
+<ul>
+  <li>Restate the goal, deliverables and deadline in your own words and ask the client to confirm.</li>
+  <li>Collect all materials (logins, brand files, text, photos) before you start.</li>
+  <li>Agree on the feedback method (one consolidated list, not many messages) and the feedback deadline.</li>
+  <li>Set your own internal deadline two days before the client's, to protect quality.</li>
+</ul>
+
+<h2>15.3 Communication habits that earn reviews</h2>
+<ul>
+  <li>Reply within the time you promised (for example, within 4 business hours).</li>
+  <li>Send a progress update on a long project every two or three days.</li>
+  <li>When you cannot meet a deadline, tell the client as early as possible, with a new date and a reason.</li>
+  <li>Use short, structured messages: what I did, what I need from you, when.</li>
+</ul>
+
+<h2>15.4 Handling revisions</h2>
+<ol>
+  <li>Read every revision request twice and list each change as a separate item.</li>
+  <li>Confirm which changes are included in your package and which are extra work. Quote extras before you start them.</li>
+  <li>Make the requested changes, then send the file with a short summary of what changed.</li>
+  <li>If the client keeps changing the brief, pause and agree on a new scope in writing.</li>
+</ol>
+
+<h2>15.5 Difficult clients</h2>
+<table>
+  <tr><th>Situation</th><th>Calm response</th></tr>
+  <tr><td>Client says "I do not like it" with no detail</td><td>"Thank you for telling me. Could you point to the part that is different from what you pictured, so I can fix it?"</td></tr>
+  <tr><td>Client asks for free extra work</td><td>"That is a useful addition. I can include it in a new small package for [price], or we can keep the current scope."</td></tr>
+  <tr><td>Client is late with feedback or payment</td><td>"Just checking in on the feedback for the draft. Could you confirm when you expect to send it? Our agreed deadline was [date]."</td></tr>
+  <tr><td>Client is rude</td><td>Stay polite, keep records, and if it continues, use the platform's support or mediation process.</td></tr>
+</table>
+
+<h2>15.6 When things go wrong</h2>
+<ul>
+  <li>Keep all messages on the platform; they are your evidence in a dispute.</li>
+  <li>Use the platform's dispute or mediation process early and calmly, with a summary of what was agreed.</li>
+  <li>If you made a mistake, own it, fix it quickly and say what you changed to prevent it.</li>
+  <li>After a negative review, reply once, politely and briefly; do not argue in public.</li>
+</ul>
+
+<h2>15.7 Quality checklist before every delivery</h2>
+<div class="tmpl">[ ] Brief and every revision request checked off
+[ ] Spelling, grammar and formatting checked (read aloud once)
+[ ] File names, format and size correct for the client
+[ ] Links and images tested
+[ ] Summary message written: what is attached, what changed, what to check
+[ ] Review request scheduled for 2-3 days after delivery
+[ ] Work saved in my archive with the client name and date</div>
+
+<h2>15.8 Summary</h2>
+<ul>
+  <li>Use the six-stage workflow on every project, including a written kick-off.</li>
+  <li>Communicate early and in short, structured messages.</li>
+  <li>Handle revisions and difficult clients with written scope and calm, specific replies.</li>
+</ul>
+</div>
+<div class="chapter">
+<div class="part-title">Part 4 &middot; Growth and Sustainability</div>
+<div class="chapter-head"><div class="num">Chapter 16</div><h1>Scaling: From Solo Freelancer to Business</h1><p>Productised services, retainers, specialisation, teams and when to say no.</p></div>
+<div class="goals"><b>Learning goals.</b> You will know the four growth stages of a freelance career, how to package a service, and how to decide when to hire help.</div>
+
+<h2>16.1 Growth stages</h2>
+<table>
+  <tr><th>Stage</th><th>Typical state</th><th>Focus</th></tr>
+  <tr><td>1. Beginner</td><td>Few reviews, many small jobs</td><td>Proof, speed, five-star delivery</td></tr>
+  <tr><td>2. Established</td><td>Steady income, some repeat clients</td><td>Raise rates, choose a niche</td></tr>
+  <tr><td>3. Specialist</td><td>Known for one result for one type of client</td><td>Retainers, referrals, premium pricing</td></tr>
+  <tr><td>4. Business</td><td>Team or subcontractors deliver for you</td><td>Systems, quality control, hiring</td></tr>
+</table>
+
+<h2>16.2 Productised services</h2>
+<p>A productised service is a standard package with a fixed scope, price and timeline. Examples: "10 Instagram posts with captions per month", "Product page audit with 20 fixes", "Website homepage copy in 5 days". Buyers understand it quickly, and you can deliver it faster each time.</p>
+<div class="tmpl">PRODUCT DESIGN CHECK
+Who is it for?            [specific client type]
+What exactly is delivered? [numbered list]
+How long does it take?    [days]
+What is excluded?         [list]
+Price                     [fixed]
+How many revisions?       [number]
+Process you can repeat    [steps]</div>
+
+<h2>16.3 Choosing a niche</h2>
+<p>A niche is a combination of a type of client, a problem and a result. "Writer" is broad; "copywriter for local clinics that need patient-friendly leaflets" is a niche. Specialisation raises rates, shortens proposals and makes referrals easier. Choose a niche where you have some knowledge, a clear buyer and enough businesses to contact.</p>
+
+<h2>16.4 Retainers and recurring income</h2>
+<ul>
+  <li>Offer a monthly package with a fixed number of deliverables and a notice period (for example, 30 days).</li>
+  <li>Start with a small trial month before committing both sides.</li>
+  <li>Review the scope every quarter and adjust the price when workload grows.</li>
+</ul>
+
+<h2>16.5 Working with others</h2>
+<p>When you have more work than hours, you can subcontract part of it. Agree on quality standards, deadlines and payment in writing, and keep the client relationship with you. Only hire people you have tested, and remember that you remain responsible for the final result.</p>
+
+<h2>16.6 Saying no</h2>
+<p>Turn down work that is outside your niche, below your minimum rate, or from clients who do not respect your process. Saying no protects your reputation and your time. A short, polite decline is enough.</p>
+
+<h2>16.7 Summary</h2>
+<ul>
+  <li>Move from many small jobs to a niche, productised services and retainers.</li>
+  <li>Build systems before you hire, and keep responsibility for quality.</li>
+  <li>Say no to work that does not fit your niche or minimum rate.</li>
+</ul>
+</div>
+
+<div class="chapter">
+<div class="part-title">Part 4 &middot; Growth and Sustainability</div>
+<div class="chapter-head"><div class="num">Chapter 17</div><h1>Scams, Safety and Staying Healthy</h1><p>Recognising fraud, protecting your data and money, and keeping a sustainable work life.</p></div>
+<div class="goals"><b>Learning goals.</b> You will recognise the most common online work scams, know the safety steps for your accounts and money, and have a plan for balanced work.</div>
+
+<h2>17.1 Common scams</h2>
+<div class="fig">
+<svg viewBox="0 0 620 200" xmlns="http://www.w3.org/2000/svg" font-family="DejaVu Sans, Arial" font-size="10.5">
+  <rect x="10" y="10" width="600" height="180" rx="10" fill="#FEE2E2" fill-opacity=".5" stroke="#B91C1C"/>
+  <text x="25" y="36" font-weight="bold" fill="#B91C1C">Stop immediately if someone&hellip;</text>
+  <text x="25" y="62" font-size="10.5">&#9679; asks you to pay a fee to get a job, a test or an account</text>
+  <text x="25" y="82" font-size="10.5">&#9679; sends a cheque or payment and asks you to refund the difference</text>
+  <text x="25" y="102" font-size="10.5">&#9679; asks for your bank password, ID photos or card details in a chat</text>
+  <text x="25" y="122" font-size="10.5">&#9679; wants to move the job to WhatsApp or Telegram before any contract</text>
+  <text x="25" y="142" font-size="10.5">&#9679; offers a job with no interview, no clear task, and very high pay</text>
+  <text x="25" y="170" font-size="10" fill="#475569">A real client will accept a platform contract, a clear brief and normal payment terms.</text>
+</svg>
+<div class="cap">Figure 17.1 &middot; Red flags that signal a likely scam</div>
+</div>
+<table>
+  <tr><th>Scam type</th><th>How it works</th><th>Protection</th></tr>
+  <tr><td>Fake check or overpayment</td><td>Client overpays and asks for the difference back</td><td>Never refund before funds clear; use platform payments</td></tr>
+  <tr><td>Phishing</td><td>Fake login pages or emails asking you to verify your account</td><td>Type the platform address yourself; never log in from email links</td></tr>
+  <tr><td>Fake job offers</td><td>Recruiter asks for training fees or equipment deposit</td><td>Legitimate employers do not charge candidates</td></tr>
+  <tr><td>Account selling or "reviews for sale"</td><td>Offers to buy an account or buy reviews</td><td>Both break platform rules and can lead to bans</td></tr>
+  <tr><td>Off-platform payment trap</td><td>Client wants to pay outside the platform to avoid fees</td><td>You lose escrow and dispute protection</td></tr>
+  <tr><td>Fake AI-training or data-entry sites</td><td>Pay for access or training that never leads to work</td><td>Apply only through official sites you find yourself</td></tr>
+</table>
+
+<h2>17.2 Account and money safety</h2>
+<ul>
+  <li>Use a unique, long password for each platform, stored in a password manager.</li>
+  <li>Turn on two-step verification (authenticator app preferred) for email and every platform.</li>
+  <li>Use a separate email address for work accounts.</li>
+  <li>Never share your password, verification codes or ID with anyone who contacts you.</li>
+  <li>Check payment details carefully before every withdrawal.</li>
+</ul>
+
+<h2>17.3 Work-life balance</h2>
+<ul>
+  <li><b>Set working hours</b> and tell clients when you are available. Use an out-of-office message for holidays.</li>
+  <li><b>Separate your space:</b> a dedicated desk where possible, and a way to close the work day.</li>
+  <li><b>Take breaks:</b> a short walk or stretch every 60&ndash;90 minutes, and a full day off each week.</li>
+  <li><b>Protect your health:</b> posture, eye rest (20-20-20 rule), sleep and regular meals.</li>
+  <li><b>Manage isolation:</b> keep in touch with friends, join a community and schedule time with people outside work.</li>
+</ul>
+
+<h2>17.4 Dealing with rejection and slow periods</h2>
+<p>Most freelancers go through quiet months and many rejected proposals. Treat them as data: which jobs did you apply for, what did the replies say, what can you improve? Keep a small emergency fund so that one slow month does not force you into bad clients.</p>
+
+<h2>17.5 Summary</h2>
+<ul>
+  <li>Learn the red flags and never pay to get work or refund an overpayment.</li>
+  <li>Protect accounts with unique passwords and two-step verification.</li>
+  <li>Set working hours, take breaks and keep social contact; a sustainable career is a long one.</li>
+</ul>
+</div>
+
+<div class="chapter">
+<div class="part-title">Part 4 &middot; Growth and Sustainability</div>
+<div class="chapter-head"><div class="num">Chapter 18</div><h1>Your 90-Day Action Plan</h1><p>A week-by-week plan that combines everything in this course into one practical path.</p></div>
+<div class="goals"><b>Learning goals.</b> You will have a written plan, a set of weekly targets and a way to measure progress.</div>
+
+<h2>18.1 The plan at a glance</h2>
+<table>
+  <tr><th>Weeks</th><th>Chapters</th><th>Main outcome</th></tr>
+  <tr><td>1&ndash;2</td><td>1, 2, 3</td><td>Path chosen, skills inventory written, learning schedule set</td></tr>
+  <tr><td>3&ndash;6</td><td>3, 8</td><td>One core course finished; three practice samples made</td></tr>
+  <tr><td>7&ndash;8</td><td>4, 5, 6</td><td>Accounts created and verified on two platforms</td></tr>
+  <tr><td>9&ndash;10</td><td>9, 10</td><td>Profile, portfolio, case studies and first proof live</td></tr>
+  <tr><td>11&ndash;12</td><td>11, 12</td><td>Daily job routine running; proposals sent</td></tr>
+  <tr><td>13</td><td>13</td><td>LinkedIn active; outreach to 20 businesses</td></tr>
+  <tr><td>14&ndash;15</td><td>14, 15</td><td>Rate calculated; first paid job delivered and reviewed</td></tr>
+  <tr><td>16&ndash;18</td><td>16, 17</td><td>Price raised, niche chosen, routine and safety habits in place</td></tr>
+</table>
+
+<h2>18.2 Weekly checklist</h2>
+<div class="tmpl">WEEK ___   Path: ________________   Hours planned: ____   Hours done: ____
+
+[ ] Learning: lessons completed ______ (name of course / module)
+[ ] Practice: sample finished ______ (name)
+[ ] Profile: one section improved ______
+[ ] Proposals sent: ____ (target 15 per week)
+[ ] Outreach messages sent: ____ (target 10 per week)
+[ ] Replies received: ____   Interviews / trials: ____
+[ ] Income this week: ____   Expenses: ____
+[ ] One thing I learned: ____________________
+[ ] One thing to change next week: __________</div>
+
+<h2>18.3 Measure what matters</h2>
+<table>
+  <tr><th>Measure</th><th>Target after 90 days</th></tr>
+  <tr><td>Completed profiles</td><td>2 platforms + LinkedIn</td></tr>
+  <tr><td>Portfolio case studies</td><td>3 or more</td></tr>
+  <tr><td>Proposals or outreach messages sent</td><td>100 or more</td></tr>
+  <tr><td>Paid jobs delivered</td><td>3 or more</td></tr>
+  <tr><td>Five-star reviews</td><td>2 or more</td></tr>
+  <tr><td>Hourly rate (net, after fees)</td><td>Calculated and tracked; equal to or above your minimum rate</td></tr>
+</table>
+
+<h2>18.4 Final message</h2>
+<p>Online careers are built one honest project at a time. You do not need to be the best in the world on day one. You need a clear path, steady practice, proof that you can deliver, and the patience to keep improving. Start with today's first step: complete the skills inventory from Chapter 2, then open your first account.</p>
+</div>
+
+<div class="chapter">
+<div class="part-title">Appendices</div>
+<div class="chapter-head"><div class="num">Appendix A</div><h1>Glossary of Online Work Terms</h1><p>Plain-language definitions of terms you will meet on platforms and in client messages.</p></div>
+<table>
+  <tr><th>Term</th><th>Meaning</th></tr>
+  <tr><td>Bid / Proposal</td><td>Your offer to do a posted job, with a price and a message</td></tr>
+  <tr><td>Connects</td><td>Credits spent to send proposals on some platforms (for example, Upwork)</td></tr>
+  <tr><td>Escrow</td><td>Money held by the platform until work is accepted</td></tr>
+  <tr><td>Milestone</td><td>A stage of a project with its own deliverable and payment</td></tr>
+  <tr><td>Gig</td><td>A fixed service listing on a platform such as Fiverr</td></tr>
+  <tr><td>Retainer</td><td>A monthly payment for ongoing work</td></tr>
+  <tr><td>Scope creep</td><td>Extra requests that grow the work beyond the agreed scope</td></tr>
+  <tr><td>Kill fee</td><td>Payment due if the client cancels a project after work has started</td></tr>
+  <tr><td>Case study</td><td>A short story of a project: problem, process, result</td></tr>
+  <tr><td>Spec project</td><td>Practice work for a real or imagined brand, made to build a portfolio</td></tr>
+  <tr><td>Hire rate</td><td>Share of a client's job posts that led to a hire</td></tr>
+  <tr><td>Niche</td><td>A specific type of client, problem and result you focus on</td></tr>
+  <tr><td>Productised service</td><td>A standard package with fixed scope, price and timeline</td></tr>
+  <tr><td>Two-step verification (2FA)</td><td>A second code required at login to protect your account</td></tr>
+</table>
+
+<div class="chapter">
+<div class="part-title">Appendices</div>
+<div class="chapter-head"><div class="num">Appendix B</div><h1>Ready-to-Use Templates and Checklists</h1><p>Copy these templates into your notes and adapt them to your work.</p></div>
+<h2>B.1 Profile checklist</h2>
+<div class="tmpl">[ ] Professional photo, good light, plain background
+[ ] Headline uses who + what + for whom + proof
+[ ] Overview: 3 short paragraphs, call to action at the end
+[ ] Skills list uses words clients search for
+[ ] 3-5 portfolio items with results
+[ ] Rate set using the minimum-rate calculation
+[ ] Identity and payment verified
+[ ] Contact and response time stated</div>
+<h2>B.2 Proposal checklist</h2>
+<div class="tmpl">[ ] Opened with the client's problem in their words
+[ ] One relevant result named (true and specific)
+[ ] Plan in 2-3 steps with days or dates
+[ ] Price within budget, or reason given
+[ ] One relevant sample attached or linked
+[ ] One question or clear next step
+[ ] Read aloud; under 180 words</div>
+<h2>B.3 Delivery and review request</h2>
+<div class="tmpl">Subject / opening: Your [deliverable] is ready for review
+
+Hello [name],
+Your [deliverable] is attached. I have [what you did, in one line].
+Please check [specific items] and send your feedback by [date] so I can
+include any changes within the agreed revisions.
+
+Thank you for working with me.
+
+(2-3 days later)
+Hello [name], I hope the work is helping your [goal]. If you are happy
+with it, would you mind leaving a short review on [platform]? It really
+helps other clients find me. Thank you.</div>
+<h2>B.4 Monthly income and expense tracker</h2>
+<table>
+  <tr><th>Date</th><th>Client / platform</th><th>Service</th><th>Gross</th><th>Fees</th><th>Net</th><th>Tax set aside</th></tr>
+  <tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+  <tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+  <tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+</table>
+</div>
+
+</body>
+</html>
