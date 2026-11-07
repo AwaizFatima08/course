@@ -26,7 +26,7 @@ FIGURE_FOR_CHAPTER = {1: 0, 2: 1, 3: 3, 5: 4, 6: 5, 7: 7, 8: 8, 9: 9, 10: 10, 11
 
 
 def course_svgs():
-    src = open(os.path.join(COURSE, "SEO_Career_Course.html"), encoding="utf-8").read()
+    src = open(os.path.join(COURSE, "english", "SEO_Career_Course.html"), encoding="utf-8").read()
     return re.findall(r"<svg\b.*?</svg>", src, flags=re.S)
 
 
