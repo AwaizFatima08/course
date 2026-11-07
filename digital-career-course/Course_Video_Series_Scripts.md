@@ -5,7 +5,7 @@ This version replaces the short scripts in `Course_Video_Scripts.md`.
 
 ## 1. Rules for every video
 
-- One video per chapter. Each video is **up to 5 minutes**. The scripts below run about 3 to 4 minutes each.
+- One video per chapter. Each video is **up to 5 minutes**. The built English videos run 2.0 to 2.6 minutes each (about 400 to 490 words of narration).
 - Each chapter script is written in two parts (A and B). Each part is one voice-over job of about 2 minutes, so the
   voice tool finishes each job well inside its time limit. The two parts are joined into one video with a short pause.
 - Pace: about 130 words per minute, with a short pause after each on-screen step.
