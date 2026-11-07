@@ -1,0 +1,11 @@
+# Asset register
+
+Assets from the homidev pipeline, one row per file. Added by asset-integrate.sh after Homi's approval — do not edit rows by hand.
+
+| Approved | File | Job ID | Recipe | Models | Licences | commercial_ok | sha256 | Approved by |
+|---|---|---|---|---|---|---|---|---|
+| 2026-11-07 | `assets/audio/voice/20261107-0230-llm-course-voice-01_voice.ogg` | 20261107-0230-llm-course-voice-01 | voice-en-standard v0.3 | kokoro-82m, kokoro-voice-af_heart, whisper-small-en, kokoro-voice-af_bella, kokoro-voice-am_michael, kokoro-voice-bm_george, kokoro-voice-bf_emma | Apache-2.0, MIT | yes | `af99c0386c42d4e1bd496d9bae01db84719569d46787332d85f2028970041314` | Homi |
+| 2026-11-07 | `assets/audio/voice/20261107-0231-llm-course-voice-01_voice.ogg` | 20261107-0231-llm-course-voice-01 | voice-en-standard v0.3 | kokoro-82m, kokoro-voice-af_heart, whisper-small-en, kokoro-voice-af_bella, kokoro-voice-am_michael, kokoro-voice-bm_george, kokoro-voice-bf_emma | Apache-2.0, MIT | yes | `2b6f38ed1b4c3779d8fad7bedef24ed46da0692ecff6d623a183c3937a6ab3e2` | Homi |
+| 2026-11-07 | `assets/audio/voice/20261107-0232-llm-course-voice-01_voice.ogg` | 20261107-0232-llm-course-voice-01 | voice-en-standard v0.3 | kokoro-82m, kokoro-voice-af_heart, whisper-small-en, kokoro-voice-af_bella, kokoro-voice-am_michael, kokoro-voice-bm_george, kokoro-voice-bf_emma | Apache-2.0, MIT | yes | `49e604a47b77fea87230a23f93c0b072a378123ef5b673f248602ba599b3936d` | Homi |
+| 2026-11-07 | `assets/audio/voice/20261107-0234-llm-course-voice-01_voice.ogg` | 20261107-0234-llm-course-voice-01 | voice-en-standard v0.3 | kokoro-82m, kokoro-voice-af_heart, whisper-small-en, kokoro-voice-af_bella, kokoro-voice-am_michael, kokoro-voice-bm_george, kokoro-voice-bf_emma | Apache-2.0, MIT | yes | `0b32a97146ed38f3bc66c3fa434b663d51ff1ded2846e12c7f37b3eec1e4fb63` | Homi |
+| 2026-11-07 | `assets/audio/voice/20261107-0235-llm-course-voice-01_voice.ogg` | 20261107-0235-llm-course-voice-01 | voice-en-standard v0.3 | kokoro-82m, kokoro-voice-af_heart, whisper-small-en, kokoro-voice-af_bella, kokoro-voice-am_michael, kokoro-voice-bm_george, kokoro-voice-bf_emma | Apache-2.0, MIT | yes | `c25f54499ebbfe1abb80c0735b5bc1b5559955b0a19dc1e9d01c150974baccdf` | Homi |
