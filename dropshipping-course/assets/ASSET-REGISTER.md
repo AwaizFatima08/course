@@ -1,0 +1,11 @@
+# Asset register
+
+Assets from the homidev pipeline, one row per file. Added by asset-integrate.sh after Homi's approval — do not edit rows by hand.
+
+| Approved | File | Job ID | Recipe | Models | Licences | commercial_ok | sha256 | Approved by |
+|---|---|---|---|---|---|---|---|---|
+| 2026-11-07 | `assets/audio/voice/20261107-0229-dropshipping-course-voice-01_voice.ogg` | 20261107-0229-dropshipping-course-voice-01 | voice-en-standard v0.3 | kokoro-82m, kokoro-voice-af_heart, whisper-small-en, kokoro-voice-af_bella, kokoro-voice-am_michael, kokoro-voice-bm_george, kokoro-voice-bf_emma | Apache-2.0, MIT | yes | `a30b5c1e5ae6742d186476224948014bcb88d4b448ef110194aad6e1d24af737` | Homi |
+| 2026-11-07 | `assets/audio/voice/20261107-0230-dropshipping-course-voice-01_voice.ogg` | 20261107-0230-dropshipping-course-voice-01 | voice-en-standard v0.3 | kokoro-82m, kokoro-voice-af_heart, whisper-small-en, kokoro-voice-af_bella, kokoro-voice-am_michael, kokoro-voice-bm_george, kokoro-voice-bf_emma | Apache-2.0, MIT | yes | `d9cc5e4cb7748bf6e9ca8a59fd56fccc08da057ff6cee3f00adb0eb7b6deb3cd` | Homi |
+| 2026-11-07 | `assets/audio/voice/20261107-0231-dropshipping-course-voice-01_voice.ogg` | 20261107-0231-dropshipping-course-voice-01 | voice-en-standard v0.3 | kokoro-82m, kokoro-voice-af_heart, whisper-small-en, kokoro-voice-af_bella, kokoro-voice-am_michael, kokoro-voice-bm_george, kokoro-voice-bf_emma | Apache-2.0, MIT | yes | `e0f351293e83742782edb6b45567c1bd16e67fc8caa9be2cd473edf7efa26f21` | Homi |
+| 2026-11-07 | `assets/audio/voice/20261107-0232-dropshipping-course-voice-01_voice.ogg` | 20261107-0232-dropshipping-course-voice-01 | voice-en-standard v0.3 | kokoro-82m, kokoro-voice-af_heart, whisper-small-en, kokoro-voice-af_bella, kokoro-voice-am_michael, kokoro-voice-bm_george, kokoro-voice-bf_emma | Apache-2.0, MIT | yes | `6275dc5f7369d8d09da7a2c42fe38fedcce5cfc05ff4a9118fb0070fbabd67eb` | Homi |
+| 2026-11-07 | `assets/audio/voice/20261107-0233-dropshipping-course-voice-01_voice.ogg` | 20261107-0233-dropshipping-course-voice-01 | voice-en-standard v0.3 | kokoro-82m, kokoro-voice-af_heart, whisper-small-en, kokoro-voice-af_bella, kokoro-voice-am_michael, kokoro-voice-bm_george, kokoro-voice-bf_emma | Apache-2.0, MIT | yes | `be81b753f6ffff454729eeca46daf61a23b18bb28141013ccb22198cb4300c02` | Homi |
