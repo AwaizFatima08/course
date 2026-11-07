@@ -3,7 +3,7 @@ matplotlib.use("Agg")
 import matplotlib.pyplot as plt
 from matplotlib.patches import FancyBboxPatch, Circle, Rectangle, Polygon
 
-OUT = "/tmp/claude-1000/-home-humayun--claude-spares-spare-V8sRaa/4f51127c-01bf-45ff-90cf-1e058f8384f8/scratchpad/figs"
+OUT = "/tmp/claude-1000/-mnt-storage-projects-LLMcourse/4f51127c-01bf-45ff-90cf-1e058f8384f8/scratchpad/figs"
 PLUM = "#7B2D5C"; TEAL = "#1F7A7A"; CORAL = "#E07A5F"; SAND = "#F6EFE6"
 DARK = "#2B2B2B"; GOLD = "#E9B44C"; MINT = "#D8EFEA"; ROSE = "#F7DDE7"; GREY = "#9A9A9A"
 PALETTE = [PLUM, TEAL, CORAL, "#5B7DB1", GOLD, "#6A994E"]

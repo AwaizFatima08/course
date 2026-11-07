@@ -6,7 +6,7 @@ from matplotlib.patches import FancyBboxPatch, Circle, Rectangle, Polygon
 import arabic_reshaper, math
 from bidi.algorithm import get_display
 
-SCR = "/tmp/claude-1000/-home-humayun--claude-spares-spare-V8sRaa/4f51127c-01bf-45ff-90cf-1e058f8384f8/scratchpad/"
+SCR = "/tmp/claude-1000/-mnt-storage-projects-LLMcourse/4f51127c-01bf-45ff-90cf-1e058f8384f8/scratchpad/"
 OUT = SCR + "figs_ur"
 NASKH = "/usr/share/fonts/truetype/noto/NotoNaskhArabic-Regular.ttf"
 NASKHB = "/usr/share/fonts/truetype/noto/NotoNaskhArabic-Bold.ttf"

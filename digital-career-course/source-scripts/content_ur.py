@@ -1,5 +1,5 @@
 # Urdu course content. Same structure as content.py (English).
-FIG = "/tmp/claude-1000/-home-humayun--claude-spares-spare-V8sRaa/4f51127c-01bf-45ff-90cf-1e058f8384f8/scratchpad/figs_ur/"
+FIG = "/tmp/claude-1000/-mnt-storage-projects-LLMcourse/4f51127c-01bf-45ff-90cf-1e058f8384f8/scratchpad/figs_ur/"
 
 CHAPTERS = [
 ("خوش آمدید اور اس کورس کو استعمال کرنے کا طریقہ",
