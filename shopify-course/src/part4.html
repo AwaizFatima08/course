@@ -1,0 +1,445 @@
+<section class="chapter" id="ch11">
+<div class="chapter-head"><div class="num">Chapter 11</div><h1>Analytics, Conversion and Growth</h1></div>
+
+<p class="lead">Good merchants run the store by numbers. They know which channels make money, where visitors give up, and which change is worth making next. This chapter teaches the core metrics, shows how to read Shopify's reports, and gives a method for improving conversion step by step.</p>
+
+<h2>11.1 The reports you will use</h2>
+<p>Shopify Analytics is built in. The home page shows a summary, and the Analytics section holds detailed reports. Start with these:</p>
+<ul>
+<li><strong>Sales over time</strong>: revenue, orders and average order value by day or week.</li>
+<li><strong>Acquisition</strong>: where sessions come from (direct, search, social, email, paid).</li>
+<li><strong>Behaviour</strong>: which pages visitors view and how far they go in the funnel.</li>
+<li><strong>Product performance</strong>: units sold, revenue and returns per product.</li>
+<li><strong>Customers</strong>: new versus returning customers, and repeat purchase rate.</li>
+<li><strong>Marketing</strong>: spend, sales and return on ad spend by campaign, if you connect your channels.</li>
+</ul>
+<p>For deeper analysis, connect Google Analytics 4 and the Meta pixel or Shopify's official channel apps, so every platform records purchases the same way. Expect small differences between platforms; they count attribution differently. Pick one source of truth for money (the Shopify orders report) and use the others for trends.</p>
+
+<h2>11.2 Metrics that matter</h2>
+<table>
+<tr><th>Metric</th><th>Formula</th><th>What it tells you</th></tr>
+<tr><td>Conversion rate (CVR)</td><td>Orders divided by sessions</td><td>How well the store turns visits into sales</td></tr>
+<tr><td>Average order value (AOV)</td><td>Revenue divided by orders</td><td>How much each order is worth</td></tr>
+<tr><td>Revenue per visitor</td><td>Revenue divided by sessions</td><td>Combines CVR and AOV in one number</td></tr>
+<tr><td>Customer acquisition cost (CAC)</td><td>Marketing spend divided by new customers</td><td>What it costs to win a buyer</td></tr>
+<tr><td>Return on ad spend (ROAS)</td><td>Ad-attributed revenue divided by ad spend</td><td>Efficiency of paid campaigns</td></tr>
+<tr><td>Customer lifetime value (LTV)</td><td>Average profit per customer over their relationship with you</td><td>How much you can afford to spend to acquire</td></tr>
+<tr><td>Repeat purchase rate</td><td>Customers with two or more orders divided by all customers</td><td>Loyalty health</td></tr>
+<tr><td>Cart abandonment rate</td><td>1 minus (orders divided by checkouts started)</td><td>Friction in the buying journey</td></tr>
+<tr><td>Return rate</td><td>Returned units divided by units sold</td><td>Product fit, quality and expectation gaps</td></tr>
+</table>
+
+<div class="box tip"><strong>Rule of thumb.</strong> A healthy LTV to CAC ratio for a mature e-commerce brand is often quoted as about 3 to 1, but this varies by margin, category and repeat rate. Use it as a question to ask, not as a target to hit blindly.</div>
+
+<h2>11.3 Reading the funnel</h2>
+<p>A conversion funnel shows where visitors leave. Figure 11.1 uses sample numbers from a small store in one month.</p>
+
+<figure>
+<svg viewBox="0 0 700 300" xmlns="http://www.w3.org/2000/svg" font-family="Liberation Sans, Arial, sans-serif">
+<g font-size="13" fill="#1d2b1f">
+<text x="20" y="40">Sessions</text>
+<rect x="170" y="22" width="480" height="30" rx="4" fill="#5E8E3E"/>
+<text x="636" y="42" text-anchor="end" fill="#fff" font-weight="bold">10,000 (100%)</text>
+
+<text x="20" y="90">Product views</text>
+<rect x="170" y="72" width="192" height="30" rx="4" fill="#7FA955"/>
+<text x="372" y="92">4,000 (40%)</text>
+
+<text x="20" y="140">Add to cart</text>
+<rect x="170" y="122" width="38.4" height="30" rx="4" fill="#95BF47"/>
+<text x="218" y="142">800 (8% of sessions, 20% of views)</text>
+
+<text x="20" y="190">Checkout started</text>
+<rect x="170" y="172" width="14.4" height="30" rx="4" fill="#B7D57E"/>
+<text x="194" y="192">300 (37.5% of carts)</text>
+
+<text x="20" y="240">Orders</text>
+<rect x="170" y="222" width="5.76" height="30" rx="4" fill="#D6E8B0"/>
+<text x="186" y="242">120 (40% of checkouts)</text>
+</g>
+<text x="350" y="284" font-size="12" text-anchor="middle" fill="#555">Conversion rate = 120 divided by 10,000 = 1.2%. Bars are not to scale below the first row.</text>
+</svg>
+<figcaption>Figure 11.1: Sample conversion funnel for one month. The largest drop is between product view and add to cart.</figcaption>
+</figure>
+
+<p>Read the funnel from top to bottom and ask one question at each step. A large drop from product view to add to cart suggests a product page problem: weak images, unclear price, missing reviews or poor delivery information. A large drop from checkout started to order suggests checkout friction or unexpected costs. A low sessions figure with a healthy funnel is a traffic problem, which points to marketing (Chapter 10).</p>
+
+<h2>11.4 Conversion improvements, in order</h2>
+<ol>
+<li><strong>Speed.</strong> Fix slow pages on mobile first. This benefits every step.</li>
+<li><strong>Product page clarity.</strong> A clear title, price, delivery estimate, size guide and sharp photos.</li>
+<li><strong>Social proof.</strong> Reviews with photos, ratings near the buy button, and short testimonials.</li>
+<li><strong>Trust.</strong> Visible returns policy, secure payment, real contact details and a physical business address.</li>
+<li><strong>Offers.</strong> Free-shipping thresholds, bundles and first-order incentives, tested for margin.</li>
+<li><strong>Checkout.</strong> Guest checkout, express payment options and no surprise costs.</li>
+</ol>
+<p>Test one change at a time. Use an A/B testing app or a controlled test, run it until you have enough orders to trust the difference, and keep notes of each result. Changes that seem obvious often fail, and small changes sometimes win big.</p>
+
+<h2>11.5 Building a weekly review</h2>
+<p>Every week, spend 45 minutes on this routine:</p>
+<ol>
+<li>Compare sessions, orders, revenue, AOV and CVR with last week and the same week last year.</li>
+<li>Check the funnel for the biggest drop and write one hypothesis.</li>
+<li>Review the top ten and bottom ten products by revenue and return rate.</li>
+<li>Check ad performance against break-even ROAS, and pause anything clearly losing money.</li>
+<li>Read ten customer messages or reviews and note recurring themes.</li>
+<li>Choose one action for the coming week and assign a date to it.</li>
+</ol>
+
+<div class="box warn"><strong>Common mistake.</strong> Changing five things at once and then not knowing which one worked. Also avoid judging a test after a day or two. Small stores need time and volume before results mean anything.</div>
+
+<div class="box takeaway"><strong>Key takeaways</strong>
+<ul>
+<li>Know the core formulas: CVR, AOV, CAC, ROAS, LTV, repeat rate and abandonment.</li>
+<li>Use the funnel to find the biggest drop, then form and test one hypothesis at a time.</li>
+<li>Use the orders report as the source of truth for money.</li>
+<li>Run a short, consistent weekly review.</li>
+</ul></div>
+
+<div class="box try"><strong>Practice task.</strong> Using the numbers in Figure 11.1, calculate the abandonment rate, and if AOV is 2,000, the monthly revenue. Then write down the one change you would test first and how you would know it worked.</div>
+</section>
+
+<section class="chapter" id="ch12">
+<div class="chapter-head"><div class="num">Chapter 12</div><h1>Scaling, International Sales and Retail</h1></div>
+
+<p class="lead">Once a store has steady orders, growth comes from new markets, new channels and better operations. This chapter introduces Shopify Markets for international selling, B2B wholesale, sales channels beyond the website, and the habits that let a small team handle more orders without losing quality.</p>
+
+<h2>12.1 Selling in more than one country</h2>
+<p>Shopify Markets lets one store sell in several countries. You set up a market for each region and control its currency, language, prices, payment methods, shipping and duties. Figure 12.1 shows the structure with example markets.</p>
+
+<figure>
+<svg viewBox="0 0 700 260" xmlns="http://www.w3.org/2000/svg" font-family="Liberation Sans, Arial, sans-serif">
+<rect x="240" y="16" width="220" height="56" rx="10" fill="#5E8E3E"/>
+<text x="350" y="40" font-size="14" font-weight="bold" fill="#fff" text-anchor="middle">One store, one catalogue</text>
+<text x="350" y="58" font-size="11" fill="#eef6e3" text-anchor="middle">Shared products and brand</text>
+<g stroke="#5E8E3E" stroke-width="2" fill="none"><line x1="350" y1="72" x2="350" y2="96"/><line x1="110" y1="96" x2="590" y2="96"/><line x1="110" y1="96" x2="110" y2="116"/><line x1="350" y1="96" x2="350" y2="116"/><line x1="590" y1="96" x2="590" y2="116"/></g>
+<g font-size="12" fill="#1d2b1f">
+<rect x="20" y="116" width="200" height="120" rx="8" fill="#eef6e3" stroke="#5E8E3E"/>
+<text x="120" y="140" text-anchor="middle" font-weight="bold">Market A: Canada</text>
+<text x="120" y="162" text-anchor="middle" font-size="11">Currency: CAD</text>
+<text x="120" y="180" text-anchor="middle" font-size="11">Language: English, French</text>
+<text x="120" y="198" text-anchor="middle" font-size="11">Duties: included at checkout</text>
+<text x="120" y="216" text-anchor="middle" font-size="11">Shipping: own zone and rates</text>
+<rect x="250" y="116" width="200" height="120" rx="8" fill="#eef6e3" stroke="#5E8E3E"/>
+<text x="350" y="140" text-anchor="middle" font-weight="bold">Market B: Germany</text>
+<text x="350" y="162" text-anchor="middle" font-size="11">Currency: EUR</text>
+<text x="350" y="180" text-anchor="middle" font-size="11">Language: German</text>
+<text x="350" y="198" text-anchor="middle" font-size="11">Tax: local VAT rules</text>
+<text x="350" y="216" text-anchor="middle" font-size="11">Shipping: own zone and rates</text>
+<rect x="480" y="116" width="200" height="120" rx="8" fill="#eef6e3" stroke="#5E8E3E"/>
+<text x="580" y="140" text-anchor="middle" font-weight="bold">Market C: UAE</text>
+<text x="580" y="162" text-anchor="middle" font-size="11">Currency: AED</text>
+<text x="580" y="180" text-anchor="middle" font-size="11">Language: Arabic, English</text>
+<text x="580" y="198" text-anchor="middle" font-size="11">Payments: local methods</text>
+<text x="580" y="216" text-anchor="middle" font-size="11">Shipping: own zone and rates</text>
+</g>
+</svg>
+<figcaption>Figure 12.1: Example market structure (the markets shown are illustrations; check what your plan and payment provider support)</figcaption>
+</figure>
+
+<p>Before you expand, check these points:</p>
+<ul>
+<li><strong>Demand and competition</strong> in the new country. Use the same search and ad-library research as Chapter 2.</li>
+<li><strong>Shipping cost and speed</strong>. International parcels can cost more than your product margin allows. Test with a limited range first.</li>
+<li><strong>Duties and import rules</strong>. Some products face high duties, restrictions or certification requirements. Decide who pays duties, and state it clearly.</li>
+<li><strong>Returns from abroad</strong>. Return costs can exceed the value of the item. Many stores set no-return rules for low-value international orders, but this must be clear before purchase and allowed by local law.</li>
+<li><strong>Language quality</strong>. Machine translation without review damages trust. Use a professional or native speaker for product copy and policies.</li>
+<li><strong>Payments and local preferences</strong>. Offer the payment methods people use in that country.</li>
+</ul>
+
+<h2>12.2 Wholesale and B2B</h2>
+<p>Business customers buy differently: larger quantities, negotiated prices, invoices and payment terms. Shopify's B2B features (available on higher-tier plans) support company accounts, customer-specific catalogues, price lists and wholesale ordering. Even on a smaller plan, you can handle wholesale enquiries by email with a simple price list and a minimum order quantity. Set minimums that cover your handling costs, and check that wholesale pricing does not undercut your own retail prices in a way that damages the brand.</p>
+
+<h2>12.3 Sales channels beyond your website</h2>
+<p>Shopify connects your catalogue to several places where customers already shop:</p>
+<table>
+<tr><th>Channel</th><th>Good for</th><th>Trade-off</th></tr>
+<tr><td>Shopify POS</td><td>Pop-up shops, retail stores, market stalls, events</td><td>Needs hardware and inventory discipline across locations</td></tr>
+<tr><td>Social shopping (Instagram, Facebook, TikTok, Pinterest)</td><td>Impulse buys from content</td><td>Platform rules and changing features</td></tr>
+<tr><td>Google shopping listings</td><td>Shoppers already searching for your product</td><td>Requires clean product data and competitive pricing</td></tr>
+<tr><td>Marketplaces (Amazon, eBay, Daraz and others, via apps or connectors)</td><td>Reach and trust among shoppers who start on marketplaces</td><td>Fees, competition, strict rules, less brand control</td></tr>
+<tr><td>Wholesale and B2B</td><td>Volume orders</td><td>Pricing discipline and credit risk</td></tr>
+</table>
+<p>Add channels one at a time. Each one needs product data, stock sync and customer service. A new channel that sells out your stock and leaves you unable to fulfil orders damages your reputation everywhere.</p>
+
+<h2>12.4 Operations that scale</h2>
+<ul>
+<li><strong>Write standard operating procedures (SOPs)</strong> for every repeated task: adding a product, handling a refund, responding to a delivery complaint. A checklist lets someone else do the job correctly.</li>
+<li><strong>Use a shared inbox</strong> for customer messages with clear response targets, such as first reply within one working day.</li>
+<li><strong>Automate the repeatable</strong> with Shopify Flow and apps, but keep a human check for refunds, disputes and high-value orders.</li>
+<li><strong>Track stock weekly</strong> and set reorder points based on lead time and sales speed.</li>
+<li><strong>Protect cash flow.</strong> Stock purchases often happen weeks before revenue arrives. Forecast cash needs monthly and never commit more to stock than you can pay for from the next weeks of sales.</li>
+<li><strong>Hire or outsource slowly.</strong> Start with a virtual assistant for order admin or content, then add specialists when a task fills a full working week.</li>
+</ul>
+
+<div class="box takeaway"><strong>Key takeaways</strong>
+<ul>
+<li>Expand internationally only after checking demand, shipping, duties, returns and language quality.</li>
+<li>Shopify Markets manages currencies, languages and prices for each market from one store.</li>
+<li>Wholesale and new sales channels add reach but add operational load; add them one at a time.</li>
+<li>Scaling depends on SOPs, clear service standards and careful cash-flow planning.</li>
+</ul></div>
+
+<div class="box try"><strong>Practice task.</strong> Choose one country that is not your home market. Research demand for one product using search data and competitor listings, list three shipping or duty issues you would have to solve, and write a one-page go or no-go recommendation.</div>
+</section>
+
+<section class="chapter" id="ch13">
+<div class="chapter-head"><div class="num">Chapter 13</div><h1>Building an E-commerce Career with Shopify</h1></div>
+
+<p class="lead">Shopify skills open several career paths: running stores for businesses, building themes and apps, specialising in conversion or advertising, or running your own agency. This chapter maps the roles, explains what employers and clients look for, and gives you a practical route from beginner to first paid work.</p>
+
+<h2>13.1 The career map</h2>
+<p>E-commerce is a broad field, and people enter it from many backgrounds: retail, marketing, design, customer service, accounting or no specific background at all. Figure 13.1 shows a common progression. Most people move up by adding a specialism, showing results and taking responsibility for money or outcomes.</p>
+
+<figure>
+<svg viewBox="0 0 700 290" xmlns="http://www.w3.org/2000/svg" font-family="Liberation Sans, Arial, sans-serif">
+<rect x="20" y="190" width="150" height="80" rx="6" fill="#eef6e3" stroke="#5E8E3E"/>
+<text x="95" y="214" text-anchor="middle" font-weight="bold" font-size="13" fill="#1d2b1f">Level 1</text>
+<text x="95" y="234" text-anchor="middle" font-size="11" fill="#1d2b1f">Learner and builder</text>
+<text x="95" y="252" text-anchor="middle" font-size="11" fill="#1d2b1f">3 demo stores</text>
+<rect x="190" y="150" width="150" height="120" rx="6" fill="#c9dcae" stroke="#5E8E3E"/>
+<text x="265" y="174" text-anchor="middle" font-weight="bold" font-size="13" fill="#1d2b1f">Level 2</text>
+<text x="265" y="194" text-anchor="middle" font-size="11" fill="#1d2b1f">Entry role</text>
+<text x="265" y="212" text-anchor="middle" font-size="11" fill="#1d2b1f">Store assistant, VA,</text>
+<text x="265" y="228" text-anchor="middle" font-size="11" fill="#1d2b1f">setup freelancer</text>
+<rect x="360" y="100" width="150" height="170" rx="6" fill="#A7C46A" stroke="#5E8E3E"/>
+<text x="435" y="124" text-anchor="middle" font-weight="bold" font-size="13" fill="#1d2b1f">Level 3</text>
+<text x="435" y="144" text-anchor="middle" font-size="11" fill="#1d2b1f">Specialist</text>
+<text x="435" y="162" text-anchor="middle" font-size="11" fill="#1d2b1f">Theme, CRO, paid ads,</text>
+<text x="435" y="178" text-anchor="middle" font-size="11" fill="#1d2b1f">email, operations</text>
+<rect x="530" y="40" width="150" height="230" rx="6" fill="#5E8E3E" stroke="#3f6328"/>
+<text x="605" y="64" text-anchor="middle" font-weight="bold" font-size="13" fill="#fff">Level 4</text>
+<text x="605" y="84" text-anchor="middle" font-size="11" fill="#fff">Lead or owner</text>
+<text x="605" y="102" text-anchor="middle" font-size="11" fill="#fff">E-commerce manager,</text>
+<text x="605" y="118" text-anchor="middle" font-size="11" fill="#fff">agency owner,</text>
+<text x="605" y="134" text-anchor="middle" font-size="11" fill="#fff">consultant</text>
+<text x="350" y="282" font-size="12" text-anchor="middle" fill="#555">Time to move up depends on results shown, not years spent. Typical progress is months, not years, for committed learners.</text>
+</svg>
+<figcaption>Figure 13.1: Career progression in Shopify and e-commerce</figcaption>
+</figure>
+
+<h2>13.2 The main roles</h2>
+<table>
+<tr><th>Role</th><th>What the person does</th><th>Key skills</th></tr>
+<tr><td>Store setup specialist</td><td>Builds and launches stores for clients</td><td>Admin, themes, apps, payments, checklists</td></tr>
+<tr><td>E-commerce executive or store manager</td><td>Runs a brand's store day to day, including orders, catalogue, promotions and reports</td><td>Operations, analytics, customer service, planning</td></tr>
+<tr><td>Shopify theme developer</td><td>Customises and builds themes and sections using Liquid, HTML, CSS and JavaScript</td><td>Front-end code, Liquid, Git, Shopify CLI</td></tr>
+<tr><td>Shopify app developer</td><td>Builds apps using Shopify APIs and webhooks</td><td>Back-end development, APIs, security, GraphQL</td></tr>
+<tr><td>Conversion rate optimiser (CRO)</td><td>Runs tests and improves funnel performance</td><td>Analytics, UX, testing, copywriting</td></tr>
+<tr><td>Paid media specialist</td><td>Plans and optimises paid campaigns for stores</td><td>Ad platforms, creative testing, ROAS analysis</td></tr>
+<tr><td>Email and CRM specialist</td><td>Builds flows, segments and retention programmes</td><td>Copywriting, segmentation, email tools</td></tr>
+<tr><td>Content and social specialist</td><td>Produces product content, video and social posts</td><td>Photography, video editing, copywriting</td></tr>
+<tr><td>Operations and fulfilment coordinator</td><td>Manages stock, suppliers, shipping and returns</td><td>Spreadsheets, logistics, supplier communication</td></tr>
+<tr><td>E-commerce consultant or agency owner</td><td>Sells services to several brands</td><td>Client management, sales, pricing, multiple specialisms</td></tr>
+</table>
+
+<h2>13.3 Learning resources</h2>
+<p>Use free resources first, then pay only for depth you can apply:</p>
+<ul>
+<li><strong>Shopify's own learning content</strong>, including Shopify Academy courses and Partner Academy materials. Course catalogues change, so check what is currently available.</li>
+<li><strong>Shopify's documentation</strong> for the admin, themes, APIs and CLI. Reading docs is a real skill for developers and for managers.</li>
+<li><strong>Hands-on practice</strong> in development stores. A development store is free to create through the Partner Program and lets you test features without a paid plan.</li>
+<li><strong>Analytics courses</strong> such as Google's free training in Google Analytics and Google Ads, and the free courses from Meta's own learning hub.</li>
+<li><strong>Industry communities</strong>, creator channels and case studies from merchants who publish their numbers.</li>
+</ul>
+<p>Certificates are a useful signal, especially for people with no work history, but a portfolio of real work will do more for your hiring chances than certificates alone.</p>
+
+<h2>13.4 Join the Shopify Partner Program</h2>
+<p>The Shopify Partner Program is free to join. Partners get a partner dashboard, development stores for building and testing, access to partner resources, and the ability to earn from client plans and referrals under the programme's current terms. Check the terms before you rely on any income figure. Joining is one of the most practical first steps for anyone who wants to build client stores.</p>
+
+<h2>13.5 Build a portfolio that proves skill</h2>
+<p>Employers and clients want evidence. Build three types of project:</p>
+<ol>
+<li><strong>Three demo stores</strong> in different niches on development stores. Each should have at least ten products with variants, a custom home page, policies, shipping rules, a working checkout test and a short Loom or video walk-through.</li>
+<li><strong>One redesign case study.</strong> Take a real store (with permission, or a public example, changed to avoid copying brand assets) and write a before-and-after analysis: problems you found, changes you made, and what you would test next.</li>
+<li><strong>One real or pilot project</strong>, even if unpaid at first: help a friend's business set up a store, improve a product page or run a small ad test, then report the results honestly.</li>
+</ol>
+<p>Present each project with the same structure: the problem, your role, what you did, the result and what you learned. Results can be modest, such as a 15 percent lift in add-to-cart rate, but the reasoning must be clear.</p>
+
+<h2>13.6 Getting your first paid work</h2>
+<ul>
+<li><strong>Freelance platforms.</strong> Upwork, Fiverr and similar sites list many Shopify jobs. Start with narrow, clearly defined services, such as "Shopify store setup for small brands" or "product upload and SEO for 50 products". Clear scope wins more clients than general claims.</li>
+<li><strong>Local businesses.</strong> Many small shops in your city need help with online sales. Offer a fixed-price setup package and a monthly support plan.</li>
+<li><strong>Networks and referrals.</strong> Tell people you know what you can do. Your first clients are often friends of friends.</li>
+<li><strong>Job applications.</strong> Look for roles titled e-commerce executive, Shopify specialist, digital marketing executive (e-commerce focus), online store coordinator, or CRO analyst. Read each job description and match your portfolio to the top three requirements.</li>
+</ul>
+
+<h2>13.7 Pricing your services</h2>
+<p>New freelancers often underprice. Price around the value you create and the time you spend, and be clear about what is included. Common models are:</p>
+<table>
+<tr><th>Model</th><th>Example</th><th>Best for</th></tr>
+<tr><td>Fixed-price project</td><td>Store setup with ten products, theme customisation and launch checklist</td><td>Clear, bounded work</td></tr>
+<tr><td>Monthly retainer</td><td>Weekly catalogue updates, monthly report, two campaign tests</td><td>Ongoing management</td></tr>
+<tr><td>Hourly rate</td><td>Troubleshooting, consulting, short fixes</td><td>Unclear or small tasks</td></tr>
+<tr><td>Performance element</td><td>Base fee plus a share of verified growth</td><td>Experienced marketers with strong data access (use caution and clear terms)</td></tr>
+</table>
+<p>Always write a scope of work that lists deliverables, exclusions, timelines, the number of revision rounds, payment terms and who owns the content and accounts at the end.</p>
+
+<h2>13.8 Interview and client conversation basics</h2>
+<p>Interviewers want to know whether you can solve their problems. Prepare short, concrete answers to these questions:</p>
+<ul>
+<li><em>"How would you improve our product page?"</em> Describe the funnel, one hypothesis, the change, and how you would measure it.</li>
+<li><em>"Walk me through setting up a new store."</em> Use the checklist in Chapter 3, and mention policies, payments and testing.</li>
+<li><em>"A customer says their order is late. What do you do?"</em> Check the tracking, contact the customer proactively, offer a clear next step, and log the issue to find a pattern.</li>
+<li><em>"Which metrics do you look at first?"</em> Sessions, conversion rate, AOV, margin, and ROAS, in that order, with a reason for each.</li>
+</ul>
+
+<h2>13.9 A realistic first-year plan</h2>
+<ol>
+<li><strong>Months 1 to 3:</strong> Complete this course, build three demo stores, join the Partner Program and document each project publicly or in a private portfolio.</li>
+<li><strong>Months 4 to 6:</strong> Complete the redesign case study, do one pilot project for a real business, and apply for 20 relevant roles or pitch 20 local businesses.</li>
+<li><strong>Months 7 to 9:</strong> Take one paid project or one junior role. Specialise in one area you enjoy most and keep learning in that area.</li>
+<li><strong>Months 10 to 12:</strong> Gather testimonials, raise your prices for new clients, and build a repeatable process: intake form, scope, build checklist, launch checklist and handover.</li>
+</ol>
+<p>Results depend heavily on consistency, communication and the quality of your work. Be cautious of any claim that promises fast or guaranteed income from e-commerce. The businesses that succeed usually make careful choices, track their numbers and keep improving.</p>
+
+<div class="box takeaway"><strong>Key takeaways</strong>
+<ul>
+<li>E-commerce careers range from store operations and marketing to development and agency ownership.</li>
+<li>Build a portfolio of three demo stores, one case study and one real project.</li>
+<li>Specialise, price for value, and write clear scopes of work.</li>
+<li>Prepare concrete answers in interviews and client conversations, backed by the metrics from Chapter 11.</li>
+</ul></div>
+
+<div class="box try"><strong>Practice task.</strong> Write your own one-page career plan: the role you are aiming for in 12 months, the two skills you will strengthen, the three portfolio projects you will build, and the five places you will look for work.</div>
+</section>
+
+<section class="chapter" id="ch14">
+<div class="chapter-head"><div class="num">Chapter 14</div><h1>Capstone Project and 90-Day Action Plan</h1></div>
+
+<p class="lead">The final chapter brings everything together. You will launch a small but complete store, measure it, present it as a portfolio piece, and follow a 90-day plan that turns this course into a working habit.</p>
+
+<h2>14.1 The capstone brief</h2>
+<p>Build a store for one product category of your choice. You may use a development store or a live store with a small test budget, as long as you respect local law and do not sell prohibited items. Your deliverables are:</p>
+<ol>
+<li><strong>Business plan (one page)</strong>, following Chapter 2, with unit economics for at least three products.</li>
+<li><strong>Store setup</strong> completed through all nine steps in Chapter 3.</li>
+<li><strong>Catalogue</strong> of 10 to 15 products, with variants, complete descriptions, photos and SEO fields (Chapter 5).</li>
+<li><strong>Theme</strong> customised with a home page, product template, collection page and mobile check (Chapter 6).</li>
+<li><strong>Apps</strong>: no more than three, each justified in writing (Chapter 7).</li>
+<li><strong>Policies, shipping and tax settings</strong> reviewed against Chapters 8 and 9.</li>
+<li><strong>Marketing plan</strong>: one welcome email sequence of three emails and one short video script (Chapter 10).</li>
+<li><strong>Analytics setup</strong> and a weekly review template, with one hypothesis tested (Chapter 11).</li>
+<li><strong>Presentation</strong>: a five-minute walk-through (video or slides) explaining the store, the numbers and what you would do next.</li>
+</ol>
+
+<h2>14.2 Capstone marking guide</h2>
+<table>
+<tr><th>Area</th><th>Excellent (4)</th><th>Developing (2)</th><th>Missing (0)</th></tr>
+<tr><td>Business logic</td><td>Clear model, realistic unit economics, legal checklist completed</td><td>Model chosen but numbers incomplete</td><td>No plan or numbers</td></tr>
+<tr><td>Store setup</td><td>All checklist items complete and tested with a full test order</td><td>Most items done, some untested</td><td>Incomplete or untested</td></tr>
+<tr><td>Catalogue quality</td><td>Variants used correctly, benefit-led copy, clear photos, SEO fields complete</td><td>Some fields missing or copy generic</td><td>Few products or poor data</td></tr>
+<tr><td>Design</td><td>Clear hierarchy, mobile-first, fast pages, consistent style</td><td>Works but cluttered or slow</td><td>Broken on mobile</td></tr>
+<tr><td>Marketing and analytics</td><td>Funnel explained, flows written, test hypothesis clear</td><td>Partial plan or metrics without decisions</td><td>Missing</td></tr>
+<tr><td>Presentation</td><td>Clear, honest, and specific about what to do next</td><td>Clear but lacks evidence</td><td>Unclear or unrealistic claims</td></tr>
+</table>
+
+<h2>14.3 The 90-day action plan</h2>
+<p>Figure 14.1 lays out a 13-week plan that moves you from learning to portfolio and job search. Each bar is a focus area; work on one or two at a time, and keep a weekly review.</p>
+
+<figure>
+<svg viewBox="0 0 700 300" xmlns="http://www.w3.org/2000/svg" font-family="Liberation Sans, Arial, sans-serif">
+<g font-size="11" fill="#555" text-anchor="middle">
+<text x="209" y="20">W1</text><text x="247" y="20">W2</text><text x="285" y="20">W3</text><text x="323" y="20">W4</text><text x="362" y="20">W5</text><text x="400" y="20">W6</text><text x="438" y="20">W7</text><text x="476" y="20">W8</text><text x="515" y="20">W9</text><text x="553" y="20">W10</text><text x="591" y="20">W11</text><text x="629" y="20">W12</text><text x="667" y="20">W13</text>
+</g>
+<g stroke="#e4e8e1" stroke-width="1">
+<line x1="190" y1="26" x2="190" y2="290"/><line x1="228" y1="26" x2="228" y2="290"/><line x1="266" y1="26" x2="266" y2="290"/><line x1="304" y1="26" x2="304" y2="290"/><line x1="343" y1="26" x2="343" y2="290"/><line x1="381" y1="26" x2="381" y2="290"/><line x1="419" y1="26" x2="419" y2="290"/><line x1="457" y1="26" x2="457" y2="290"/><line x1="496" y1="26" x2="496" y2="290"/><line x1="534" y1="26" x2="534" y2="290"/><line x1="572" y1="26" x2="572" y2="290"/><line x1="610" y1="26" x2="610" y2="290"/><line x1="648" y1="26" x2="648" y2="290"/><line x1="686" y1="26" x2="686" y2="290"/>
+</g>
+<g font-size="12" fill="#1d2b1f">
+<text x="10" y="50">Foundations and plan</text>
+<rect x="190" y="36" width="76" height="22" rx="4" fill="#5E8E3E"/>
+<text x="10" y="86">Store setup</text>
+<rect x="266" y="72" width="76" height="22" rx="4" fill="#5E8E3E"/>
+<text x="10" y="122">Products and photos</text>
+<rect x="342" y="108" width="76" height="22" rx="4" fill="#7FA955"/>
+<text x="10" y="158">Theme and apps</text>
+<rect x="418" y="144" width="76" height="22" rx="4" fill="#7FA955"/>
+<text x="10" y="194">Marketing and tests</text>
+<rect x="494" y="180" width="76" height="22" rx="4" fill="#95BF47"/>
+<text x="10" y="230">Portfolio and applications</text>
+<rect x="570" y="216" width="76" height="22" rx="4" fill="#95BF47"/>
+<text x="10" y="266">Capstone and review</text>
+<rect x="646" y="252" width="38" height="22" rx="4" fill="#A7C46A"/>
+</g>
+<text x="350" y="292" font-size="11" text-anchor="middle" fill="#555">Weeks 1 to 13. Adjust durations to your available hours each week.</text>
+</svg>
+<figcaption>Figure 14.1: 90-day plan (about 13 weeks) from foundations to portfolio and job search</figcaption>
+</figure>
+
+<p>In practice, the plan works like this:</p>
+<ul>
+<li><strong>Weeks 1 to 2:</strong> finish the business plan, pick a niche, and complete Chapters 1 to 2.</li>
+<li><strong>Weeks 3 to 4:</strong> set up the store, payments, shipping, taxes and policies.</li>
+<li><strong>Weeks 5 to 6:</strong> build the catalogue, photograph products and write descriptions.</li>
+<li><strong>Weeks 7 to 8:</strong> customise the theme, add at most three apps, and run a mobile and speed check.</li>
+<li><strong>Weeks 9 to 10:</strong> build the welcome emails, set up analytics, run a small test and review results weekly.</li>
+<li><strong>Weeks 11 to 12:</strong> write the case study, polish the portfolio and send your first applications or proposals.</li>
+<li><strong>Week 13:</strong> present your capstone, gather feedback, and set the next 90-day goal.</li>
+</ul>
+
+<h2>14.4 Self-check quiz</h2>
+<p>Answer these questions without looking back. The answers follow.</p>
+<ol>
+<li>What is the difference between payment status and fulfilment status in the admin?</li>
+<li>Name the three parts of a Liquid tag and what each does.</li>
+<li>Write the formula for conversion rate and for break-even ROAS.</li>
+<li>Why should you duplicate a theme before editing it?</li>
+<li>Name two reasons to avoid installing many apps.</li>
+<li>When should you offer free shipping, and what threshold logic is useful?</li>
+<li>What is the main difference between a manual and an automated collection?</li>
+<li>Why might a store with a healthy funnel still have low sales?</li>
+</ol>
+
+<div class="box tip"><strong>Answers.</strong>
+<ol>
+<li>Payment status shows whether money was received (paid, pending, refunded). Fulfilment status shows whether the items were shipped (unfulfilled, fulfilled).</li>
+<li>{{ ... }} outputs a value; {% ... %} runs logic such as if-statements and loops; | passes a value through a filter such as money.</li>
+<li>CVR = orders divided by sessions. Break-even ROAS = 1 divided by contribution margin percentage (before ads).</li>
+<li>So customers keep seeing the working live version while you test, and you can roll back if the edit breaks something.</li>
+<li>Apps add scripts that slow the store, cost money every month, can conflict with each other, and create more logins and risk.</li>
+<li>Offer free shipping when it raises order value enough to cover the shipping cost. Set the threshold slightly above the average order value so customers add a small extra item.</li>
+<li>A manual collection holds only the products you add by hand; an automated collection adds products that match rules and updates itself.</li>
+<li>The conversion rate can look healthy while total sales stay small, because the store gets too few visitors. Check sessions and audience as well as ratios. If visitors arrive but do not buy, look at price, offer clarity and product-market fit.</li>
+</ol></div>
+
+<div class="box takeaway"><strong>Key takeaways</strong>
+<ul>
+<li>A capstone turns separate skills into one working, measurable store.</li>
+<li>Judge your work against clear criteria: business logic, setup, catalogue, design, marketing and presentation.</li>
+<li>Follow a 90-day plan, reviewing progress every week.</li>
+<li>The most valuable outcome is a portfolio that proves what you can do.</li>
+</ul></div>
+
+<div class="box try"><strong>Final task.</strong> Launch or demonstrate your capstone store, record a five-minute walk-through, and write a one-page reflection: what worked, what you would change, and what your next 90-day goal is.</div>
+</section>
+
+<section class="chapter appendix" id="glossary">
+<div class="chapter-head"><div class="num">Appendix</div><h1>Glossary of Terms</h1></div>
+<table>
+<tr><th>Term</th><th>Meaning</th></tr>
+<tr><td>3PL</td><td>Third-party logistics: an outside company that stores and ships your products</td></tr>
+<tr><td>A/B test</td><td>Showing two versions of a page or message to different visitors to see which performs better</td></tr>
+<tr><td>Abandoned cart</td><td>A cart where the customer left before completing payment</td></tr>
+<tr><td>Admin API</td><td>Shopify's interface for apps and integrations to read and write store data</td></tr>
+<tr><td>AOV</td><td>Average order value</td></tr>
+<tr><td>Attribution</td><td>The method used to credit a sale to a marketing source</td></tr>
+<tr><td>Chargeback</td><td>A customer's bank reversing a card payment, usually after a dispute</td></tr>
+<tr><td>Collection</td><td>A group of products on your store</td></tr>
+<tr><td>Compare-at price</td><td>The original price shown crossed out next to the sale price</td></tr>
+<tr><td>Conversion rate</td><td>Share of sessions that end in an order</td></tr>
+<tr><td>Cut-off time</td><td>The time after which orders ship the next working day</td></tr>
+<tr><td>Dispatch</td><td>The point when a parcel leaves your control with the carrier</td></tr>
+<tr><td>Duties</td><td>Taxes charged on goods when they cross a border</td></tr>
+<tr><td>Fulfilment</td><td>All steps from order to delivery</td></tr>
+<tr><td>GMV</td><td>Gross merchandise value: total value of goods sold, before refunds and discounts</td></tr>
+<tr><td>Liquid</td><td>The open template language used by Shopify themes</td></tr>
+<tr><td>Metafield</td><td>Custom data attached to a product, collection or other object</td></tr>
+<tr><td>Payout</td><td>Transfer of funds from a payment provider to your bank account</td></tr>
+<tr><td>ROAS</td><td>Return on ad spend: revenue from ads divided by ad spend</td></tr>
+<tr><td>SKU</td><td>Stock keeping unit: your internal code for a variant</td></tr>
+<tr><td>Storefront API</td><td>Shopify's interface for building custom shopping front-ends</td></tr>
+<tr><td>Theme</td><td>A template that controls the look and layout of the storefront</td></tr>
+<tr><td>Variant</td><td>A specific version of a product, such as a size and colour combination</td></tr>
+<tr><td>Webhook</td><td>A message sent automatically when an event happens in the store, such as an order being created</td></tr>
+</table>
+</section>

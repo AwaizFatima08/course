@@ -1,0 +1,365 @@
+<section class="chapter" id="ch7">
+<div class="chapter-head"><div class="num">Chapter 7</div><h1>Apps, Integrations and Customisation</h1></div>
+
+<p class="lead">Apps extend your store with features Shopify does not include out of the box: reviews, email tools, subscriptions, accounting connections and more. Used well, they save hours. Used carelessly, they slow the store, clash with each other and leak money every month. This chapter shows you how to choose, manage and automate apps wisely.</p>
+
+<h2>7.1 What apps do</h2>
+<p>Apps are software from Shopify or independent developers that connect to your store through Shopify's APIs. They can add a page, a checkout feature, a background process or an integration with an outside system. You find them in the Shopify App Store, and you install them from the admin with one click. Most apps offer a free plan or a free trial, then charge a monthly fee.</p>
+
+<figure>
+<svg viewBox="0 0 700 300" xmlns="http://www.w3.org/2000/svg" font-family="Liberation Sans, Arial, sans-serif">
+<rect x="250" y="110" width="200" height="80" rx="12" fill="#5E8E3E"/>
+<text x="350" y="142" font-size="15" font-weight="bold" fill="#fff" text-anchor="middle">Your Shopify store</text>
+<text x="350" y="162" font-size="12" fill="#eef6e3" text-anchor="middle">Products, orders, customers</text>
+<g stroke="#5E8E3E" stroke-width="2" fill="none">
+<line x1="250" y1="150" x2="170" y2="70"/><line x1="250" y1="150" x2="170" y2="230"/>
+<line x1="450" y1="150" x2="530" y2="70"/><line x1="450" y1="150" x2="530" y2="230"/>
+<line x1="350" y1="110" x2="350" y2="60"/><line x1="350" y1="190" x2="350" y2="240"/>
+</g>
+<g font-size="12" fill="#1d2b1f">
+<rect x="20" y="40" width="150" height="56" rx="8" fill="#eef6e3" stroke="#5E8E3E"/>
+<text x="95" y="63" text-anchor="middle" font-weight="bold">Installed apps</text><text x="95" y="82" text-anchor="middle" font-size="11">Reviews, upsell, SEO</text>
+<rect x="530" y="40" width="150" height="56" rx="8" fill="#eef6e3" stroke="#5E8E3E"/>
+<text x="605" y="63" text-anchor="middle" font-weight="bold">Shopify Flow</text><text x="605" y="82" text-anchor="middle" font-size="11">Automations you build</text>
+<rect x="275" y="8" width="150" height="50" rx="8" fill="#eef6e3" stroke="#5E8E3E"/>
+<text x="350" y="30" text-anchor="middle" font-weight="bold">Admin API, webhooks</text><text x="350" y="48" text-anchor="middle" font-size="11">Custom integrations</text>
+<rect x="20" y="200" width="150" height="56" rx="8" fill="#eef6e3" stroke="#5E8E3E"/>
+<text x="95" y="223" text-anchor="middle" font-weight="bold">Storefront API</text><text x="95" y="242" text-anchor="middle" font-size="11">Custom front-ends</text>
+<rect x="530" y="200" width="150" height="56" rx="8" fill="#eef6e3" stroke="#5E8E3E"/>
+<text x="605" y="223" text-anchor="middle" font-weight="bold">Outside systems</text><text x="605" y="242" text-anchor="middle" font-size="11">Accounting, ERP, shipping</text>
+<rect x="275" y="242" width="150" height="50" rx="8" fill="#ffffff" stroke="#9aa39a" stroke-dasharray="4 3"/>
+<text x="350" y="272" text-anchor="middle" font-size="11" fill="#555">Customers and staff use these</text>
+</g>
+</svg>
+<figcaption>Figure 7.1: Apps and integrations connect to the store through APIs, webhooks and automations</figcaption>
+</figure>
+
+<h2>7.2 How to choose an app</h2>
+<p>Before installing an app, run through this checklist:</p>
+<ol>
+<li><strong>Do you need it now?</strong> If a manual process works for the next month, wait.</li>
+<li><strong>Is there a built-in feature?</strong> Shopify's own features (for example discounts, Shopify Email, or basic reports) are often enough.</li>
+<li><strong>Reviews.</strong> Read recent reviews, not just the average rating. Look for complaints about support, billing or broken features.</li>
+<li><strong>Last update and developer.</strong> Check when the app was last updated and whether the developer has a clear support route.</li>
+<li><strong>Total cost.</strong> Add the monthly fee, any per-order charges and the cost of the plan needed to unlock features.</li>
+<li><strong>Speed impact.</strong> Test your store speed before and after installing. Remove apps that add slow scripts for little benefit.</li>
+<li><strong>Permissions.</strong> Read what data the app requests. Install only apps that need data relevant to their job.</li>
+<li><strong>Exit plan.</strong> Find out how to remove the app and whether your data stays with you if you leave.</li>
+</ol>
+
+<h2>7.3 Common app categories</h2>
+<table>
+<tr><th>Category</th><th>Typical use</th><th>Beginner advice</th></tr>
+<tr><td>Product reviews</td><td>Collect and show star ratings and photos</td><td>Install early; social proof lifts conversion</td></tr>
+<tr><td>Email and SMS</td><td>Welcome flows, abandoned carts, newsletters</td><td>Start with the built-in email tools, then upgrade</td></tr>
+<tr><td>Upselling and bundles</td><td>Add-ons, "frequently bought together", volume discounts</td><td>Test one at a time and measure AOV</td></tr>
+<tr><td>Shipping and labels</td><td>Rate calculation, label printing, tracking pages</td><td>Choose one tool that matches your carriers</td></tr>
+<tr><td>Accounting</td><td>Sync orders, refunds and fees to your books</td><td>Essential once you have regular sales</td></tr>
+<tr><td>SEO</td><td>Meta tags, redirects, sitemaps, image alt text</td><td>Chapter 10 explains what you actually need</td></tr>
+<tr><td>Subscriptions</td><td>Recurring orders</td><td>Check how it handles failed payments</td></tr>
+<tr><td>Translation</td><td>Localised content for international markets</td><td>Needed for Chapter 12 markets</td></tr>
+</table>
+
+<h2>7.4 Managing your app stack</h2>
+<p>Keep a simple list of every app: what it does, its monthly cost, who owns it, when it was last reviewed and whether it is essential. Review the list every quarter. Typical waste includes two apps that do the same job, a trial that quietly became a paid plan, and an app from a campaign that ended months ago. Uninstall unused apps fully, because some leave code or scripts in the theme.</p>
+
+<h2>7.5 Automating with Shopify Flow</h2>
+<p>Shopify Flow is a built-in automation tool. Each workflow has a <strong>trigger</strong> (something that happens), optional <strong>conditions</strong> (checks), and <strong>actions</strong> (things that then happen). Flow saves time without a developer. Examples:</p>
+<table>
+<tr><th>Trigger</th><th>Condition</th><th>Action</th></tr>
+<tr><td>Order created</td><td>Order total is above 10,000</td><td>Add tag "high-value" and notify the owner</td></tr>
+<tr><td>Customer's total spent changes</td><td>Total spent is above a threshold you set</td><td>Add tag "VIP" to the customer</td></tr>
+<tr><td>Order paid</td><td>Shipping country is outside your zone</td><td>Add tag "international-review" for a manual check</td></tr>
+<tr><td>Inventory level changes</td><td>Quantity falls below the threshold</td><td>Send a message to the supplier channel</td></tr>
+</table>
+<p>Test every workflow on a development store first, and keep a note of what each one does. An automation that tags the wrong customers can mislead your marketing for months.</p>
+
+<h2>7.6 Custom apps and the developer path</h2>
+<p>If you have an unusual need, a developer can build a custom app. Shopify provides the Admin GraphQL API (to read and write store data), the Storefront API (to build custom shopping experiences), webhooks (to receive notifications when events happen) and the Dev Dashboard for managing app credentials. Shopify also supports headless storefronts through its own React-based framework, Hydrogen. You do not need to know these tools to manage a store, but knowing they exist helps you plan larger projects and ask the right questions.</p>
+
+<div class="box warn"><strong>Common mistake.</strong> Installing five apps in the first week. Each one adds scripts, costs money and creates another login to manage. Start with the essentials and add only when a clear need appears.</div>
+
+<div class="box takeaway"><strong>Key takeaways</strong>
+<ul>
+<li>Apps extend your store, but every app has a cost, a speed impact and a maintenance burden.</li>
+<li>Check reviews, updates, total cost, permissions and the exit route before you install.</li>
+<li>Review your app list quarterly and remove anything unused.</li>
+<li>Use Shopify Flow to automate repetitive tasks; test each workflow first.</li>
+</ul></div>
+
+<div class="box try"><strong>Practice task.</strong> Make a table of the apps you would need for a store selling one product category. For each app, write the cost, the reason, and the built-in alternative. Cut the list to the three you would install on day one.</div>
+</section>
+
+<section class="chapter" id="ch8">
+<div class="chapter-head"><div class="num">Chapter 8</div><h1>Payments, Checkout, Taxes and Policies</h1></div>
+
+<p class="lead">Checkout is where money changes hands, and most lost sales happen here. This chapter explains how payments work, how to make checkout smooth and trustworthy, how to think about tax and fraud, and why your policies are part of your sales process.</p>
+
+<h2>8.1 How payments work</h2>
+<p>When a customer pays, the money goes from the customer's bank or wallet, through a payment provider, to your bank account. The provider charges a fee and holds funds for a short period before paying out. Shopify offers Shopify Payments, which is built into the store, or you can connect third-party gateways. Each gateway has its own fees, supported countries and payout schedule. Compare them before choosing, and check the total cost including the fee on each transaction and any extra fee for not using Shopify Payments.</p>
+<ul>
+<li><strong>Payment methods</strong> include cards, digital wallets, Shop Pay (Shopify's accelerated checkout), and local methods depending on the country. Offering the methods your customers already use increases conversion.</li>
+<li><strong>Payouts</strong> are the transfers from the provider to your bank. Know the schedule so you can plan stock purchases.</li>
+<li><strong>Chargebacks and disputes</strong> happen when a customer asks their bank to reverse a payment. Keep clear delivery evidence, respond to disputes on time and keep your order records tidy.</li>
+</ul>
+
+<h2>8.2 The checkout journey</h2>
+<p>Figure 8.1 shows the standard path. Every extra step, field or surprise cost is a point where people leave.</p>
+
+<figure>
+<svg viewBox="0 0 700 150" xmlns="http://www.w3.org/2000/svg" font-family="Liberation Sans, Arial, sans-serif">
+<polygon points="10,40 140,40 160,75 140,110 10,110 30,75" fill="#eef6e3" stroke="#5E8E3E" stroke-width="1.5"/>
+<text x="85" y="72" font-size="12" text-anchor="middle" fill="#1d2b1f">Cart</text><text x="85" y="89" font-size="11" text-anchor="middle" fill="#555">review items</text>
+<polygon points="150,40 280,40 300,75 280,110 150,110 170,75" fill="#eef6e3" stroke="#5E8E3E" stroke-width="1.5"/>
+<text x="225" y="72" font-size="12" text-anchor="middle" fill="#1d2b1f">Contact</text><text x="225" y="89" font-size="11" text-anchor="middle" fill="#555">and address</text>
+<polygon points="290,40 420,40 440,75 420,110 290,110 310,75" fill="#eef6e3" stroke="#5E8E3E" stroke-width="1.5"/>
+<text x="365" y="72" font-size="12" text-anchor="middle" fill="#1d2b1f">Shipping</text><text x="365" y="89" font-size="11" text-anchor="middle" fill="#555">method</text>
+<polygon points="430,40 560,40 580,75 560,110 430,110 450,75" fill="#eef6e3" stroke="#5E8E3E" stroke-width="1.5"/>
+<text x="505" y="72" font-size="12" text-anchor="middle" fill="#1d2b1f">Payment</text><text x="505" y="89" font-size="11" text-anchor="middle" fill="#555">secure</text>
+<polygon points="570,40 690,40 690,110 570,110 590,75" fill="#95BF47" stroke="#5E8E3E" stroke-width="1.5"/>
+<text x="635" y="72" font-size="12" text-anchor="middle" fill="#1d2b1f">Confirm</text><text x="635" y="89" font-size="11" text-anchor="middle" fill="#1d2b1f">thank you</text>
+<text x="350" y="138" font-size="12" text-anchor="middle" fill="#555">Fewer fields, visible total cost early, and trust signals at payment are the main levers</text>
+</svg>
+<figcaption>Figure 8.1: The checkout journey, with the points where most customers decide</figcaption>
+</figure>
+
+<h2>8.3 Making checkout convert</h2>
+<ul>
+<li><strong>Allow guest checkout</strong> so people do not need an account to buy.</li>
+<li><strong>Show total cost early.</strong> Surprise shipping or tax at the last step is one of the top reasons carts are abandoned. Show delivery cost on the product or cart page.</li>
+<li><strong>Ask only for what you need.</strong> Each extra field costs conversions. Phone numbers are needed for some carriers; ask for them only if you use them.</li>
+<li><strong>Offer express payment.</strong> Accelerated checkout buttons shorten the journey for returning customers.</li>
+<li><strong>Use trust signals near the payment step:</strong> secure payment icons, clear return policy link, customer support contact.</li>
+<li><strong>Customise checkout carefully.</strong> Shopify's checkout can be branded and extended through its checkout extensibility features. Keep changes minimal and test on mobile.</li>
+</ul>
+
+<h2>8.4 Abandoned carts</h2>
+<p>Many shoppers add items and leave. Shopify records abandoned checkouts and can send recovery emails. A typical recovery sequence has three emails: a reminder within a few hours, a message that addresses a likely objection (delivery, returns, sizing), and a final message with a clear reason to return, such as a limited offer you genuinely honour. Do not discount on the first reminder; you train customers to wait for discounts.</p>
+
+<h2>8.5 Taxes</h2>
+<p>Tax rules are complicated and vary by country, state and product. In outline, you need to know:</p>
+<ul>
+<li>Whether your prices include tax or tax is added at checkout.</li>
+<li>Which tax rate applies to each product and each destination.</li>
+<li>When you must register and begin collecting tax.</li>
+<li>Who pays import duties on international orders (you, or the customer at delivery). This is set in the Markets and duties settings (Chapter 12).</li>
+</ul>
+<p>Shopify's tax settings can calculate and collect tax automatically in supported regions, and apps can help where Shopify's built-in options are not enough. Still, the responsibility for correct filing stays with you. Keep records of every order, and review tax settings with an accountant at least once a year and whenever you launch in a new country.</p>
+
+<h2>8.6 Policies that protect you and the customer</h2>
+<p>Clear policies reduce disputes and make customers feel safe. Each should be short, specific and easy to find.</p>
+<table>
+<tr><th>Policy</th><th>What it must say</th></tr>
+<tr><td>Refund and return</td><td>How long customers have to return items, the condition required, who pays return shipping, how refunds are paid, and any exceptions (for example, personalised items)</td></tr>
+<tr><td>Shipping</td><td>Where you ship, typical delivery times, cost basis, what happens if an order is delayed or lost</td></tr>
+<tr><td>Privacy</td><td>What personal data you collect, why, who receives it (for example, carriers and payment providers), and how customers can access or delete it</td></tr>
+<tr><td>Terms of service</td><td>Rules for using the store, pricing and error corrections, governing law</td></tr>
+<tr><td>Contact information</td><td>Business name, address, email and phone, and how fast you reply</td></tr>
+</table>
+<p>Your return policy must match what you actually do. A policy that promises a 30-day return and then refuses after 14 days is worse than having no policy at all.</p>
+
+<h2>8.7 Fraud and risk</h2>
+<p>Fraud appears as stolen cards, false refund claims and fake addresses. Shopify provides automated fraud analysis that flags risky orders. Review flagged orders manually, especially high-value orders, first orders from unfamiliar locations and orders where the shipping address differs sharply from the billing address. Never ship a flagged order without checking. Also be cautious with very large first orders, unusual quantities and rush shipping requests from new accounts.</p>
+
+<div class="box warn"><strong>Common mistake.</strong> Hiding shipping or tax costs until the final step. Customers who feel tricked leave, and some write negative reviews. Show the true total early, even if it is less attractive than a low product price.</div>
+
+<div class="box takeaway"><strong>Key takeaways</strong>
+<ul>
+<li>Compare payment providers on total cost, payouts and supported methods.</li>
+<li>Make checkout short, transparent and fast on mobile; allow guest checkout.</li>
+<li>Use abandoned-cart emails that help customers rather than rushing them into discounts.</li>
+<li>Check tax rules with a professional; keep order records.</li>
+<li>Write clear, honest policies and review flagged orders before shipping.</li>
+</ul></div>
+
+<div class="box try"><strong>Practice task.</strong> Go through your own checkout on a phone as if you were a customer. Count the steps and fields, note where the total cost first appears, and list three changes that would reduce friction without removing anything you legally need.</div>
+</section>
+
+<section class="chapter" id="ch9">
+<div class="chapter-head"><div class="num">Chapter 9</div><h1>Shipping, Fulfilment and Returns</h1></div>
+
+<p class="lead">Customers judge your store by the parcel that arrives at their door. Fast, accurate, well-packed delivery builds repeat business; late or damaged orders create refunds and bad reviews. This chapter covers shipping rates, fulfilment options, the daily dispatch process and handling returns.</p>
+
+<h2>9.1 Shipping rates</h2>
+<p>Shipping costs can destroy margin if they are set without thought. Choose a model that fits your product:</p>
+<ul>
+<li><strong>Flat rate</strong>: one fee for everything. Simple, good for light, uniform products.</li>
+<li><strong>Weight-based</strong>: the fee rises with the parcel's weight. Good when weights vary widely.</li>
+<li><strong>Price-based</strong>: the fee depends on the order total. Useful for free-shipping thresholds.</li>
+<li><strong>Carrier-calculated</strong>: live rates from carriers, shown at checkout. Accurate but needs setup and can confuse customers.</li>
+<li><strong>Free shipping above a threshold</strong>: a strong conversion tool. Set the threshold slightly above your average order value so customers add one more item.</li>
+<li><strong>Local pickup</strong>: lets customers collect from you or a partner location, which can cut costs.</li>
+</ul>
+<div class="box try"><strong>Example.</strong> Average order value is 1,800. Set free shipping at 2,000. Customers who are 200 short often add a sock pair or a second item, raising average order value while you still cover your shipping costs.</div>
+
+<h2>9.2 Fulfilment models</h2>
+<table>
+<tr><th>Model</th><th>How it works</th><th>Best for</th><th>Watch out for</th></tr>
+<tr><td>Self-fulfilment</td><td>You store, pack and ship from home or a small unit</td><td>Start-ups with low volume</td><td>Your time becomes the bottleneck</td></tr>
+<tr><td>Third-party logistics (3PL)</td><td>A warehouse stores and ships for you, integrated with your store</td><td>Growing stores with steady orders</td><td>Minimum fees, contract length, returns handling</td></tr>
+<tr><td>Dropshipping supplier</td><td>The supplier ships directly to the customer</td><td>Testing products without stock</td><td>Stock accuracy, long delivery times, branding on the parcel</td></tr>
+<tr><td>Print on demand</td><td>The partner prints and ships each item when ordered</td><td>Designs, merchandise</td><td>Quality varies; slower production</td></tr>
+</table>
+
+<h2>9.3 The fulfilment process</h2>
+<p>Figure 9.1 shows a reliable dispatch routine. Whatever your model, every order should pass through the same steps.</p>
+
+<figure>
+<svg viewBox="0 0 700 220" xmlns="http://www.w3.org/2000/svg" font-family="Liberation Sans, Arial, sans-serif">
+<g font-size="12" fill="#1d2b1f" text-anchor="middle">
+<rect x="20" y="20" width="150" height="56" rx="8" fill="#eef6e3" stroke="#5E8E3E"/><text x="95" y="44" font-weight="bold">1. Order received</text><text x="95" y="62" font-size="11">Paid, in admin queue</text>
+<rect x="190" y="20" width="150" height="56" rx="8" fill="#eef6e3" stroke="#5E8E3E"/><text x="265" y="44" font-weight="bold">2. Stock checked</text><text x="265" y="62" font-size="11">Item available at location</text>
+<rect x="360" y="20" width="150" height="56" rx="8" fill="#eef6e3" stroke="#5E8E3E"/><text x="435" y="44" font-weight="bold">3. Picked and packed</text><text x="435" y="62" font-size="11">Right item, right size</text>
+<rect x="530" y="20" width="150" height="56" rx="8" fill="#eef6e3" stroke="#5E8E3E"/><text x="605" y="44" font-weight="bold">4. Label printed</text><text x="605" y="62" font-size="11">Tracking number saved</text>
+<rect x="530" y="130" width="150" height="56" rx="8" fill="#95BF47" stroke="#5E8E3E"/><text x="605" y="154" font-weight="bold">5. Dispatched</text><text x="605" y="172" font-size="11">Order marked fulfilled</text>
+<rect x="360" y="130" width="150" height="56" rx="8" fill="#eef6e3" stroke="#5E8E3E"/><text x="435" y="154" font-weight="bold">6. Tracking sent</text><text x="435" y="172" font-size="11">Automatic email</text>
+<rect x="190" y="130" width="150" height="56" rx="8" fill="#eef6e3" stroke="#5E8E3E"/><text x="265" y="154" font-weight="bold">7. In transit</text><text x="265" y="172" font-size="11">Watch for delays</text>
+<rect x="20" y="130" width="150" height="56" rx="8" fill="#eef6e3" stroke="#5E8E3E"/><text x="95" y="154" font-weight="bold">8. Delivered</text><text x="95" y="172" font-size="11">Then request a review</text>
+</g>
+<g stroke="#5E8E3E" stroke-width="2" fill="#5E8E3E">
+<line x1="170" y1="48" x2="186" y2="48"/><polygon points="186,44 194,48 186,52"/>
+<line x1="340" y1="48" x2="356" y2="48"/><polygon points="356,44 364,48 356,52"/>
+<line x1="510" y1="48" x2="526" y2="48"/><polygon points="526,44 534,48 526,52"/>
+<line x1="605" y1="76" x2="605" y2="126"/><polygon points="601,126 605,134 609,126"/>
+<line x1="530" y1="158" x2="516" y2="158"/><polygon points="516,154 508,158 516,162"/>
+<line x1="360" y1="158" x2="346" y2="158"/><polygon points="346,154 338,158 346,162"/>
+<line x1="190" y1="158" x2="176" y2="158"/><polygon points="176,154 168,158 176,162"/>
+</g>
+<text x="350" y="210" font-size="12" text-anchor="middle" fill="#555">Run this routine at the same time every day; the cut-off time for same-day dispatch should be published.</text>
+</svg>
+<figcaption>Figure 9.1: The fulfilment routine, from paid order to delivered and reviewed</figcaption>
+</figure>
+
+<h2>9.4 Packing and the unboxing experience</h2>
+<p>Good packing protects the product, reduces returns and creates a memorable first experience. Use boxes sized to the product, not oversized boxes filled with air, which cost more to ship. Include a packing slip, a thank-you note, care instructions and a clear returns route. Check every order against the slip before sealing the box. Photograph high-value or fragile orders as evidence in case of transit damage.</p>
+
+<h2>9.5 Tracking and communication</h2>
+<p>Turn on shipping confirmation and delivery update emails in <strong>Settings &gt; Notifications</strong>. Include the tracking link and a realistic delivery window. When a parcel is delayed, contact the customer before they ask. Proactive updates prevent most "where is my order" tickets.</p>
+
+<h2>9.6 Returns and refunds</h2>
+<p>Returns are a cost of doing business in e-commerce. Plan for them rather than being surprised. A good returns process has five parts:</p>
+<ol>
+<li><strong>A clear policy</strong> (Chapter 8.6) that customers can read before buying.</li>
+<li><strong>A simple request route</strong>, such as a form or email with the order number.</li>
+<li><strong>An approval step</strong> to check the reason and condition of the item.</li>
+<li><strong>A returns label or instructions</strong>, with a tracked route for high-value items.</li>
+<li><strong>A refund or exchange</strong> issued promptly, plus restocking if the item is resaleable.</li>
+</ol>
+<p>Track return reasons. If "wrong size" is the top reason, improve size guides. If "not as described" is high, improve photos and descriptions. Returns data is one of the best free sources of product improvement ideas.</p>
+
+<div class="box warn"><strong>Common mistake.</strong> Refunding customers without tracking the reason. You then keep paying the cost of the same problem without learning anything. Log every return reason, even if you only look at the list monthly.</div>
+
+<div class="box takeaway"><strong>Key takeaways</strong>
+<ul>
+<li>Choose a shipping rate model that protects your margin; use free-shipping thresholds to lift order value.</li>
+<li>Pick a fulfilment model that matches your volume and time, and grow into 3PL when the work demands it.</li>
+<li>Run a fixed dispatch routine every day, and send tracking automatically.</li>
+<li>Design a simple, fair returns process and learn from return reasons.</li>
+</ul></div>
+
+<div class="box try"><strong>Practice task.</strong> Build a shipping table for a product that weighs 300 grams. Include a flat rate, a free-shipping threshold and a note on who pays returns. Calculate the margin on one order after shipping, packaging and returns cost.</div>
+</section>
+
+<section class="chapter" id="ch10">
+<div class="chapter-head"><div class="num">Chapter 10</div><h1>Marketing Your Store</h1></div>
+
+<p class="lead">A beautiful store with no visitors earns nothing. Marketing is how strangers learn about your brand, trust it enough to buy, and return. This chapter explains the marketing funnel, the channels that matter for a Shopify store, how to start paid ads safely, and how to plan a year of promotions.</p>
+
+<h2>10.1 The marketing funnel</h2>
+<p>Customers move through stages. Each stage needs different messages and different measurements. Figure 10.1 shows the four stages and typical channels.</p>
+
+<figure>
+<svg viewBox="0 0 700 300" xmlns="http://www.w3.org/2000/svg" font-family="Liberation Sans, Arial, sans-serif">
+<rect x="30" y="10" width="640" height="62" rx="8" fill="#5E8E3E"/>
+<text x="350" y="36" font-size="15" font-weight="bold" text-anchor="middle" fill="#fff">1. Awareness: people learn you exist</text>
+<text x="350" y="58" font-size="12" text-anchor="middle" fill="#eef6e3">SEO, social content, paid reach, influencers</text>
+<rect x="60" y="82" width="580" height="62" rx="8" fill="#7FA955"/>
+<text x="350" y="108" font-size="15" font-weight="bold" text-anchor="middle" fill="#fff">2. Consideration: people compare</text>
+<text x="350" y="130" font-size="12" text-anchor="middle" fill="#fff">Product pages, reviews, comparison content, retargeting ads</text>
+<rect x="95" y="154" width="510" height="62" rx="8" fill="#95BF47"/>
+<text x="350" y="180" font-size="15" font-weight="bold" text-anchor="middle" fill="#1d2b1f">3. Purchase: people decide to buy</text>
+<text x="350" y="202" font-size="12" text-anchor="middle" fill="#1d2b1f">Clear offer, trust signals, fast checkout, abandoned-cart emails</text>
+<rect x="130" y="226" width="440" height="62" rx="8" fill="#eef6e3" stroke="#5E8E3E"/>
+<text x="350" y="252" font-size="15" font-weight="bold" text-anchor="middle" fill="#1d2b1f">4. Loyalty: people come back</text>
+<text x="350" y="274" font-size="12" text-anchor="middle" fill="#1d2b1f">Post-purchase emails, reorder reminders, loyalty rewards, referrals</text>
+</svg>
+<figcaption>Figure 10.1: The four stages of the marketing funnel, with channels that serve each</figcaption>
+</figure>
+
+<p>Beginners often pour all their budget into the top of the funnel and ignore loyalty. Most profit in e-commerce comes from repeat customers, because acquiring a new customer is far more expensive than selling again to an existing one.</p>
+
+<h2>10.2 Search engine optimisation (SEO)</h2>
+<p>SEO brings free, ongoing traffic from Google. For a Shopify store, the basics are:</p>
+<ul>
+<li><strong>Product and collection titles</strong> that describe what the customer searches for, such as "Stainless Steel Water Bottle 750 ml".</li>
+<li><strong>Meta titles and descriptions</strong> written for people, not robots: clear, specific, under about 60 and 155 characters respectively.</li>
+<li><strong>Unique product descriptions</strong>, not copied supplier text. Duplicate content is a common problem for stores that sell many similar items.</li>
+<li><strong>Image alt text</strong> describing each picture, which helps accessibility and image search.</li>
+<li><strong>Fast pages and mobile-friendly design</strong> (Chapter 6).</li>
+<li><strong>A blog or guide section</strong> that answers real questions, for example "How to choose the right water bottle size". Publish consistently and link to relevant products.</li>
+<li><strong>Redirects</strong> when you delete or rename a page, so old links do not lead to error pages.</li>
+</ul>
+<p>SEO takes months. Measure progress in Google Search Console (free) and track organic sessions in your analytics.</p>
+
+<h2>10.3 Social media and content</h2>
+<p>Short-form video is the most powerful organic channel for many product categories. Platforms such as Instagram, TikTok, YouTube Shorts and Pinterest reward useful, entertaining or surprising content. Good formats for product stores include:</p>
+<ul>
+<li><strong>Demonstrations:</strong> the product solving a problem in 15 to 30 seconds.</li>
+<li><strong>Before and after</strong> results, shown honestly.</li>
+<li><strong>Behind the scenes:</strong> packing orders, sourcing trips, design process.</li>
+<li><strong>User-generated content:</strong> real customers using the product, with permission.</li>
+<li><strong>Answers to common questions</strong>: sizing, care, durability.</li>
+</ul>
+<p>Hook the viewer in the first three seconds with a question, a result or a surprising fact. Post consistently, reply to comments, and use the platform's own features rather than just reposting elsewhere.</p>
+
+<h2>10.4 Email and SMS</h2>
+<p>Email is the most profitable channel for many stores because you own the list. Build these automated flows first:</p>
+<ol>
+<li><strong>Welcome series</strong> (three to four emails): your story, best sellers, reviews, and a first-order incentive if you can afford it.</li>
+<li><strong>Abandoned cart</strong> (Chapter 8.4).</li>
+<li><strong>Post-purchase</strong>: order confirmation, shipping update, care tips, review request, then a cross-sell after the product is likely to be used up.</li>
+<li><strong>Win-back</strong>: for customers who have not bought in 90 to 120 days.</li>
+</ol>
+<p>Use Shopify Email or an email app to build these flows. SMS can be powerful for time-sensitive messages, but you must get clear consent and follow local rules about marketing texts.</p>
+
+<h2>10.5 Paid advertising</h2>
+<p>Paid ads give fast results but cost money every day. The main platforms are Meta (Facebook and Instagram), Google (Search and Shopping), TikTok, Pinterest and YouTube. Start small and learn:</p>
+<ol>
+<li><strong>Set a test budget</strong> you can afford to lose completely. Decide the maximum you will spend before you judge results.</li>
+<li><strong>Make several creatives</strong>: different hooks, formats and product angles. Creative quality is the biggest driver of results on social platforms.</li>
+<li><strong>Use the structure</strong>: campaign (objective), ad set (audience and budget), ad (creative and copy). Keep one clear goal per campaign.</li>
+<li><strong>Track properly</strong>: install the platform pixel or connect the official Shopify channel app, and check that purchases are recorded correctly.</li>
+<li><strong>Judge by return on ad spend (ROAS)</strong> against your break-even figure from Chapter 2, not by clicks alone.</li>
+<li><strong>Pause losers and scale winners slowly</strong>. Increasing budget by large jumps often resets learning and hurts results.</li>
+</ol>
+
+<div class="box try"><strong>Worked example.</strong> You spend 1,000 on ads and receive 3,500 in sales from them. ROAS is 3.5. If your contribution margin before ads is 40 percent, your gross profit from those sales is 1,400, which is more than the 1,000 spent, so the campaign made a profit of 400 before overheads. Your break-even ROAS is 1 divided by 0.40, which is 2.5.</div>
+
+<h2>10.6 Influencers, affiliates and partnerships</h2>
+<p>Creators can introduce your product to an audience that already trusts them. Choose creators whose audience matches your customer, check their engagement rather than follower count, and agree on clear deliverables, usage rights and a tracked discount code or link. Affiliate programmes pay a commission on sales and carry less upfront risk, but they attract opportunists unless you set terms carefully.</p>
+
+<h2>10.7 Planning promotions across the year</h2>
+<p>Build a yearly calendar of moments that matter to your customers: seasonal holidays, religious festivals, back-to-school, national days, sales events, and your own anniversary. Plan content and stock six to eight weeks ahead of each. Be guided by your target market, because the calendar differs by country. Avoid constant discounting; a sale that happens every month stops being a sale and starts being your price.</p>
+
+<table>
+<tr><th>Channel</th><th>Cost to start</th><th>Time to results</th><th>Skill needed</th></tr>
+<tr><td>SEO and blog</td><td>Low (your time)</td><td>3 to 12 months</td><td>Writing, keyword research</td></tr>
+<tr><td>Social content</td><td>Low to medium</td><td>1 to 3 months</td><td>Video, editing, consistency</td></tr>
+<tr><td>Email and SMS</td><td>Low</td><td>Immediate once the list grows</td><td>Copywriting, flows</td></tr>
+<tr><td>Paid social</td><td>Medium to high</td><td>Days to weeks</td><td>Creative testing, analytics</td></tr>
+<tr><td>Google Shopping and Search</td><td>Medium to high</td><td>Days to weeks</td><td>Feed management, bidding</td></tr>
+<tr><td>Influencers</td><td>Medium</td><td>Days to weeks</td><td>Outreach, negotiation</td></tr>
+</table>
+
+<div class="box warn"><strong>Common mistake.</strong> Scaling ad spend before the product page converts. If visitors do not buy, more traffic only means more wasted money. Fix the store (Chapters 5, 6 and 8) before you pour in budget.</div>
+
+<div class="box takeaway"><strong>Key takeaways</strong>
+<ul>
+<li>Think in a funnel: awareness, consideration, purchase and loyalty, each with its own channels.</li>
+<li>SEO and short-form video build long-term traffic; email builds ownership of your audience.</li>
+<li>Start paid ads with a capped test budget, several creatives, and ROAS against your break-even.</li>
+<li>Plan promotions across the year and avoid permanent discounting.</li>
+</ul></div>
+
+<div class="box try"><strong>Practice task.</strong> Write a 30-second video script for one product: hook, problem, demonstration, benefit, call to action. Then write the three emails of a welcome series for the same brand. Keep both for your portfolio (Chapter 13).</div>
+</section>

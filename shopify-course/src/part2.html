@@ -1,0 +1,323 @@
+<section class="chapter" id="ch4">
+<div class="chapter-head"><div class="num">Chapter 4</div><h1>Navigating the Shopify Admin</h1></div>
+
+<p class="lead">The admin is your control room. Merchants who know it well can find an order in seconds, spot a problem before a customer complains, and make changes without calling support. This chapter walks through the main areas and builds a daily routine.</p>
+
+<h2>4.1 The layout</h2>
+<p>The left sidebar holds the main sections. The top bar has search, notifications and your store switcher. Figure 4.1 is a simplified sketch; the exact labels and order can change as Shopify updates the admin, but the logic stays the same.</p>
+
+<figure>
+<svg viewBox="0 0 700 330" xmlns="http://www.w3.org/2000/svg" font-family="Liberation Sans, Arial, sans-serif">
+<rect x="1" y="1" width="698" height="328" rx="8" fill="#f6f7f4" stroke="#9aa39a"/>
+<rect x="1" y="1" width="698" height="40" rx="8" fill="#1d2b1f"/>
+<rect x="1" y="30" width="698" height="11" fill="#1d2b1f"/>
+<text x="18" y="27" font-size="13" fill="#95BF47" font-weight="bold">Search</text>
+<rect x="150" y="13" width="360" height="16" rx="4" fill="#33443a"/>
+<text x="162" y="25" font-size="11" fill="#aab5ab">Search products, orders, customers</text>
+<circle cx="650" cy="21" r="8" fill="#95BF47"/>
+<rect x="1" y="41" width="170" height="287" fill="#ffffff" stroke="#d7dbd5"/>
+<g font-size="12" fill="#1d2b1f">
+<rect x="10" y="52" width="150" height="22" rx="4" fill="#eef6e3"/><text x="20" y="67">Home</text>
+<text x="20" y="92">Orders</text>
+<text x="20" y="116">Products</text>
+<text x="20" y="140">Customers</text>
+<text x="20" y="164">Analytics</text>
+<text x="20" y="188">Marketing</text>
+<text x="20" y="212">Discounts</text>
+<text x="20" y="236">Content</text>
+<text x="20" y="260">Online Store</text>
+<text x="20" y="284">Apps</text>
+<text x="20" y="308">Settings</text>
+</g>
+<rect x="190" y="54" width="230" height="110" rx="6" fill="#ffffff" stroke="#d7dbd5"/>
+<text x="202" y="74" font-size="12" fill="#555">Today's sales</text>
+<text x="202" y="110" font-size="24" font-weight="bold" fill="#1d2b1f">1,240</text>
+<text x="202" y="130" font-size="11" fill="#5E8E3E">+12% vs yesterday</text>
+<rect x="435" y="54" width="250" height="110" rx="6" fill="#ffffff" stroke="#d7dbd5"/>
+<text x="447" y="74" font-size="12" fill="#555">Orders to fulfil</text>
+<text x="447" y="110" font-size="24" font-weight="bold" fill="#1d2b1f">18</text>
+<text x="447" y="130" font-size="11" fill="#C0583D">3 are over 48 hours old</text>
+<rect x="190" y="178" width="495" height="140" rx="6" fill="#ffffff" stroke="#d7dbd5"/>
+<text x="202" y="198" font-size="12" fill="#555">Recent orders</text>
+<rect x="202" y="208" width="470" height="20" fill="#f6f7f4"/><text x="210" y="222" font-size="11" fill="#333">#1043   Amina K.     Paid     Unfulfilled     PKR 4,500</text>
+<rect x="202" y="234" width="470" height="20" fill="#ffffff"/><text x="210" y="248" font-size="11" fill="#333">#1042   Daniel R.    Paid     Fulfilled       PKR 2,100</text>
+<rect x="202" y="260" width="470" height="20" fill="#f6f7f4"/><text x="210" y="274" font-size="11" fill="#333">#1041   Sara M.      Refunded partly    PKR 1,800</text>
+<text x="202" y="302" font-size="11" fill="#555">Low stock: Classic Tee, size M, black (2 left)</text>
+</svg>
+<figcaption>Figure 4.1: Simplified admin layout (illustrative; labels may differ slightly in your version)</figcaption>
+</figure>
+
+<h2>4.2 Orders: the most important screen</h2>
+<p>Orders go through two separate statuses that beginners often confuse:</p>
+<ul>
+<li><strong>Payment status</strong>: Paid, Pending, Refunded or Partially refunded.</li>
+<li><strong>Fulfilment status</strong>: Unfulfilled, Fulfilled or Partially fulfilled.</li>
+</ul>
+<p>A paid, unfulfilled order is your work queue. Use the filters to show only those orders, and sort by oldest first. Tags help you group orders, for example <em>gift</em>, <em>wholesale</em> or <em>check address</em>. When you open an order, you can see the customer, items, shipping address, payment details, timeline and notes. Add an internal note whenever you contact a customer about an order, so a colleague can see the history.</p>
+
+<h2>4.3 Customers and segments</h2>
+<p>Each customer record stores orders, addresses, marketing consent and notes. Segments group customers by rules, for example "bought more than twice in 90 days" or "spent over a set amount". Segments are useful for email campaigns and for judging loyalty. Respect consent: only email people who agreed to marketing messages, and honour unsubscribe requests immediately.</p>
+
+<h2>4.4 Products, collections and discounts</h2>
+<p>The Products section is covered in Chapter 5, and the Discounts section in Chapter 8. In brief: discount codes are typed by the customer at checkout; automatic discounts apply when the cart meets conditions; and you can set limits on use, minimum purchase, dates and eligible products. Test every discount in a private browser window before you announce it.</p>
+
+<h2>4.5 Settings you will use often</h2>
+<table>
+<tr><th>Setting</th><th>What it controls</th></tr>
+<tr><td>Store details</td><td>Business name, address, contact information shown to customers</td></tr>
+<tr><td>Payments</td><td>Payment providers, payment methods, payouts</td></tr>
+<tr><td>Shipping and delivery</td><td>Zones, rates, pickup locations, packing slips</td></tr>
+<tr><td>Taxes and duties</td><td>Tax collection, rates, duties for international orders</td></tr>
+<tr><td>Checkout</td><td>Customer information requirements, marketing opt-in, order tips</td></tr>
+<tr><td>Notifications</td><td>Emails sent to customers and staff (order confirmation, shipping, refunds)</td></tr>
+<tr><td>Policies</td><td>Refund, privacy, terms and shipping policies</td></tr>
+<tr><td>Markets</td><td>Countries, currencies and languages you sell in (Chapter 12)</td></tr>
+<tr><td>Users and permissions</td><td>Staff accounts and what each can access</td></tr>
+</table>
+
+<h2>4.6 The Shopify mobile app</h2>
+<p>The Shopify mobile app lets you check orders, reply to customers, view sales and receive alerts while away from your desk. Use it for monitoring, but do bulk changes such as product imports and theme edits on a computer, where you can see more detail.</p>
+
+<h2>4.7 A daily routine</h2>
+<ol>
+<li><strong>Morning (15 minutes):</strong> check sales and sessions on the home page, then open unfulfilled orders and clear anything paid more than 24 hours ago.</li>
+<li><strong>Midday (10 minutes):</strong> answer customer messages, check for low-stock alerts, and confirm that today's shipments left.</li>
+<li><strong>Evening (10 minutes):</strong> check failed payments, refund requests and any reviews that need a reply.</li>
+<li><strong>Weekly (45 minutes):</strong> review the Analytics reports, top products, discount performance and shipping costs (Chapter 11).</li>
+</ol>
+
+<div class="box warn"><strong>Common mistake.</strong> Treating "Paid" as "done". A paid order that is not packed and shipped is a customer waiting for a parcel. Your fulfilment queue is more important than your sales dashboard.</div>
+
+<div class="box takeaway"><strong>Key takeaways</strong>
+<ul>
+<li>Learn the sidebar sections and where each setting lives.</li>
+<li>Track payment status and fulfilment status separately.</li>
+<li>Use filters, tags and notes to run orders without losing track.</li>
+<li>Build a short daily routine; consistency beats occasional long sessions.</li>
+</ul></div>
+
+<div class="box try"><strong>Practice task.</strong> In a development store, create three test orders, mark one as fulfilled, refund part of one, and add a tag and an internal note to each. Then use the filters to show only unfulfilled orders.</div>
+</section>
+
+<section class="chapter" id="ch5">
+<div class="chapter-head"><div class="num">Chapter 5</div><h1>Products, Collections and Inventory</h1></div>
+
+<p class="lead">Your product pages do most of the selling. Clear data, good photos and honest descriptions turn visitors into buyers. This chapter explains how Shopify structures products, how to write and photograph them, and how to keep stock accurate.</p>
+
+<h2>5.1 Anatomy of a product</h2>
+<p>A product in Shopify has a title, description, media (images and video), pricing, inventory, shipping details, organisation fields and search-engine fields. Here are the fields that matter most:</p>
+<table>
+<tr><th>Field</th><th>Purpose and advice</th></tr>
+<tr><td>Title</td><td>Clear and specific, for example "Classic Cotton T-shirt, Relaxed Fit". Avoid keyword stuffing.</td></tr>
+<tr><td>Description</td><td>Benefits first, then features, materials, sizing and care. Chapter 5.4 gives a template.</td></tr>
+<tr><td>Price and compare-at price</td><td>Price is what customers pay. Compare-at price shows a crossed-out original price. Use it only when the reference price was real.</td></tr>
+<tr><td>SKU and barcode</td><td>Your internal codes. Keep them unique; they link stock to orders and to suppliers.</td></tr>
+<tr><td>Options and variants</td><td>Size, colour, material and so on. Each combination becomes a variant with its own price, stock and SKU.</td></tr>
+<tr><td>Inventory</td><td>Track quantity per location. Turn off tracking only for items you truly never run out of.</td></tr>
+<tr><td>Weight</td><td>Needed for accurate shipping rates. Enter the packed weight if you can.</td></tr>
+<tr><td>Product type, vendor, tags</td><td>Used for filtering, collections, automation and reports.</td></tr>
+<tr><td>Metafields</td><td>Extra custom data, such as fabric care codes or size charts, shown on the storefront when a theme supports them.</td></tr>
+<tr><td>URL handle and SEO fields</td><td>The page address and the title and description shown in Google. Chapter 10 covers SEO.</td></tr>
+</table>
+
+<h2>5.2 Options and variants</h2>
+<p>Use variants when a customer chooses between versions of the same product. Use separate products when the item is genuinely different, such as a T-shirt and a hoodie. Figure 5.1 shows the structure for a T-shirt sold in three sizes and two colours.</p>
+
+<figure>
+<svg viewBox="0 0 700 200" xmlns="http://www.w3.org/2000/svg" font-family="Liberation Sans, Arial, sans-serif">
+<rect x="230" y="10" width="240" height="46" rx="8" fill="#5E8E3E"/>
+<text x="350" y="30" font-size="14" fill="#fff" text-anchor="middle" font-weight="bold">Classic Cotton T-shirt</text>
+<text x="350" y="46" font-size="11" fill="#eef6e3" text-anchor="middle">Product</text>
+<line x1="350" y1="56" x2="350" y2="76" stroke="#5E8E3E" stroke-width="2"/>
+<line x1="170" y1="76" x2="530" y2="76" stroke="#5E8E3E" stroke-width="2"/>
+<line x1="170" y1="76" x2="170" y2="90" stroke="#5E8E3E" stroke-width="2"/>
+<line x1="530" y1="76" x2="530" y2="90" stroke="#5E8E3E" stroke-width="2"/>
+<rect x="90" y="90" width="160" height="38" rx="8" fill="#eef6e3" stroke="#5E8E3E"/>
+<text x="170" y="108" font-size="13" text-anchor="middle" fill="#1d2b1f" font-weight="bold">Option: Size</text>
+<text x="170" y="122" font-size="11" text-anchor="middle" fill="#555">S, M, L</text>
+<rect x="450" y="90" width="160" height="38" rx="8" fill="#eef6e3" stroke="#5E8E3E"/>
+<text x="530" y="108" font-size="13" text-anchor="middle" fill="#1d2b1f" font-weight="bold">Option: Colour</text>
+<text x="530" y="122" font-size="11" text-anchor="middle" fill="#555">Black, White</text>
+<g font-size="11" fill="#1d2b1f" text-anchor="middle">
+<rect x="20" y="150" width="100" height="36" rx="6" fill="#ffffff" stroke="#9aa39a"/><text x="70" y="172">S / Black</text>
+<rect x="128" y="150" width="100" height="36" rx="6" fill="#ffffff" stroke="#9aa39a"/><text x="178" y="172">S / White</text>
+<rect x="236" y="150" width="100" height="36" rx="6" fill="#ffffff" stroke="#9aa39a"/><text x="286" y="172">M / Black</text>
+<rect x="344" y="150" width="100" height="36" rx="6" fill="#ffffff" stroke="#9aa39a"/><text x="394" y="172">M / White</text>
+<rect x="452" y="150" width="100" height="36" rx="6" fill="#ffffff" stroke="#9aa39a"/><text x="502" y="172">L / Black</text>
+<rect x="560" y="150" width="100" height="36" rx="6" fill="#ffffff" stroke="#9aa39a"/><text x="610" y="172">L / White</text>
+</g>
+</svg>
+<figcaption>Figure 5.1: One product, two options, six variants (3 sizes x 2 colours), each with its own SKU and stock</figcaption>
+</figure>
+
+<div class="box warn"><strong>Common mistake.</strong> Creating a separate product for every colour. It splits reviews, weakens search rankings and makes the catalogue harder to manage. Use colour and size variants instead.</div>
+
+<h2>5.3 Collections</h2>
+<p>Collections group products for navigation and merchandising. There are two types:</p>
+<ul>
+<li><strong>Manual collections</strong> contain products you add by hand. Use them for hand-picked lists such as "Editor's picks".</li>
+<li><strong>Automated (smart) collections</strong> add products that match rules, such as product type equals "Hoodie", or tag equals "new-arrival". Use them for categories that must stay current.</li>
+</ul>
+<p>Keep your navigation to five or six top-level collections. Too many choices make shoppers stop and think, and thinking reduces purchases.</p>
+
+<h2>5.4 Writing descriptions that sell</h2>
+<p>Use this structure for every product description:</p>
+<ol>
+<li><strong>Headline benefit</strong> in one line: what the product does for the customer.</li>
+<li><strong>Short paragraph</strong> that describes the situation the customer is in and how the product helps.</li>
+<li><strong>Bullet points</strong> with specifications: material, dimensions, weight, care, origin.</li>
+<li><strong>Sizing help</strong>: a size chart and a sentence on fit (for example, "Runs slightly large; size down for a fitted look").</li>
+<li><strong>Reassurance</strong>: delivery time, return policy link, warranty if any.</li>
+</ol>
+<div class="box try"><strong>Example.</strong> Weak: "Nice blue water bottle, 750 ml." Better: "Stay hydrated all day without the plastic taste. This 750 ml stainless steel bottle keeps drinks cold for 24 hours and hot for 12. Leak-proof lid, fits most car cup holders. Dishwasher safe."</div>
+
+<h2>5.5 Product photography</h2>
+<p>Photos are the strongest sales tool you have, and they cost less than most people expect. You need:</p>
+<ul>
+<li>At least one clean studio shot on a plain background, with consistent lighting and the product filling about 80 percent of the frame.</li>
+<li>Shots of the product in use, on a person or in a real setting.</li>
+<li>Detail close-ups: texture, stitching, buttons, labels.</li>
+<li>Scale reference: the product beside a common object, or a size-on-model shot with the model's height stated.</li>
+<li>A short video if possible. Customers watch video longer and it often lifts conversion.</li>
+</ul>
+<p>Use a square or 4:5 ratio, export at a sensible size (around 2000 pixels on the long side, compressed to a few hundred kilobytes), and name files descriptively, such as <em>classic-tee-black-front.jpg</em>. Smaller files make the store faster, which matters for both search rankings and sales.</p>
+
+<h2>5.6 Inventory and stock control</h2>
+<p>Inventory is tracked per location. If you have one warehouse and a home office, add both as locations and assign stock to the place it is stored. Set a low-stock threshold so Shopify warns you before you sell out. Use the CSV import and export tools for bulk changes: export your products, edit in a spreadsheet, and import again. Always back up the export before a large import.</p>
+<p>Overselling happens when stock is wrong. Count your physical stock at least once a month, reconcile it with the admin, and record every return that goes back on the shelf.</p>
+
+<h2>5.7 Pricing basics</h2>
+<p>Price from your unit economics (Chapter 2), not from what a competitor charges. Then test: prices ending in 9 or 99 often perform well in many markets, but test with your own customers. Use compare-at prices honestly. If you show "was 3,000, now 2,000", the 3,000 must have been a real recent price. False discounts damage trust and can breach consumer law.</p>
+
+<div class="box takeaway"><strong>Key takeaways</strong>
+<ul>
+<li>Fill in every product field that customers, search engines or your reports use.</li>
+<li>Use variants for sizes and colours; use separate products only for different items.</li>
+<li>Write benefit-led descriptions with specs, sizing and reassurance.</li>
+<li>Photograph the product clearly, in use and in detail; compress images.</li>
+<li>Keep stock accurate per location and count physically each month.</li>
+</ul></div>
+
+<div class="box try"><strong>Practice task.</strong> Create one product with two options and at least three variants. Write a description using the five-part structure, add three photos (or three placeholder images), set a low-stock threshold, and export your product list as a CSV file.</div>
+</section>
+
+<section class="chapter" id="ch6">
+<div class="chapter-head"><div class="num">Chapter 6</div><h1>Store Design with Themes</h1></div>
+
+<p class="lead">Design builds trust in seconds. A clean, fast, easy-to-navigate store makes customers feel safe buying from you. This chapter covers choosing a theme, using the theme editor, applying simple design principles, and a short introduction to the code behind a theme, so that you can talk to developers in their language.</p>
+
+<h2>6.1 Choosing a theme</h2>
+<p>Shopify themes are templates that control layout, typography and colour. You can use free or paid themes from the Shopify Theme Store. Dawn is Shopify's free, modern reference theme and a very good starting point. When you compare themes, check:</p>
+<ul>
+<li><strong>Speed.</strong> Test the demo on mobile with Google PageSpeed Insights. Heavy themes with many animations can slow your store.</li>
+<li><strong>Mobile layout.</strong> Most sales now happen on phones. Open the demo on a small screen and check the menu, product page and checkout button.</li>
+<li><strong>Sections.</strong> Modern themes are built from sections you can add, remove and reorder without code. Check that the sections you need exist.</li>
+<li><strong>Support and updates.</strong> Look at the developer's update history and documentation.</li>
+<li><strong>Fit.</strong> The demo should look like the customer you want to reach. A luxury jewellery theme will not suit a budget tool shop.</li>
+</ul>
+
+<h2>6.2 The theme editor</h2>
+<p>Go to <strong>Online Store &gt; Themes &gt; Customize</strong>. The editor shows a live preview on the left and settings on the right. The important ideas are:</p>
+<ul>
+<li><strong>Templates</strong> are page types: home page, product, collection, cart, search, blog, page and 404. Each template can have different sections.</li>
+<li><strong>Sections</strong> are blocks of content such as a hero banner, product grid, testimonials or FAQ. You add, reorder and configure them.</li>
+<li><strong>Blocks</strong> are items inside a section, such as one slide in a slider or one review card.</li>
+<li><strong>Header and footer</strong> hold your logo, navigation menus, announcement bar and legal links. Menus are created under <strong>Navigation</strong>.</li>
+<li><strong>Theme settings</strong> control global items: fonts, colours, buttons, spacing and icons.</li>
+</ul>
+<p>Always click <strong>Duplicate</strong> on the live theme before you experiment. A copy lets you edit safely while customers keep seeing the original.</p>
+
+<h2>6.3 Design principles that convert</h2>
+<p>You do not need to be a designer to make good choices. Follow these principles:</p>
+<ol>
+<li><strong>Clear hierarchy.</strong> The eye should go first to the headline, then to the product or offer, then to the button. Use size, weight and spacing to show this order.</li>
+<li><strong>One main action per screen.</strong> On a product page the main action is "Add to cart". Make it the most visible button.</li>
+<li><strong>Whitespace.</strong> Empty space makes premium products look premium and helps busy shoppers read.</li>
+<li><strong>Contrast and readability.</strong> Dark text on a light background, at least 16 pixels for body text on mobile, and enough contrast for people with low vision.</li>
+<li><strong>Consistency.</strong> Use two fonts at most, a palette of four or five colours, and the same button style throughout.</li>
+<li><strong>Trust signals.</strong> Show reviews, delivery times, return policy and secure payment logos close to the buy button.</li>
+</ol>
+
+<figure>
+<svg viewBox="0 0 700 430" xmlns="http://www.w3.org/2000/svg" font-family="Liberation Sans, Arial, sans-serif">
+<rect x="1" y="1" width="698" height="428" rx="8" fill="#ffffff" stroke="#9aa39a"/>
+<rect x="1" y="1" width="698" height="44" rx="8" fill="#1d2b1f"/>
+<rect x="1" y="35" width="698" height="10" fill="#1d2b1f"/>
+<text x="20" y="28" font-size="14" fill="#95BF47" font-weight="bold">YOUR BRAND</text>
+<text x="330" y="28" font-size="11" fill="#dfe7db">Shop   Men   Women   Gifts   About</text>
+<circle cx="652" cy="22" r="8" fill="#dfe7db"/>
+<rect x="20" y="58" width="660" height="34" rx="4" fill="#eef6e3"/>
+<text x="350" y="80" font-size="11" text-anchor="middle" fill="#1d2b1f">Announcement: Free delivery over 2,000 · 30-day returns</text>
+<rect x="20" y="102" width="660" height="150" rx="6" fill="#c9dcae"/>
+<text x="50" y="150" font-size="22" font-weight="bold" fill="#1d2b1f">Everyday comfort, made to last</text>
+<text x="50" y="172" font-size="12" fill="#1d2b1f">One line that explains who it is for and why it matters.</text>
+<rect x="50" y="192" width="140" height="36" rx="18" fill="#1d2b1f"/>
+<text x="120" y="215" font-size="13" fill="#fff" text-anchor="middle">Shop the range</text>
+<g>
+<rect x="20" y="268" width="210" height="60" rx="6" fill="#f2f2ef" stroke="#d7dbd5"/><text x="125" y="302" font-size="12" text-anchor="middle" fill="#333">Category: Tops</text>
+<rect x="245" y="268" width="210" height="60" rx="6" fill="#f2f2ef" stroke="#d7dbd5"/><text x="350" y="302" font-size="12" text-anchor="middle" fill="#333">Category: Bottoms</text>
+<rect x="470" y="268" width="210" height="60" rx="6" fill="#f2f2ef" stroke="#d7dbd5"/><text x="575" y="302" font-size="12" text-anchor="middle" fill="#333">Category: Accessories</text>
+</g>
+<g>
+<rect x="20" y="342" width="160" height="58" rx="4" fill="#ffffff" stroke="#d7dbd5"/><rect x="28" y="348" width="144" height="30" fill="#e4e8e1"/><text x="100" y="392" font-size="11" text-anchor="middle" fill="#333">Product name · price</text>
+<rect x="190" y="342" width="160" height="58" rx="4" fill="#ffffff" stroke="#d7dbd5"/><rect x="198" y="348" width="144" height="30" fill="#e4e8e1"/><text x="270" y="392" font-size="11" text-anchor="middle" fill="#333">Product name · price</text>
+<rect x="360" y="342" width="160" height="58" rx="4" fill="#ffffff" stroke="#d7dbd5"/><rect x="368" y="348" width="144" height="30" fill="#e4e8e1"/><text x="440" y="392" font-size="11" text-anchor="middle" fill="#333">Product name · price</text>
+<rect x="530" y="342" width="150" height="58" rx="4" fill="#ffffff" stroke="#d7dbd5"/><rect x="538" y="348" width="134" height="30" fill="#e4e8e1"/><text x="605" y="392" font-size="11" text-anchor="middle" fill="#333">Product name · price</text>
+</g>
+<rect x="1" y="412" width="698" height="17" rx="0" fill="#1d2b1f"/>
+<text x="350" y="424" font-size="10" fill="#dfe7db" text-anchor="middle">Footer: policies · contact · social links · newsletter</text>
+</svg>
+<figcaption>Figure 6.1: Home page wireframe showing hierarchy: announcement, hero, categories, products, footer</figcaption>
+</figure>
+
+<h2>6.4 Speed and mobile performance</h2>
+<p>Speed affects both search ranking and conversion. Aim for pages that load their main content within about two to three seconds on a typical mobile connection. The main levers are:</p>
+<ul>
+<li>Upload images at the size they display, not the size they were taken. Use the theme's image settings and avoid giant hero images.</li>
+<li>Install fewer apps. Every app can add scripts to every page. Remove any app you do not use.</li>
+<li>Limit custom fonts to two families and only the weights you use.</li>
+<li>Use video sparingly, and never autoplay with sound.</li>
+<li>Test on a real phone over mobile data, not only on your office Wi-Fi.</li>
+</ul>
+
+<h2>6.5 Understanding a theme's code</h2>
+<p>You do not need to write code to run a store, but understanding the basics helps you brief developers, check changes and fix small issues. Shopify themes are built with <strong>Liquid</strong>, an open template language, mixed with HTML, CSS and JavaScript. Liquid shows data and controls what appears:</p>
+<pre><code>&lt;h1&gt;{{ product.title }}&lt;/h1&gt;
+&lt;p&gt;Price: {{ product.price | money }}&lt;/p&gt;
+
+{% if product.available %}
+  &lt;button&gt;Add to cart&lt;/button&gt;
+{% else %}
+  &lt;p&gt;Sold out&lt;/p&gt;
+{% endif %}
+
+{% for image in product.images %}
+  &lt;img src="{{ image | image_url: width: 800 }}" alt="{{ image.alt }}"&gt;
+{% endfor %}</code></pre>
+<p>The three kinds of tag are: <code>{{ ... }}</code> outputs a value, <code>{% ... %}</code> runs logic such as if-statements and loops, and <code>|</code> passes a value through a filter such as <code>money</code>.</p>
+
+<p>A theme is a folder of files with a standard layout:</p>
+<pre><code>theme/
+  assets/      CSS, JavaScript, images, fonts
+  config/      settings_schema.json and settings_data.json (theme settings)
+  layout/      theme.liquid (the outer HTML wrapper for every page)
+  locales/     translation files (en.default.json and others)
+  sections/    reusable sections that merchants can add and edit
+  snippets/    small reusable pieces of Liquid (icons, buttons)
+  templates/   page templates: index, product, collection, cart, page, 404 ...</code></pre>
+
+<p>Developers work on a theme locally with the Shopify CLI, using commands such as <code>shopify theme dev</code> to preview changes on a development store and <code>shopify theme pull</code> and <code>shopify theme push</code> to sync files. Use version control (Git) for any custom theme work so you can roll back a bad change.</p>
+
+<div class="box warn"><strong>Common mistake.</strong> Editing the live theme's code directly. A single syntax error can take the whole store down. Duplicate the theme, test the copy on a preview link, then publish.</div>
+
+<div class="box takeaway"><strong>Key takeaways</strong>
+<ul>
+<li>Choose a theme for speed, mobile layout, sections and fit with your brand. Start from Dawn if unsure.</li>
+<li>Use templates, sections and blocks in the theme editor to build pages without code.</li>
+<li>Design for hierarchy, one main action, whitespace, readability and trust.</li>
+<li>Keep the store fast: few apps, sized images, limited fonts.</li>
+<li>Know Liquid's basic syntax and the theme folder structure so you can work with developers.</li>
+</ul></div>
+
+<div class="box try"><strong>Practice task.</strong> Duplicate your theme. Build a home page with five sections: announcement bar, hero banner, featured collection, reviews and footer. Check it on a 375-pixel-wide mobile preview. Write down three changes you would make to improve clarity.</div>
+</section>
